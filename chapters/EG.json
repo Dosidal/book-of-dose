@@ -1,0 +1,100 @@
+{
+ "address": "https://eg.dose-10060.org",
+ "authority": {
+  "english": "Egyptian Drug Authority",
+  "name": "هيئة الدواء المصرية",
+  "site": "https://www.edaegypt.gov.eg"
+ },
+ "code": "EG",
+ "held": null,
+ "instance": "EG-DOSE-10060",
+ "market": "Egypt",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "هيئة الدواء المصرية",
+      "url": "https://www.edaegypt.gov.eg/ar/"
+     },
+     "value": "هيئة الدواء المصرية (Egyptian Drug Authority)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "هيئة الدواء المصرية",
+      "url": "http://eservices.edaegypt.gov.eg/EDASearch/SearchRegDrugs.aspx"
+     },
+     "value": "Registered drugs search (EDA eServices)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "هيئة الدواء المصرية",
+      "url": "http://eservices.edaegypt.gov.eg/EDASearch/SearchRegDrugs.aspx"
+     },
+     "value": "http://eservices.edaegypt.gov.eg/EDASearch/SearchRegDrugs.aspx"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "هيئة الدواء المصرية",
+      "url": "http://eservices.edaegypt.gov.eg/EDASearch/SearchRegDrugs.aspx"
+     },
+     "value": "A search of registered products by trade name, registration number, applicant or generic name, filterable by human, biological, herbal, veterinary and other categories."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "هيئة الدواء المصرية",
+      "url": "https://www.edaegypt.gov.eg/media/z5wjg22l/450-2023_en.pdf"
+     },
+     "value": "Under EDA Chairman Decree No. 450 of 2023, a company submits a registration request for a human pharmaceutical product, with a Common Technical Document required to complete the registration file, and the request follows set tracks and timelines."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "هيئة الدواء المصرية",
+      "url": "https://www.edaegypt.gov.eg/media/o0hnfrts/475-2025_en.pdf"
+     },
+     "value": "Unique identification number per pack issued by the Unified National Electronic Pharmaceutical Track-and-Trace System"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "هيئة الدواء المصرية",
+      "url": "https://www.edaegypt.gov.eg/media/o0hnfrts/475-2025_en.pdf"
+     },
+     "value": "Under EDA Chairman Decree No. 475 of 2025, each pack of human medicinal and biological product is assigned a unique identification number issued by the track-and-trace system with minimum data set out in the regulatory guideline, applying to imported finished products from 1 February 2026 and to locally packaged or manufactured products from 1 August 2026."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

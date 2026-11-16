@@ -1,0 +1,76 @@
+{
+ "address": "https://nz.dose-10060.org",
+ "authority": {
+  "english": "New Zealand Medicines and Medical Devices Safety Authority",
+  "name": "New Zealand Medicines and Medical Devices Safety Authority (Medsafe)",
+  "site": "https://www.medsafe.govt.nz/"
+ },
+ "code": "NZ",
+ "held": null,
+ "instance": "NZ-DOSE-10060",
+ "market": "New Zealand",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "New Zealand Medicines and Medical Devices Safety Authority (Medsafe)",
+      "url": "https://www.medsafe.govt.nz/"
+     },
+     "value": "New Zealand Medicines and Medical Devices Safety Authority (Medsafe) (New Zealand Medicines and Medical Devices Safety Authority)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "New Zealand Medicines and Medical Devices Safety Authority (Medsafe)",
+      "url": "https://www.medsafe.govt.nz/regulatory/DbSearch.asp"
+     },
+     "value": "Product/Application Search"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "New Zealand Medicines and Medical Devices Safety Authority (Medsafe)",
+      "url": "https://www.medsafe.govt.nz/regulatory/DbSearch.asp"
+     },
+     "value": "https://www.medsafe.govt.nz/regulatory/DbSearch.asp"
+    },
+    {
+     "label": "What it holds",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "value": "Unknown."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

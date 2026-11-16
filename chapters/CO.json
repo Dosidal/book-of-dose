@@ -1,0 +1,100 @@
+{
+ "address": "https://co.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+  "site": "https://www.invima.gov.co/"
+ },
+ "code": "CO",
+ "held": null,
+ "instance": "CO-DOSE-10060",
+ "market": "Colombia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+      "url": "https://www.invima.gov.co/"
+     },
+     "value": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+      "url": "https://www.invima.gov.co/consulta-registros-sanitarios"
+     },
+     "value": "Consulta Registros Sanitarios"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+      "url": "https://www.invima.gov.co/consulta-registros-sanitarios"
+     },
+     "value": "https://www.invima.gov.co/consulta-registros-sanitarios"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+      "url": "https://www.invima.gov.co/consulta-registros-sanitarios"
+     },
+     "value": "A lookup of the validity and status of sanitary registrations issued by Invima, with basic, advanced and InvimÁgil search."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+      "url": "https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros"
+     },
+     "value": "The registro sanitario is a public document issued by Invima or a delegated authority that entitles a person or company to produce, market, import or export a medicine."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+      "url": "https://normograma.invima.gov.co/compilacion/docs/resolucion_minsaludps_3311_2018.htm"
+     },
+     "value": "IUM (Identificador Único de Medicamento), Resolución 3311 de 2018"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto Nacional de Vigilancia de Medicamentos y Alimentos",
+      "url": "https://normograma.invima.gov.co/compilacion/docs/resolucion_minsaludps_3311_2018.htm"
+     },
+     "value": "Invima assigns one IUM to each commercial presentation, built in three linked levels (common description, commercial medicine, commercial presentation) without dots, hyphens, accents or spaces; printing the IUM on labels and packaging is not required."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

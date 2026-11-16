@@ -1,0 +1,95 @@
+{
+ "address": "https://ph.dose-10060.org",
+ "authority": {
+  "english": "Food and Drug Administration",
+  "name": "Food and Drug Administration",
+  "site": "https://www.fda.gov.ph/"
+ },
+ "code": "PH",
+ "held": null,
+ "instance": "PH-DOSE-10060",
+ "market": "Philippines",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drug Administration",
+      "url": "https://www.fda.gov.ph/citizen-charter-cdrr-2025/"
+     },
+     "value": "Food and Drug Administration"
+    },
+    {
+     "label": "Second authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drug Administration",
+      "url": "https://www.fda.gov.ph/citizen-charter-cdrr-2025/"
+     },
+     "value": "Center for Drug Regulation and Research (CDRR), within the FDA"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drug Administration",
+      "url": "https://www.fda.gov.ph/fda-circular-no-2023-008-guidelines-on-the-publishing-of-package-insert-and-patient-information-leaflet-of-registered-drug-products-in-the-food-and-drug-administration-fda-verification-portal-sys/"
+     },
+     "value": "FDA Verification Portal"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drug Administration",
+      "url": "https://www.fda.gov.ph/fda-circular-no-2023-008-guidelines-on-the-publishing-of-package-insert-and-patient-information-leaflet-of-registered-drug-products-in-the-food-and-drug-administration-fda-verification-portal-sys/"
+     },
+     "value": "https://verification.fda.gov.ph"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drug Administration",
+      "url": "https://www.fda.gov.ph/fda-circular-no-2023-008-guidelines-on-the-publishing-of-package-insert-and-patient-information-leaflet-of-registered-drug-products-in-the-food-and-drug-administration-fda-verification-portal-sys/"
+     },
+     "value": "An online list of establishments with a License to Operate and health products with a Certificate of Product Registration or Notification, with approved package inserts and patient leaflets of registered drugs."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drug Administration",
+      "url": "https://www.fda.gov.ph/citizen-charter-cdrr-2025/"
+     },
+     "value": "The FDA Center for Drug Regulation and Research issues a Certificate of Product Registration as the marketing authorization for pharmaceutical products for human use."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

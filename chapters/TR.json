@@ -1,0 +1,100 @@
+{
+ "address": "https://tr.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu",
+  "site": "https://www.titck.gov.tr"
+ },
+ "code": "TR",
+ "held": null,
+ "instance": "TR-DOSE-10060",
+ "market": "Türkiye",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu",
+      "url": "https://www.titck.gov.tr/"
+     },
+     "value": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu",
+      "url": "https://www.titck.gov.tr/dinamikmodul/85"
+     },
+     "value": "Ruhsatlı Ürünler Listesi"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu",
+      "url": "https://www.titck.gov.tr/dinamikmodul/85"
+     },
+     "value": "https://www.titck.gov.tr/dinamikmodul/85"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu",
+      "url": "https://www.titck.gov.tr/dinamikmodul/85"
+     },
+     "value": "Dated spreadsheet files of licensed products, many titled Ruhsatlı Beşeri Tıbbi Ürünler Listesi (licensed human medicinal products list); it is a file list, not a search page."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2021/12/20211211-5.htm"
+     },
+     "value": "Under the Beşeri Tıbbi Ürünler Ruhsatlandırma Yönetmeliği, no human medicinal product may be placed on the market unless licensed by the Kurum, and applications are made by natural or legal persons resident in Türkiye."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2017/04/20170425-4.htm"
+     },
+     "value": "Karekod (2D DataMatrix) for the İlaç Takip Sistemi"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2017/04/20170425-4.htm"
+     },
+     "value": "The outer pack carries a karekod, a DataMatrix-type 2D code that makes each unit unique, made up of the GTIN, batch number, serial number and expiry date, with human-readable data beside it; the tracking system records each unit's movements."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

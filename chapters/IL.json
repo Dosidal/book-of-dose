@@ -1,0 +1,86 @@
+{
+ "address": "https://il.dose-10060.org",
+ "authority": {
+  "english": "Ministry of Health – Pharmaceutics Division",
+  "name": "משרד הבריאות – אגף הרוקחות",
+  "site": "https://www.gov.il"
+ },
+ "code": "IL",
+ "held": null,
+ "instance": "IL-DOSE-10060",
+ "market": "Israel",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "משרד הבריאות – אגף הרוקחות",
+      "url": "https://www.gov.il/he/service/israeli-drug-index"
+     },
+     "value": "משרד הבריאות – אגף הרוקחות (Ministry of Health – Pharmaceutics Division)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "משרד הבריאות – אגף הרוקחות",
+      "url": "https://www.gov.il/en/service/israeli-drug-index"
+     },
+     "value": "מאגר התרופות (The Israeli Drug Registry)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "משרד הבריאות – אגף הרוקחות",
+      "url": "https://www.gov.il/en/service/israeli-drug-index"
+     },
+     "value": "https://registries.health.gov.il/Medicines"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "משרד הבריאות – אגף הרוקחות",
+      "url": "https://www.gov.il/en/service/israeli-drug-index"
+     },
+     "value": "Information on medicines currently or formerly registered in Israel, including route of administration, indications, pack type, side effects, patient leaflets and prices."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "משרד הבריאות – אגף הרוקחות",
+      "url": "https://www.gov.il/en/service/application-new-drug-registration-for-marketing"
+     },
+     "value": "Under Section 47 of the Pharmacists Ordinance and the Pharmacists Regulations (drugs), 1986, every medicine must be registered in the Drug Registry before it is manufactured, imported or marketed, and registration is granted after its efficacy and proper manufacture are confirmed."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

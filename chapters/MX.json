@@ -1,0 +1,86 @@
+{
+ "address": "https://mx.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Comisión Federal para la Protección contra Riesgos Sanitarios",
+  "site": "https://www.gob.mx/cofepris"
+ },
+ "code": "MX",
+ "held": null,
+ "instance": "MX-DOSE-10060",
+ "market": "Mexico",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Comisión Federal para la Protección contra Riesgos Sanitarios",
+      "url": "https://www.gob.mx/cofepris"
+     },
+     "value": "Comisión Federal para la Protección contra Riesgos Sanitarios"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Comisión Federal para la Protección contra Riesgos Sanitarios",
+      "url": "https://www.gob.mx/cofepris/articulos/cofepris-presenta-visor-de-registros-sanitarios-de-medicamentos"
+     },
+     "value": "Visor de Registros Sanitarios de Medicamentos"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Comisión Federal para la Protección contra Riesgos Sanitarios",
+      "url": "https://www.gob.mx/cofepris/articulos/cofepris-presenta-visor-de-registros-sanitarios-de-medicamentos"
+     },
+     "value": "https://registros.cofepris.gob.mx/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Comisión Federal para la Protección contra Riesgos Sanitarios",
+      "url": "https://www.gob.mx/cofepris/articulos/cofepris-presenta-visor-de-registros-sanitarios-de-medicamentos"
+     },
+     "value": "A public, continuously updated database of medicines with sanitary registration in Mexico, with 28 fields per registration including number, status, holder and manufacturer."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Comisión Federal para la Protección contra Riesgos Sanitarios",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf"
+     },
+     "value": "Medicines require a sanitary registration, which only the Secretaría de Salud may grant, valid for five years and extendable."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

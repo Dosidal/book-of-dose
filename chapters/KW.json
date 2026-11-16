@@ -1,0 +1,53 @@
+{
+ "address": "https://kw.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": null,
+  "site": null
+ },
+ "code": "KW",
+ "held": null,
+ "instance": "KW-DOSE-10060",
+ "market": "Kuwait",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "value": "Unknown."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

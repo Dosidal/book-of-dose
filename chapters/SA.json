@@ -1,0 +1,100 @@
+{
+ "address": "https://sa.dose-10060.org",
+ "authority": {
+  "english": "Saudi Food and Drug Authority",
+  "name": "الهيئة العامة للغذاء والدواء",
+  "site": "https://www.sfda.gov.sa"
+ },
+ "code": "SA",
+ "held": null,
+ "instance": "SA-DOSE-10060",
+ "market": "Saudi Arabia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "الهيئة العامة للغذاء والدواء",
+      "url": "https://www.sfda.gov.sa/en"
+     },
+     "value": "الهيئة العامة للغذاء والدواء (Saudi Food and Drug Authority)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "الهيئة العامة للغذاء والدواء",
+      "url": "https://www.sfda.gov.sa/en/drugs-list"
+     },
+     "value": "Drugs List"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "الهيئة العامة للغذاء والدواء",
+      "url": "https://www.sfda.gov.sa/en/drugs-list"
+     },
+     "value": "https://www.sfda.gov.sa/en/drugs-list"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "الهيئة العامة للغذاء والدواء",
+      "url": "https://www.sfda.gov.sa/en/drugs-list"
+     },
+     "value": "A searchable list of drugs with scientific name, trade name, strength, dosage form, price and registration number filters."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "الهيئة العامة للغذاء والدواء",
+      "url": "https://sfda.gov.sa/en/news/16769"
+     },
+     "value": "Pharmaceutical establishments registered with the SFDA submit applications to register human and veterinary medicines through the Saudi Drug Registration (SDR) electronic system."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "الهيئة العامة للغذاء والدواء",
+      "url": "https://rsd.sfda.gov.sa/user-manual/SMP-manual/index_en-US.html"
+     },
+     "value": "GTIN plus serial number in a GS1 DataMatrix, tracked in the SFDA Drug Track and Trace System (RSD)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "الهيئة العامة للغذاء والدواء",
+      "url": "https://rsd.sfda.gov.sa/user-manual/SMP-manual/index_en-US.html"
+     },
+     "value": "Each pack of drug carries a GTIN and a serial number encoded in a GS1 standard DataMatrix, and each supply chain location is identified by a GLN, so each unit can be tracked from production or import to consumption."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

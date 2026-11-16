@@ -1,0 +1,100 @@
+{
+ "address": "https://ar.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+  "site": "https://www.argentina.gob.ar/anmat"
+ },
+ "code": "AR",
+ "held": null,
+ "instance": "AR-DOSE-10060",
+ "market": "Argentina",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+      "url": "https://www.argentina.gob.ar/anmat"
+     },
+     "value": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+      "url": "https://www.anmat.gob.ar/Medicamentos/basedat.asp"
+     },
+     "value": "Vademecum Nacional de Medicamentos (VNM)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+      "url": "https://www.anmat.gob.ar/Medicamentos/basedat.asp"
+     },
+     "value": "http://anmatvademecum.servicios.pami.org.ar/index.html"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+      "url": "https://www.anmat.gob.ar/Medicamentos/basedat.asp"
+     },
+     "value": "A national medicines listing linked from ANMAT's medicines consultation page."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+      "url": "https://www.argentina.gob.ar/anmat/regulados/testimonio-de-inscripcion-en-el-registro-de-especialidades-medicinales-rem"
+     },
+     "value": "A medicine is inscribed in the Registro de Especialidades Medicinales (REM), and ANMAT certifies the inscription with a certificate number, holder and validity period."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+      "url": "https://www.argentina.gob.ar/anmat/sistema-nacional-de-trazabilidad/preguntas-frecuentes"
+     },
+     "value": "GTIN plus serial number (Sistema Nacional de Trazabilidad)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",
+      "url": "https://www.argentina.gob.ar/anmat/sistema-nacional-de-trazabilidad/preguntas-frecuentes"
+     },
+     "value": "Under the national traceability system the pack carries a GS1 GTIN and a serial of up to 20 case-sensitive alphanumeric characters (a 20-character serial may not start with 779), on a linear barcode, DataMatrix, RFID or dual carrier; DataMatrix or RFID must also hold lot and expiry, shown in readable form too; registration certificate holders apply it, one carrier per pack."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

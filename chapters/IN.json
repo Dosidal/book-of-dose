@@ -1,0 +1,95 @@
+{
+ "address": "https://in.dose-10060.org",
+ "authority": {
+  "english": "Central Drugs Standard Control Organization",
+  "name": "Central Drugs Standard Control Organization",
+  "site": "https://cdsco.gov.in/opencms/opencms/en/Home/"
+ },
+ "code": "IN",
+ "held": null,
+ "instance": "IN-DOSE-10060",
+ "market": "India",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Central Drugs Standard Control Organization",
+      "url": "https://cdsco.gov.in/opencms/opencms/en/Home/"
+     },
+     "value": "Central Drugs Standard Control Organization"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Central Drugs Standard Control Organization",
+      "url": "https://cdsco.gov.in/opencms/opencms/en/Home/"
+     },
+     "value": "Drugs@CDSCO"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Central Drugs Standard Control Organization",
+      "url": "https://cdsco.gov.in/opencms/opencms/en/Home/"
+     },
+     "value": "https://cdscoonline.gov.in/CDSCO/cdscoDrugs"
+    },
+    {
+     "label": "What it holds",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Central Drugs Standard Control Organization",
+      "url": "https://cdsco.gov.in/opencms/opencms/en/Home/"
+     },
+     "value": "Under the Drugs and Cosmetics Act, CDSCO is responsible for approval of drugs and clinical trials and coordinates State Drug Control Organizations; with state regulators it jointly licenses some critical categories such as blood products, IV fluids, vaccines and sera."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Central Drugs Standard Control Organization",
+      "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadPublic_NoticesFiles/Final%20FAQs%20on%20QR%20code%2021.07.2023.pdf"
+     },
+     "value": "Bar Code or QR Code (Schedule H2, GSR 823(E) of 17 November 2022)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Central Drugs Standard Control Organization",
+      "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadPublic_NoticesFiles/Final%20FAQs%20on%20QR%20code%2021.07.2023.pdf"
+     },
+     "value": "From 1 August 2023, makers of formulations listed in Schedule H2 must print or affix a bar code or QR code on the primary label, or the secondary label if space is short, holding a unique product identification code, proper and generic name, brand name, maker name and address, batch number, manufacturing and expiry dates and manufacturing licence number; the manufacturer decides the unique product identification code under its own procedure."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

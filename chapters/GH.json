@@ -1,0 +1,100 @@
+{
+ "address": "https://gh.dose-10060.org",
+ "authority": {
+  "english": "Food and Drugs Authority",
+  "name": "Food and Drugs Authority",
+  "site": "https://fdaghana.gov.gh"
+ },
+ "code": "GH",
+ "held": null,
+ "instance": "GH-DOSE-10060",
+ "market": "Ghana",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drugs Authority",
+      "url": "https://fdaghana.gov.gh/"
+     },
+     "value": "Food and Drugs Authority"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drugs Authority",
+      "url": "https://fdaghana.gov.gh/product-register/"
+     },
+     "value": "Product Register"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drugs Authority",
+      "url": "https://fdaghana.gov.gh/product-register/"
+     },
+     "value": "https://fdaghana.gov.gh/product-register/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drugs Authority",
+      "url": "https://fdaghana.gov.gh/product-register/"
+     },
+     "value": "A landing page linking to a search of the list of products registered by the Food and Drugs Authority."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drugs Authority",
+      "url": "https://fdaghana.gov.gh/services-2/product-registration/allopathic-product-registration/"
+     },
+     "value": "The Authority processes new, renewal and variation applications for allopathic drugs through dossier evaluation and registration meetings, issues registration certificates and keeps the Drug Register, with a 180-day timeline for new applications and 90 days for fast-track and reliance applications."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drugs Authority",
+      "url": "https://fdaghana.gov.gh/wp-content/uploads/2025/01/GUIDELINES-FOR-LABELLING-OF-DRUGS.pdf"
+     },
+     "value": "FDA registration number on the label (locally manufactured products)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Food and Drugs Authority",
+      "url": "https://fdaghana.gov.gh/wp-content/uploads/2025/01/GUIDELINES-FOR-LABELLING-OF-DRUGS.pdf"
+     },
+     "value": "The Guideline on Labelling of Drugs states that all locally manufactured products shall bear the FDA registration number."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

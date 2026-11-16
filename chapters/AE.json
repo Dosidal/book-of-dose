@@ -1,0 +1,100 @@
+{
+ "address": "https://ae.dose-10060.org",
+ "authority": {
+  "english": "Emirates Drug Establishment",
+  "name": "مؤسسة الإمارات للدواء",
+  "site": "https://www.ede.gov.ae"
+ },
+ "code": "AE",
+ "held": null,
+ "instance": "AE-DOSE-10060",
+ "market": "United Arab Emirates",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "مؤسسة الإمارات للدواء",
+      "url": "https://www.ede.gov.ae/en/drug-directory"
+     },
+     "value": "مؤسسة الإمارات للدواء (Emirates Drug Establishment)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "مؤسسة الإمارات للدواء",
+      "url": "https://www.ede.gov.ae/en/drug-directory"
+     },
+     "value": "Registered medical product directory"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "مؤسسة الإمارات للدواء",
+      "url": "https://www.ede.gov.ae/en/drug-directory"
+     },
+     "value": "https://www.ede.gov.ae/en/drug-directory"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "مؤسسة الإمارات للدواء",
+      "url": "https://www.ede.gov.ae/en/drug-directory"
+     },
+     "value": "A searchable directory of medical products registered with the Emirates Drug Establishment."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "مؤسسة الإمارات للدواء",
+      "url": "https://www.ede.gov.ae/web/ede/w/issuance-of-marketing-authorization-for-a-drug-or-biopharmaceutical-product"
+     },
+     "value": "Licensed pharmaceutical establishments apply online to the Emirates Drug Establishment to register human medicinal products for import and trade in the UAE, and the marketing authorisation is valid for five years or a period the Establishment sets."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "مؤسسة الإمارات للدواء",
+      "url": "https://tatmeen.ae/faqs"
+     },
+     "value": "GS1 2D Data Matrix barcode (serialisation) under the Tatmeen national track-and-trace platform"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "مؤسسة الإمارات للدواء",
+      "url": "https://tatmeen.ae/faqs"
+     },
+     "value": "Serialisation means applying a GS1-approved 2D Matrix barcode with human-readable data to all drug secondary packing; serial numbers are commissioned by the marketing authorisation holder; supply chain registration starts with a GLN from GS1."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

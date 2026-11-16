@@ -1,0 +1,100 @@
+{
+ "address": "https://si.dose-10060.org",
+ "authority": {
+  "english": "Agency for Medicinal Products and Medical Devices of the Republic of Slovenia",
+  "name": "Javna agencija RS za zdravila in medicinske pripomočke",
+  "site": "https://www.jazmp.si/"
+ },
+ "code": "SI",
+ "held": null,
+ "instance": "SI-DOSE-10060",
+ "market": "Slovenia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Javna agencija RS za zdravila in medicinske pripomočke",
+      "url": "https://www.jazmp.si/en/"
+     },
+     "value": "Javna agencija RS za zdravila in medicinske pripomočke (Agency for Medicinal Products and Medical Devices of the Republic of Slovenia)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Javna agencija RS za zdravila in medicinske pripomočke",
+      "url": "https://www.jazmp.si/en/human-medicines/data-on-medicinal-products/medicinal-products-database/"
+     },
+     "value": "Centralna baza zdravil (CBZ)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Javna agencija RS za zdravila in medicinske pripomočke",
+      "url": "https://www.jazmp.si/en/human-medicines/data-on-medicinal-products/medicinal-products-database/"
+     },
+     "value": "https://www.cbz.si/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Javna agencija RS za zdravila in medicinske pripomočke",
+      "url": "https://www.jazmp.si/en/human-medicines/data-on-medicinal-products/medicinal-products-database/"
+     },
+     "value": "Online database of medicines eligible for the Slovenian market, with current SmPC and leaflet for products authorised in Slovenia; centrally authorised products are listed in the Union Register."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Javna agencija RS za zdravila in medicinske pripomočke",
+      "url": "https://www.jazmp.si/en/human-medicines/regulatory-information/marketing-authorisation/"
+     },
+     "value": "A human medicine needs a marketing authorisation before sale, obtained through the national, mutual recognition or decentralised, or centralised procedure."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Javna agencija RS za zdravila in medicinske pripomočke",
+      "url": "http://www.cbz.si/cbz2/navodila/cbznavodila.html"
+     },
+     "value": "Nacionalna šifra zdravila (national medicine code)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Javna agencija RS za zdravila in medicinske pripomočke",
+      "url": "http://www.cbz.si/cbz2/navodila/cbznavodila.html"
+     },
+     "value": "Primary identifier in the CBZ, assigned by JAZMP for medicines, that identifies a product at the level of pharmaceutical form, strength, pack and supplier."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

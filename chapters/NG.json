@@ -1,0 +1,100 @@
+{
+ "address": "https://ng.dose-10060.org",
+ "authority": {
+  "english": "National Agency for Food and Drug Administration and Control (NAFDAC)",
+  "name": "National Agency for Food and Drug Administration and Control",
+  "site": "https://nafdac.gov.ng"
+ },
+ "code": "NG",
+ "held": null,
+ "instance": "NG-DOSE-10060",
+ "market": "Nigeria",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Agency for Food and Drug Administration and Control",
+      "url": "https://nafdac.gov.ng/"
+     },
+     "value": "National Agency for Food and Drug Administration and Control (National Agency for Food and Drug Administration and Control (NAFDAC))"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Agency for Food and Drug Administration and Control",
+      "url": "https://greenbook.nafdac.gov.ng/"
+     },
+     "value": "NAFDAC Greenbook"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Agency for Food and Drug Administration and Control",
+      "url": "https://greenbook.nafdac.gov.ng/"
+     },
+     "value": "https://greenbook.nafdac.gov.ng/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Agency for Food and Drug Administration and Control",
+      "url": "https://greenbook.nafdac.gov.ng/"
+     },
+     "value": "Nigeria's searchable database of products registered by NAFDAC."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Agency for Food and Drug Administration and Control",
+      "url": "https://nafdac.gov.ng/our-services/product-registrationevaluation/"
+     },
+     "value": "Applicants submit registration documents through NAFDAC's e-registration portal, and drug applications pass document verification, facility inspection and sampling, laboratory analysis and final vetting before an approval meeting issues a NAFDAC registration number."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Agency for Food and Drug Administration and Control",
+      "url": "https://nafdac.gov.ng/wp-content/uploads/Files/Resources/Regulations/REGULATIONS_2021/NAFDAC-Pharmaceutical-Products-Traceability-Regulations-2024.pdf"
+     },
+     "value": "GS1 unique identifier in a GS1 data matrix under the Pharmaceutical Products (Traceability) Regulations 2024"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Agency for Food and Drug Administration and Control",
+      "url": "https://nafdac.gov.ng/wp-content/uploads/Files/Resources/Regulations/REGULATIONS_2021/NAFDAC-Pharmaceutical-Products-Traceability-Regulations-2024.pdf"
+     },
+     "value": "Primary and secondary packs carry a unique identifier of GTIN, batch or lot number, expiry date and serial number encoded in a GS1 data matrix; tertiary packs carry GTIN, batch and expiry in a GS1 data matrix or GS1-128; GTIN plus serial must be unique and follow GS1 General Specifications."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

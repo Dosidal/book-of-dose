@@ -1,0 +1,95 @@
+{
+ "address": "https://pk.dose-10060.org",
+ "authority": {
+  "english": "Drug Regulatory Authority of Pakistan",
+  "name": "Drug Regulatory Authority of Pakistan",
+  "site": "https://www.dra.gov.pk/"
+ },
+ "code": "PK",
+ "held": null,
+ "instance": "PK-DOSE-10060",
+ "market": "Pakistan",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Drug Regulatory Authority of Pakistan",
+      "url": "https://www.dra.gov.pk/"
+     },
+     "value": "Drug Regulatory Authority of Pakistan"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Drug Regulatory Authority of Pakistan",
+      "url": "https://www.dra.gov.pk/"
+     },
+     "value": "Registered Drugs Index"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Drug Regulatory Authority of Pakistan",
+      "url": "https://www.dra.gov.pk/"
+     },
+     "value": "https://eapp.dra.gov.pk/WebProductIndex.php"
+    },
+    {
+     "label": "What it holds",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Drug Regulatory Authority of Pakistan",
+      "url": "https://www.dra.gov.pk/wp-content/uploads/2022/01/Reg_PER1.pdf"
+     },
+     "value": "The Registration Board considers drug registration applications made under Rule 26 of the Drugs (Licensing, Registering and Advertising) Rules 1976, after DRAP's evaluation division prepares a summary; local sites may be inspected and foreign sites undergo GMP inspection before registration."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Drug Regulatory Authority of Pakistan",
+      "url": "https://www.dra.gov.pk/wp-content/uploads/2026/06/Guideline-TT_v2.2.pdf"
+     },
+     "value": "GS1 DataMatrix with GTIN and serial number (S.R.O. 470(I)/2017)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Drug Regulatory Authority of Pakistan",
+      "url": "https://www.dra.gov.pk/wp-content/uploads/2026/06/Guideline-TT_v2.2.pdf"
+     },
+     "value": "DRAP guidelines implementing S.R.O. 470(I)/2017 require each secondary pack to carry a GS1 DataMatrix encoding (01) 14-digit GTIN, (17) expiry YYMMDD, (10) batch/lot up to 20 characters and (21) a unique serial number up to 20 characters; shipper cartons carry a DataMatrix and a GS1-128 SSCC, and primary packs are exempt at present."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

@@ -1,0 +1,63 @@
+{
+ "address": "https://rs.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Агенција за лекове и медицинска средства Србије",
+  "site": "https://www.alims.gov.rs/"
+ },
+ "code": "RS",
+ "held": null,
+ "instance": "RS-DOSE-10060",
+ "market": "Serbia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Агенција за лекове и медицинска средства Србије",
+      "url": "https://www.srbija.gov.rs/vest/126857/vlada-usvojila-predlog-zakona-o-lekovima-i-medicinskim-sredstvima.php"
+     },
+     "value": "Агенција за лекове и медицинска средства Србије"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Агенција за лекове и медицинска средства Србије",
+      "url": "https://www.srbija.gov.rs/vest/126857/vlada-usvojila-predlog-zakona-o-lekovima-i-medicinskim-sredstvima.php"
+     },
+     "value": "A Government notice on the 2010 Law on Medicines and Medical Devices says the law sets the conditions for permits to place a medicine on the market and for entry in registers kept by the agency."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

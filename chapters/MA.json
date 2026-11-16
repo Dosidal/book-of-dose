@@ -1,0 +1,86 @@
+{
+ "address": "https://ma.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Agence Marocaine du Médicament et des Produits de Santé",
+  "site": "https://www.ammps.gov.ma"
+ },
+ "code": "MA",
+ "held": null,
+ "instance": "MA-DOSE-10060",
+ "market": "Morocco",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence Marocaine du Médicament et des Produits de Santé",
+      "url": "https://www.ammps.gov.ma/"
+     },
+     "value": "Agence Marocaine du Médicament et des Produits de Santé"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence Marocaine du Médicament et des Produits de Santé",
+      "url": "https://www.ammps.gov.ma/"
+     },
+     "value": "Base de données des médicaments"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence Marocaine du Médicament et des Produits de Santé",
+      "url": "https://www.ammps.gov.ma/"
+     },
+     "value": "https://www.ammps.gov.ma/recherche-medicaments"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence Marocaine du Médicament et des Produits de Santé",
+      "url": "https://www.ammps.gov.ma/"
+     },
+     "value": "The national medicines database, searchable by keyword, form and manufacturing establishment, with marketing status and sale price information."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence Marocaine du Médicament et des Produits de Santé",
+      "url": "https://www.ammps.gov.ma/pages/procedure-octroi-amm"
+     },
+     "value": "Only a medicine holding a marketing authorisation (AMM) issued by AMMPS may be placed on the Moroccan market; a licensed industrial pharmaceutical establishment applies with an electronic CTD dossier under law 17-04 and decree 2-14-841 of 5 August 2025."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

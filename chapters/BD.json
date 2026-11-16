@@ -1,0 +1,86 @@
+{
+ "address": "https://bd.dose-10060.org",
+ "authority": {
+  "english": "Directorate General of Drug Administration",
+  "name": "ঔষধ প্রশাসন অধিদপ্তর",
+  "site": "https://dgda.gov.bd/"
+ },
+ "code": "BD",
+ "held": null,
+ "instance": "BD-DOSE-10060",
+ "market": "Bangladesh",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "ঔষধ প্রশাসন অধিদপ্তর",
+      "url": "https://dgda.gov.bd/"
+     },
+     "value": "ঔষধ প্রশাসন অধিদপ্তর (Directorate General of Drug Administration)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "ঔষধ প্রশাসন অধিদপ্তর",
+      "url": "http://180.211.137.202:9310/Allopathic/"
+     },
+     "value": "এ্যালোপ্যাথিক ড্রাগ ডাটাবেজ (Allopathic drug database)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "ঔষধ প্রশাসন অধিদপ্তর",
+      "url": "http://180.211.137.202:9310/Allopathic/"
+     },
+     "value": "http://180.211.137.202:9310/Allopathic/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "ঔষধ প্রশাসন অধিদপ্তর",
+      "url": "http://180.211.137.202:9310/Allopathic/"
+     },
+     "value": "A DGDA search of allopathic medicine information by trade name, generic name and company, with a generic list carrying DCC numbers."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "ঔষধ প্রশাসন অধিদপ্তর",
+      "url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html"
+     },
+     "value": "Under section 22 of the Drug and Cosmetics Act 2023, no one may make, import, export, sell, distribute, stock or display a medicine without registration from the licensing authority (the Director General), which registers only on the Drug Control Committee's recommendation, and a marketing authorisation certificate is needed before marketing."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

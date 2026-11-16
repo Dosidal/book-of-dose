@@ -1,0 +1,86 @@
+{
+ "address": "https://pe.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Dirección General de Medicamentos, Insumos y Drogas",
+  "site": "https://www.digemid.minsa.gob.pe/webDigemid/"
+ },
+ "code": "PE",
+ "held": null,
+ "instance": "PE-DOSE-10060",
+ "market": "Peru",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección General de Medicamentos, Insumos y Drogas",
+      "url": "https://www.digemid.minsa.gob.pe/webDigemid/"
+     },
+     "value": "Dirección General de Medicamentos, Insumos y Drogas"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección General de Medicamentos, Insumos y Drogas",
+      "url": "https://www.digemid.minsa.gob.pe/webDigemid/registro-sanitario/productos-farmaceuticos/"
+     },
+     "value": "Consulta de Registro Sanitario de Productos Farmacéuticos"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección General de Medicamentos, Insumos y Drogas",
+      "url": "https://www.digemid.minsa.gob.pe/webDigemid/registro-sanitario/productos-farmaceuticos/"
+     },
+     "value": "https://www.digemid.minsa.gob.pe/rsProductosFarmaceuticos/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección General de Medicamentos, Insumos y Drogas",
+      "url": "https://www.digemid.minsa.gob.pe/webDigemid/registro-sanitario/productos-farmaceuticos/"
+     },
+     "value": "General information on pharmaceutical products with sanitary registration."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección General de Medicamentos, Insumos y Drogas",
+      "url": "https://www.digemid.minsa.gob.pe/webDigemid/registro-sanitario/productos-farmaceuticos/"
+     },
+     "value": "Pharmaceutical products are authorised by sanitary registration under Decreto Supremo 016-2011-SA, with applications evaluated by DIGEMID's Dirección de Productos Farmacéuticos."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

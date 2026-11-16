@@ -1,0 +1,109 @@
+{
+ "address": "https://vn.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Cục Quản lý Dược",
+  "site": "https://dav.gov.vn/"
+ },
+ "code": "VN",
+ "held": null,
+ "instance": "VN-DOSE-10060",
+ "market": "Vietnam",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Cục Quản lý Dược",
+      "url": "https://dichvucong.dav.gov.vn/congbothuoc/index"
+     },
+     "value": "Cục Quản lý Dược"
+    },
+    {
+     "label": "Second authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Cục Quản lý Dược",
+      "url": "https://dichvucong.dav.gov.vn/congbothuoc/index"
+     },
+     "value": "Bộ Y tế (parent ministry)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Cục Quản lý Dược",
+      "url": "https://dichvucong.dav.gov.vn/congbothuoc/index"
+     },
+     "value": "Công bố giấy đăng ký thuốc, nguyên liệu làm thuốc tại Việt Nam"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Cục Quản lý Dược",
+      "url": "https://dichvucong.dav.gov.vn/congbothuoc/index"
+     },
+     "value": "https://dichvucong.dav.gov.vn/congbothuoc/index"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Cục Quản lý Dược",
+      "url": "https://dichvucong.dav.gov.vn/congbothuoc/index"
+     },
+     "value": "Original circulation registration data for medicines and medicine raw materials from the granting decisions, excluding later corrections, changes and revocations."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Cục Quản lý Dược",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+     },
+     "value": "Under Article 54 of the Pharmacy Law, a medicine must be registered before it circulates in Vietnam, apart from listed exceptions such as some pharmacy-compounded, specially imported and traditional medicines."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Cục Quản lý Dược",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+     },
+     "value": "Circulation registration number (số giấy đăng ký lưu hành) or import licence number"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Cục Quản lý Dược",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf"
+     },
+     "value": "Article 61 of the Pharmacy Law requires labels of medicines on the market to show the circulation registration number or import licence number, batch number, manufacturing date and expiry; a government page notes that a 0 as the fifth digit of the registration number marks a non-prescription medicine."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

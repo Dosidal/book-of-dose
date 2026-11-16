@@ -1,0 +1,86 @@
+{
+ "address": "https://lk.dose-10060.org",
+ "authority": {
+  "english": "National Medicines Regulatory Authority",
+  "name": "National Medicines Regulatory Authority",
+  "site": "https://nmra.gov.lk/"
+ },
+ "code": "LK",
+ "held": null,
+ "instance": "LK-DOSE-10060",
+ "market": "Sri Lanka",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Medicines Regulatory Authority",
+      "url": "https://nmra.gov.lk/"
+     },
+     "value": "National Medicines Regulatory Authority"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Medicines Regulatory Authority",
+      "url": "https://nmra.gov.lk/"
+     },
+     "value": "NMRA Registered Medicines"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Medicines Regulatory Authority",
+      "url": "https://nmra.gov.lk/"
+     },
+     "value": "https://nmra.gov.lk/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Medicines Regulatory Authority",
+      "url": "https://nmra.gov.lk/"
+     },
+     "value": "A list of registered medicines by brand and generic name, published on the NMRA home page as a downloadable file dated 02.11.2026."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "National Medicines Regulatory Authority",
+      "url": "https://www.nmra.gov.lk/pages/medicines"
+     },
+     "value": "Under the National Medicines Regulatory Authority Act No. 5 of 2015, no person may manufacture or import a medicine without registering it with the NMRA."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

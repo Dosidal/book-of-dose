@@ -1,0 +1,100 @@
+{
+ "address": "https://za.dose-10060.org",
+ "authority": {
+  "english": "South African Health Products Regulatory Authority",
+  "name": "South African Health Products Regulatory Authority",
+  "site": "https://www.sahpra.org.za"
+ },
+ "code": "ZA",
+ "held": null,
+ "instance": "ZA-DOSE-10060",
+ "market": "South Africa",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "South African Health Products Regulatory Authority",
+      "url": "https://www.sahpra.org.za/"
+     },
+     "value": "South African Health Products Regulatory Authority"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "South African Health Products Regulatory Authority",
+      "url": "https://medapps.sahpra.org.za:6006/"
+     },
+     "value": "SAHPRA Registered Health Products"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "South African Health Products Regulatory Authority",
+      "url": "https://medapps.sahpra.org.za:6006/"
+     },
+     "value": "https://medapps.sahpra.org.za:6006/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "South African Health Products Regulatory Authority",
+      "url": "https://medapps.sahpra.org.za:6006/"
+     },
+     "value": "A database of health products approved and authorised by SAHPRA."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "South African Health Products Regulatory Authority",
+      "url": "https://www.sahpra.org.za/orthodox-medicines/"
+     },
+     "value": "New registration applications for orthodox medicines are submitted on the SAHPRA Engagement Portal in line with current guidelines, with GMP-compliant sites and a completed SCoRE document."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "South African Health Products Regulatory Authority",
+      "url": "https://www.sahpra.org.za/wp-content/uploads/2025/10/HPA16-202526-Industry-Comms-for-Traceability-Guideline-publication.pdf"
+     },
+     "value": "GS1 Data Matrix carrying GTIN (01), expiry (17), batch/lot (10) and later serial number (21)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "South African Health Products Regulatory Authority",
+      "url": "https://www.sahpra.org.za/wp-content/uploads/2025/10/HPA16-202526-Industry-Comms-for-Traceability-Guideline-publication.pdf"
+     },
+     "value": "Primary and secondary packs carry a GS1 Data Matrix; batch-level data (GTIN, expiry YYMMDD, batch) is required from 1 October 2027 for imported and 1 October 2029 for domestic products, and a serial number is added from 1 October 2029 and 1 October 2031 respectively; tertiary packs may use GS1 Data Matrix or GS1-128, and GTINs are assigned per packaging level."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

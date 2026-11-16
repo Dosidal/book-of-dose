@@ -1,0 +1,86 @@
+{
+ "address": "https://cr.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Ministerio de Salud",
+  "site": "https://www.ministeriodesalud.go.cr/"
+ },
+ "code": "CR",
+ "held": null,
+ "instance": "CR-DOSE-10060",
+ "market": "Costa Rica",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud",
+      "url": "https://www.ministeriodesalud.go.cr/index.php/tramites/empresas?view=article&id=160%3Aregistro-de-medicamentos&catid=34"
+     },
+     "value": "Ministerio de Salud"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud",
+      "url": "https://ministeriodesalud.go.cr/index.php/vigilancia-de-la-salud/43-servicios-y-tramites"
+     },
+     "value": "Consultas de productos registrados en el Sistema Registrelo"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud",
+      "url": "https://ministeriodesalud.go.cr/index.php/vigilancia-de-la-salud/43-servicios-y-tramites"
+     },
+     "value": "http://registrelo.go.cr/cfmx/ms/consultasPublicas/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud",
+      "url": "https://ministeriodesalud.go.cr/index.php/vigilancia-de-la-salud/43-servicios-y-tramites"
+     },
+     "value": "A public lookup of products registered through the ministry's Regístrelo system."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud",
+      "url": "https://www.ministeriodesalud.go.cr/index.php/tramites/empresas?view=article&id=160%3Aregistro-de-medicamentos&catid=34"
+     },
+     "value": "Medicines are registered online with the Ministerio de Salud through the Regístrelo platform (radiopharmaceuticals excepted), and registration is valid for five years."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

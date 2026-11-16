@@ -1,0 +1,100 @@
+{
+ "address": "https://at.dose-10060.org",
+ "authority": {
+  "english": "Austrian Federal Office for Safety in Health Care",
+  "name": "Bundesamt für Sicherheit im Gesundheitswesen",
+  "site": "https://www.basg.gv.at/"
+ },
+ "code": "AT",
+ "held": null,
+ "instance": "AT-DOSE-10060",
+ "market": "Austria",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
+      "url": "https://www.basg.gv.at/"
+     },
+     "value": "Bundesamt für Sicherheit im Gesundheitswesen (Austrian Federal Office for Safety in Health Care)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
+      "url": "https://www.basg.gv.at/marktbeobachtung/oeffentliche-register/medikamente-info-austria"
+     },
+     "value": "Medikamente Info Austria"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
+      "url": "https://www.basg.gv.at/marktbeobachtung/oeffentliche-register/medikamente-info-austria"
+     },
+     "value": "https://medikamente.basg.gv.at/de/medicinal-products"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
+      "url": "https://www.basg.gv.at/marktbeobachtung/oeffentliche-register/medikamente-info-austria"
+     },
+     "value": "BASG portal live since 10 February 2026 that replaces the earlier registers; it holds general medicine data with leaflets and product information for nationally authorised medicines, plus supply restrictions, export bans and BASG announcements."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
+      "url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren"
+     },
+     "value": "BASG lists three routes for human medicines: national authorisation, mutual recognition or decentralised procedures, and centralised EU authorisation."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
+      "url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/parallelimporte ; https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/sicherheitsmerkmale"
+     },
+     "value": "Pharmazentralnummer (PZN); EU unique identifier in a DataMatrix code"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
+      "url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/parallelimporte ; https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/sicherheitsmerkmale"
+     },
+     "value": "Packs covered by the EU safety features carry a DataMatrix code whose serial number pharmacists scan against the national data store; full operation began on 9 February 2026."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

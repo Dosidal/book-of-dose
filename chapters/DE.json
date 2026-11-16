@@ -1,0 +1,109 @@
+{
+ "address": "https://de.dose-10060.org",
+ "authority": {
+  "english": "Federal Institute for Drugs and Medical Devices",
+  "name": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+  "site": "https://www.bfarm.de/"
+ },
+ "code": "DE",
+ "held": null,
+ "instance": "DE-DOSE-10060",
+ "market": "Germany",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+      "url": "https://www.bfarm.de/EN/Home/_node.html"
+     },
+     "value": "Bundesinstitut für Arzneimittel und Medizinprodukte (Federal Institute for Drugs and Medical Devices)"
+    },
+    {
+     "label": "Second authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+      "url": "https://www.bfarm.de/EN/Home/_node.html"
+     },
+     "value": "Paul-Ehrlich-Institut (Bundesinstitut für Impfstoffe und biomedizinische Arzneimittel): sera, vaccines, blood preparations, tissue preparations, allergens and advanced therapy medicines (source: https://www.pei.de/DE/institut/aufgaben/aufgaben-node.html)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+      "url": "https://www.bfarm.de/EN/Medicinal-products/Information-on-medicinal-products/Research-medicinal-products/AMIce/_node.html"
+     },
+     "value": "AMIce (Arzneimittel-Informationssystem), public part"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+      "url": "https://www.bfarm.de/EN/Medicinal-products/Information-on-medicinal-products/Research-medicinal-products/AMIce/_node.html"
+     },
+     "value": "https://portal.bfarm.de/amguifree/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+      "url": "https://www.bfarm.de/EN/Medicinal-products/Information-on-medicinal-products/Research-medicinal-products/AMIce/_node.html"
+     },
+     "value": "Federal database run by BfArM under section 67a of the Medicines Act, holding authorisation data from BfArM, the Paul-Ehrlich-Institut and the federal veterinary authority for German medicines authorised since 30 April 1990; German only."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+      "url": "https://www.bfarm.de/EN/Medicinal-products/Licensing/Types-of-marketing-authorisation/_node.html"
+     },
+     "value": "A medicine needs a marketing authorisation or registration before it is placed on the market; applications go to BfArM through national, decentralised or mutual recognition routes, and some medicines follow the centralised EU procedure."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+      "url": "https://www.bfarm.de/DE/Arzneimittel/_FAQ/Zulassung/Allgemeine-Fragen/faq-liste.html"
+     },
+     "value": "Pharmazentralnummer (PZN)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Bundesinstitut für Arzneimittel und Medizinprodukte",
+      "url": "https://www.bfarm.de/DE/Arzneimittel/_FAQ/Zulassung/Allgemeine-Fragen/faq-liste.html"
+     },
+     "value": "Separately, since 9 February 2019 covered prescription medicines must carry the EU safety features, with the code printed on the packaging."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

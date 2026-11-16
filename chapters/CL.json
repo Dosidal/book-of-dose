@@ -1,0 +1,63 @@
+{
+ "address": "https://cl.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Instituto de Salud Pública",
+  "site": "https://www.ispch.gob.cl/"
+ },
+ "code": "CL",
+ "held": null,
+ "instance": "CL-DOSE-10060",
+ "market": "Chile",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto de Salud Pública",
+      "url": "https://nuevo.leychile.cl/servicios/Navegar/get_norma_json?idNorma=1026879"
+     },
+     "value": "Instituto de Salud Pública"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Instituto de Salud Pública",
+      "url": "https://nuevo.leychile.cl/servicios/Navegar/get_norma_json?idNorma=1026879"
+     },
+     "value": "Every pharmaceutical product imported or made in the country must first hold a sanitary registration, an evaluation of quality, safety and efficacy recorded in a numbered roll kept by the Instituto de Salud Pública (Decreto 3 de 2010)."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

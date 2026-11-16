@@ -1,0 +1,63 @@
+{
+ "address": "https://pa.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Dirección Nacional de Farmacias y Drogas",
+  "site": "https://dnfd.minsa.gob.pa/"
+ },
+ "code": "PA",
+ "held": null,
+ "instance": "PA-DOSE-10060",
+ "market": "Panama",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección Nacional de Farmacias y Drogas",
+      "url": "https://dnfd.minsa.gob.pa/registro-sanitario?page=1"
+     },
+     "value": "Dirección Nacional de Farmacias y Drogas"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección Nacional de Farmacias y Drogas",
+      "url": "https://dnfd.minsa.gob.pa/registro-sanitario?page=1"
+     },
+     "value": "The directorate's Sección de Evaluación de Registro Sanitario evaluates applications for medicines and grants or refuses the Certificado de Registro Sanitario."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

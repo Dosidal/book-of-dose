@@ -1,0 +1,109 @@
+{
+ "address": "https://th.dose-10060.org",
+ "authority": {
+  "english": "Food and Drug Administration",
+  "name": "สำนักงานคณะกรรมการอาหารและยา",
+  "site": "https://www.fda.moph.go.th/"
+ },
+ "code": "TH",
+ "held": null,
+ "instance": "TH-DOSE-10060",
+ "market": "Thailand",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "สำนักงานคณะกรรมการอาหารและยา",
+      "url": "https://www.fda.moph.go.th/home"
+     },
+     "value": "สำนักงานคณะกรรมการอาหารและยา (Food and Drug Administration)"
+    },
+    {
+     "label": "Second authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "สำนักงานคณะกรรมการอาหารและยา",
+      "url": "https://www.fda.moph.go.th/home"
+     },
+     "value": "กองยา (Medicines Regulation Division), https://drug.fda.moph.go.th"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "สำนักงานคณะกรรมการอาหารและยา",
+      "url": "https://www.fda.moph.go.th/home"
+     },
+     "value": "ระบบสืบค้น (ตรวจสอบการอนุญาต สถานที่/ผลิตภัณฑ์สุขภาพ)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "สำนักงานคณะกรรมการอาหารและยา",
+      "url": "https://www.fda.moph.go.th/home"
+     },
+     "value": "https://porta.fda.moph.go.th/fda_search_center_new/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "สำนักงานคณะกรรมการอาหารและยา",
+      "url": "https://www.fda.moph.go.th/home"
+     },
+     "value": "Linked from the Thai FDA home page as the search for checking permits of premises and health products."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "สำนักงานคณะกรรมการอาหารและยา",
+      "url": "https://drug.fda.moph.go.th/about-drug"
+     },
+     "value": "The Thai FDA Medicines Regulation Division handles premises licensing, registration of medicine formulas, notifications, advertising and import permits; an applicant must hold a manufacturing or import licence and apply for formula registration on form ย.1."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "สำนักงานคณะกรรมการอาหารและยา",
+      "url": "https://cemc.fda.moph.go.th/faqs/%E0%B8%9C%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99-%E0%B8%AD%E0%B8%A2-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7-%E0%B8%88%E0%B8%B0%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-%E0%B8%AD%E0%B8%A2-%E0%B8%9A%E0%B8%99%E0%B8%89%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88"
+     },
+     "value": "Medicine registration number (เลขทะเบียนตำรับยา, Reg. No.)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "สำนักงานคณะกรรมการอาหารและยา",
+      "url": "https://cemc.fda.moph.go.th/faqs/%E0%B8%9C%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99-%E0%B8%AD%E0%B8%A2-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7-%E0%B8%88%E0%B8%B0%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-%E0%B8%AD%E0%B8%A2-%E0%B8%9A%E0%B8%99%E0%B8%89%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88"
+     },
+     "value": "Medicine labels do not carry the อย. mark but show the medicine registration number, introduced by 'ทะเบียนยาเลขที่' or 'Reg. No.', formed of an English-letter prefix, a sequential registration number and the Buddhist Era year of registration (example given: Reg. No. 1A XX/45)."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

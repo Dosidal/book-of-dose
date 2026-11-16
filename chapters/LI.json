@@ -1,0 +1,63 @@
+{
+ "address": "https://li.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Amt für Gesundheit",
+  "site": "https://www.llv.li/"
+ },
+ "code": "LI",
+ "held": null,
+ "instance": "LI-DOSE-10060",
+ "market": "Liechtenstein",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Amt für Gesundheit",
+      "url": "https://www.gesetze.li/konso/html/1998045000"
+     },
+     "value": "Amt für Gesundheit"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Amt für Gesundheit",
+      "url": "https://www.gesetze.li/konso/html/1998045000"
+     },
+     "value": "Under the EEA Medicines Act, placing ready-to-use medicines on the market needs an authorisation from the Amt für Gesundheit, while centrally authorised products are approved by the European Commission; Swiss therapeutic products law also applies through the customs treaty."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

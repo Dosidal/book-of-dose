@@ -1,0 +1,100 @@
+{
+ "address": "https://ee.dose-10060.org",
+ "authority": {
+  "english": "State Agency of Medicines",
+  "name": "Ravimiamet",
+  "site": "https://ravimiamet.ee/"
+ },
+ "code": "EE",
+ "held": null,
+ "instance": "EE-DOSE-10060",
+ "market": "Estonia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ravimiamet",
+      "url": "https://ravimiamet.ee/en"
+     },
+     "value": "Ravimiamet (State Agency of Medicines)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ravimiamet",
+      "url": "https://www.ravimiregister.ee/en/default.aspx"
+     },
+     "value": "Ravimiregister (Register of Medicinal Products)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ravimiamet",
+      "url": "https://www.ravimiregister.ee/en/default.aspx"
+     },
+     "value": "https://www.ravimiregister.ee/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ravimiamet",
+      "url": "https://www.ravimiregister.ee/en/default.aspx"
+     },
+     "value": "State register of authorised medicines distributed in Estonia, with basic product, authorisation and reimbursement data and SmPC and leaflet for each."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ravimiamet",
+      "url": "https://www.ravimiamet.ee/en/regulatory-guidance"
+     },
+     "value": "National and mutual recognition or decentralised applications go to the State Agency of Medicines; centralised applications go to the EU medicines agency."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ravimiamet",
+      "url": "https://www.ravimiregister.ee/en/default.aspx"
+     },
+     "value": "Package code (pakendikood) held in the Ravimiregister"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ravimiamet",
+      "url": "https://www.ravimiregister.ee/en/default.aspx"
+     },
+     "value": "A unique code per pack size used in information systems, e-prescriptions and pharmacy and wholesale databases; the register states it is virtual and not printed on the pack or prescription."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

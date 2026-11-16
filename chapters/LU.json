@@ -1,0 +1,86 @@
+{
+ "address": "https://lu.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Division de la pharmacie et des médicaments (Direction de la santé)",
+  "site": "https://santesecu.public.lu/"
+ },
+ "code": "LU",
+ "held": null,
+ "instance": "LU-DOSE-10060",
+ "market": "Luxembourg",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Division de la pharmacie et des médicaments (Direction de la santé)",
+      "url": "https://dirsante.gouvernement.lu/fr/la-direction/structure/pharmacie-medicaments.html"
+     },
+     "value": "Division de la pharmacie et des médicaments (Direction de la santé)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Division de la pharmacie et des médicaments (Direction de la santé)",
+      "url": "https://santesecu.public.lu/fr/espace-professionnel/departement-sante/pharmacies-et-medicaments/medicaments-humains.html"
+     },
+     "value": "Liste des médicaments avec autorisation de mise sur le marché (AMM) au Luxembourg"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Division de la pharmacie et des médicaments (Direction de la santé)",
+      "url": "https://santesecu.public.lu/fr/espace-professionnel/departement-sante/pharmacies-et-medicaments/medicaments-humains.html"
+     },
+     "value": "https://santesecu.public.lu/fr/espace-professionnel/departement-sante/pharmacies-et-medicaments/medicaments-humains.html"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Division de la pharmacie et des médicaments (Direction de la santé)",
+      "url": "https://santesecu.public.lu/fr/espace-professionnel/departement-sante/pharmacies-et-medicaments/medicaments-humains.html"
+     },
+     "value": "Information-only list of medicines holding a marketing authorisation in Luxembourg, offered as a spreadsheet file; the legally valid list is published monthly in the Mémorial B."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Division de la pharmacie et des médicaments (Direction de la santé)",
+      "url": "https://data.legilux.public.lu/filestore/eli/etat/leg/loi/1983/04/11/n4/jo/fr/html/eli-etat-leg-loi-1983-04-11-n4-jo-fr-html.html"
+     },
+     "value": "Under the law of 11 April 1983 the marketing authorisation is granted by the Minister of Health, with the application filed on a form held by the Division de la pharmacie et des médicaments."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

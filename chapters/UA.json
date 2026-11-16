@@ -1,0 +1,95 @@
+{
+ "address": "https://ua.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Міністерство охорони здоров'я України",
+  "site": "https://moz.gov.ua/"
+ },
+ "code": "UA",
+ "held": null,
+ "instance": "UA-DOSE-10060",
+ "market": "Ukraine",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Міністерство охорони здоров'я України",
+      "url": "https://moz.gov.ua/uk/derzhavnij-reestr-likarskih-zasobiv-ukraini"
+     },
+     "value": "Міністерство охорони здоров'я України"
+    },
+    {
+     "label": "Second authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Міністерство охорони здоров'я України",
+      "url": "https://moz.gov.ua/uk/derzhavnij-reestr-likarskih-zasobiv-ukraini"
+     },
+     "value": "Державний експертний центр Міністерства охорони здоров'я України (carries out the expert review on which registration orders are based)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Міністерство охорони здоров'я України",
+      "url": "https://moz.gov.ua/uk/moz-onovilo-derzhavnij-reyestr-likarskih-zasobiv"
+     },
+     "value": "Державний реєстр лікарських засобів України"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Міністерство охорони здоров'я України",
+      "url": "https://moz.gov.ua/uk/moz-onovilo-derzhavnij-reyestr-likarskih-zasobiv"
+     },
+     "value": "https://drlz.info/register/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Міністерство охорони здоров'я України",
+      "url": "https://moz.gov.ua/uk/moz-onovilo-derzhavnij-reyestr-likarskih-zasobiv"
+     },
+     "value": "State register of medicines and pharmaceutical ingredients registered in Ukraine, with instructions for medical use; a new version launched in June 2025 with about 16,500 medicines."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Міністерство охорони здоров'я України",
+      "url": "https://moz.gov.ua/uk/decrees/nakaz-moz-ukrayini-vid-30-10-2025-1646-pro-derzhavnu-reyestraciyu-perereyestraciyu-likarskih-zasobiv-medichnih-imunobiologichnih-preparativ-ta-vnesennya-zmin-do-reyestracijnih-materialiv"
+     },
+     "value": "Medicines are registered or re-registered by order of the Ministry of Health and entered in the State Register, based on expert review by the State Expert Center."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

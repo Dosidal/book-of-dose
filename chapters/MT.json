@@ -1,0 +1,100 @@
+{
+ "address": "https://mt.dose-10060.org",
+ "authority": {
+  "english": "Malta Medicines Authority",
+  "name": "Medicines Authority",
+  "site": "https://medicinesauthority.gov.mt/"
+ },
+ "code": "MT",
+ "held": null,
+ "instance": "MT-DOSE-10060",
+ "market": "Malta",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines Authority",
+      "url": "https://medicinesauthority.gov.mt/"
+     },
+     "value": "Medicines Authority (Malta Medicines Authority)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines Authority",
+      "url": "https://medicinesauthority.gov.mt/medicinesdatabase"
+     },
+     "value": "Medicines Database"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines Authority",
+      "url": "https://medicinesauthority.gov.mt/medicinesdatabase"
+     },
+     "value": "https://medicinesauthority.gov.mt/medicinesdatabase"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines Authority",
+      "url": "https://medicinesauthority.gov.mt/medicinesdatabase"
+     },
+     "value": "Searchable database of medicines authorised for the Maltese market with their product information, status and supply category; centrally authorised products are referred to the EU medicines agency."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines Authority",
+      "url": "https://medicinesauthority.gov.mt/registration?l=1"
+     },
+     "value": "The Medicines Authority grants national and mutual recognition or decentralised authorisations; the European Commission grants centralised ones."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines Authority",
+      "url": "https://medicinesauthority.gov.mt/safetyfeatures"
+     },
+     "value": "EU unique identifier (2D barcode)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines Authority",
+      "url": "https://medicinesauthority.gov.mt/safetyfeatures"
+     },
+     "value": "Most prescription and some non-prescription packs carry a unique identifier in a 2D barcode plus an anti-tampering device, applicable in Malta from 9 February 2019, verified when supplied to the public."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

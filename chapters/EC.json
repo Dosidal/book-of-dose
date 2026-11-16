@@ -1,0 +1,86 @@
+{
+ "address": "https://ec.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Agencia Nacional de Regulación, Control y Vigilancia Sanitaria",
+  "site": "https://www.controlsanitario.gob.ec/"
+ },
+ "code": "EC",
+ "held": null,
+ "instance": "EC-DOSE-10060",
+ "market": "Ecuador",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Nacional de Regulación, Control y Vigilancia Sanitaria",
+      "url": "https://www.controlsanitario.gob.ec/base-de-datos/"
+     },
+     "value": "Agencia Nacional de Regulación, Control y Vigilancia Sanitaria"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Nacional de Regulación, Control y Vigilancia Sanitaria",
+      "url": "https://www.controlsanitario.gob.ec/base-de-datos/"
+     },
+     "value": "Base de Registros Emitidos"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Nacional de Regulación, Control y Vigilancia Sanitaria",
+      "url": "https://www.controlsanitario.gob.ec/base-de-datos/"
+     },
+     "value": "https://www.controlsanitario.gob.ec/base-de-datos/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Nacional de Regulación, Control y Vigilancia Sanitaria",
+      "url": "https://www.controlsanitario.gob.ec/base-de-datos/"
+     },
+     "value": "The agency's page of published registration lists, including a 'Consulta de Medicamentos' section with medicine data."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Nacional de Regulación, Control y Vigilancia Sanitaria",
+      "url": "https://www.gob.ec/arcsa/tramites/notificacion-al-registro-sanitario-medicamentos-general-fabricacion-nacional-extranjera"
+     },
+     "value": "A medicine's sanitary registration certificate is requested from and issued by the Agencia Nacional de Regulación, Control y Vigilancia Sanitaria."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

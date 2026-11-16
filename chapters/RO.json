@@ -1,0 +1,86 @@
+{
+ "address": "https://ro.dose-10060.org",
+ "authority": {
+  "english": "National Agency for Medicines and Medical Devices of Romania",
+  "name": "Agenția Națională a Medicamentului și a Dispozitivelor Medicale din România",
+  "site": "https://www.anm.ro/"
+ },
+ "code": "RO",
+ "held": null,
+ "instance": "RO-DOSE-10060",
+ "market": "Romania",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenția Națională a Medicamentului și a Dispozitivelor Medicale din România",
+      "url": "https://www.anm.ro/ ; https://www.anm.ro/en/"
+     },
+     "value": "Agenția Națională a Medicamentului și a Dispozitivelor Medicale din România (National Agency for Medicines and Medical Devices of Romania)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenția Națională a Medicamentului și a Dispozitivelor Medicale din România",
+      "url": "https://nomenclator.anm.ro/medicamente"
+     },
+     "value": "Nomenclatorul medicamentelor pentru uz uman"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenția Națională a Medicamentului și a Dispozitivelor Medicale din România",
+      "url": "https://nomenclator.anm.ro/medicamente"
+     },
+     "value": "https://nomenclator.anm.ro/medicamente"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenția Națională a Medicamentului și a Dispozitivelor Medicale din România",
+      "url": "https://nomenclator.anm.ro/medicamente"
+     },
+     "value": "Searchable nomenclature of human medicines authorised in Romania, searchable by name, INN, form, ATC code, CIM code or holder, with status flags."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenția Națională a Medicamentului și a Dispozitivelor Medicale din România",
+      "url": "https://www.anm.ro/en/medicamente-de-uz-uman/autorizare-medicamente/"
+     },
+     "value": "The agency's page lists national, mutual recognition and decentralised routes handled by the agency, and refers the centralised procedure to the EU medicines agency."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

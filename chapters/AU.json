@@ -1,0 +1,82 @@
+{
+ "address": "https://au.dose-10060.org",
+ "authority": {
+  "english": "Therapeutic Goods Administration",
+  "name": "Therapeutic Goods Administration",
+  "site": "http://www.tga.gov.au"
+ },
+ "code": "AU",
+ "held": null,
+ "instance": "AU-DOSE-10060",
+ "market": "Australia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.legislation.gov.au/F1996B00406/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html"
+     },
+     "value": "Therapeutic Goods Administration"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.legislation.gov.au/C2004A03952/2025-03-21/2025-03-21/text/original/epub/OEBPS/document_1/document_1.html"
+     },
+     "value": "Australian Register of Therapeutic Goods"
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.legislation.gov.au/C2004A03952/2025-03-21/2025-03-21/text/original/epub/OEBPS/document_1/document_1.html"
+     },
+     "value": "Under section 19B of the Therapeutic Goods Act it is an offence to import, export, manufacture or supply therapeutic goods for use in humans unless they are registered or listed goods, exempt, or covered by a specific approval or authority."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.legislation.gov.au/F1996B00406/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html"
+     },
+     "value": "ARTG registration or listing number (AUST R / AUST L / AUST L(A))"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.legislation.gov.au/F1996B00406/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html"
+     },
+     "value": "Regulation 15 of the Therapeutic Goods Regulations 1990 requires a medicine's registration or listing number on the label of the container, or of the primary pack if there is one, on the main label or a securely affixed adjacent sticker, preceded by AUST R for registered goods, AUST L for listed goods or AUST L(A) for goods listed under section 26AE, in characters at least 1 mm high."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

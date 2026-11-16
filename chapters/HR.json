@@ -1,0 +1,86 @@
+{
+ "address": "https://hr.dose-10060.org",
+ "authority": {
+  "english": "Agency for Medicinal Products and Medical Devices",
+  "name": "Agencija za lijekove i medicinske proizvode",
+  "site": "https://www.halmed.hr/"
+ },
+ "code": "HR",
+ "held": null,
+ "instance": "HR-DOSE-10060",
+ "market": "Croatia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencija za lijekove i medicinske proizvode",
+      "url": "https://www.halmed.hr/ ; https://www.halmed.hr/en/"
+     },
+     "value": "Agencija za lijekove i medicinske proizvode (Agency for Medicinal Products and Medical Devices)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencija za lijekove i medicinske proizvode",
+      "url": "https://www.halmed.hr/en/Lijekovi/Baza-lijekova/"
+     },
+     "value": "Baza lijekova (Medicinal Products Database)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencija za lijekove i medicinske proizvode",
+      "url": "https://www.halmed.hr/en/Lijekovi/Baza-lijekova/"
+     },
+     "value": "https://www.halmed.hr/en/Lijekovi/Baza-lijekova/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencija za lijekove i medicinske proizvode",
+      "url": "https://www.halmed.hr/en/Lijekovi/Baza-lijekova/"
+     },
+     "value": "Database of medicines authorised by HALMED plus centrally authorised products, each with SmPC and package leaflet; content in Croatian."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencija za lijekove i medicinske proizvode",
+      "url": "https://www.halmed.hr/en/Lijekovi/Upute-za-podnositelje-zahtjeva/"
+     },
+     "value": "HALMED grants authorisations through the national, mutual recognition and decentralised procedures; the European Commission grants centralised authorisations."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

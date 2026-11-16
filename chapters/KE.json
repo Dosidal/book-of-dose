@@ -1,0 +1,86 @@
+{
+ "address": "https://ke.dose-10060.org",
+ "authority": {
+  "english": "Pharmacy and Poisons Board",
+  "name": "Pharmacy and Poisons Board",
+  "site": "https://web.pharmacyboardkenya.org"
+ },
+ "code": "KE",
+ "held": null,
+ "instance": "KE-DOSE-10060",
+ "market": "Kenya",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Pharmacy and Poisons Board",
+      "url": "https://web.pharmacyboardkenya.org/"
+     },
+     "value": "Pharmacy and Poisons Board"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Pharmacy and Poisons Board",
+      "url": "https://web.pharmacyboardkenya.org/registrationretentionvariations/"
+     },
+     "value": "All Registered Medicines"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Pharmacy and Poisons Board",
+      "url": "https://web.pharmacyboardkenya.org/registrationretentionvariations/"
+     },
+     "value": "https://products.pharmacyboardkenya.org/ppb_admin/pages/public_view_retention_products.php"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Pharmacy and Poisons Board",
+      "url": "https://web.pharmacyboardkenya.org/registrationretentionvariations/"
+     },
+     "value": "The Board's public list of registered and retained medicines, kept as its register of authorised health products and technologies."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Pharmacy and Poisons Board",
+      "url": "https://web.pharmacyboardkenya.org/registrationretentionvariations/"
+     },
+     "value": "Applicants apply for marketing authorisation through the Board's products portal, the Department of Product Evaluation and Registration evaluates dossiers, and the Board approves them and keeps a register of authorised products."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

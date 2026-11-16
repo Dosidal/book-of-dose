@@ -1,0 +1,86 @@
+{
+ "address": "https://uy.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Ministerio de Salud Pública",
+  "site": "https://www.gub.uy/ministerio-salud-publica/"
+ },
+ "code": "UY",
+ "held": null,
+ "instance": "UY-DOSE-10060",
+ "market": "Uruguay",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud Pública",
+      "url": "https://www.gub.uy/ministerio-salud-publica/departamento-medicamentos"
+     },
+     "value": "Ministerio de Salud Pública"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud Pública",
+      "url": "https://www.gub.uy/ministerio-salud-publica/departamento-medicamentos"
+     },
+     "value": "Consultas de medicamentos registrados en nuestro país"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud Pública",
+      "url": "https://www.gub.uy/ministerio-salud-publica/departamento-medicamentos"
+     },
+     "value": "https://listadomedicamentos.msp.gub.uy/ListadoMedicamentos/servlet/com.listadomedicamentos.listadomedicamentos"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud Pública",
+      "url": "https://www.gub.uy/ministerio-salud-publica/departamento-medicamentos"
+     },
+     "value": "A public lookup of medicines registered in Uruguay, linked from the ministry's Departamento de Medicamentos."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Ministerio de Salud Pública",
+      "url": "https://www.gub.uy/ministerio-salud-publica/evaluacion-sanitaria/departamento-medicamentos/sector-evaluacion"
+     },
+     "value": "The ministry's Departamento de Medicamentos evaluates all registration applications for pharmaceutical specialties."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

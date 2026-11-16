@@ -1,0 +1,100 @@
+{
+ "address": "https://pt.dose-10060.org",
+ "authority": {
+  "english": "National Authority of Medicines and Health Products",
+  "name": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+  "site": "https://www.infarmed.pt/"
+ },
+ "code": "PT",
+ "held": null,
+ "instance": "PT-DOSE-10060",
+ "market": "Portugal",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+      "url": "https://www.infarmed.pt/web/infarmed-en ; https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/autorizacao-de-introducao-no-mercado/procedimentos_de_aim"
+     },
+     "value": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P. (National Authority of Medicines and Health Products)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/"
+     },
+     "value": "Infomed"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/"
+     },
+     "value": "https://extranet.infarmed.pt/INFOMED-fo/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/"
+     },
+     "value": "National database of human medicines for all citizens, covering medicines, active substances and presentations, with a filter for authorised and marketed products."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+      "url": "https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/autorizacao-de-introducao-no-mercado/procedimentos_de_aim"
+     },
+     "value": "INFARMED grants national marketing authorisations through the national, mutual recognition and decentralised procedures; centralised authorisations are decided by the European Commission, after which INFARMED assigns national registration numbers."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+      "url": "https://www.infarmed.pt/web/infarmed/infarmed/-/journal_content/56/15786/2256682"
+     },
+     "value": "Número de registo (AIM registration number) inside the EU unique identifier"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "INFARMED - Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+      "url": "https://www.infarmed.pt/web/infarmed/infarmed/-/journal_content/56/15786/2256682"
+     },
+     "value": "The unique identifier is held in a 2D DataMatrix code with product code, serial number, batch, expiry date and the INFARMED-assigned registration number, which must be included; it applies from 9 February 2019."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

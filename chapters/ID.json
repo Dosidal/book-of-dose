@@ -1,0 +1,100 @@
+{
+ "address": "https://id.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Badan Pengawas Obat dan Makanan",
+  "site": "https://www.pom.go.id/"
+ },
+ "code": "ID",
+ "held": null,
+ "instance": "ID-DOSE-10060",
+ "market": "Indonesia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Badan Pengawas Obat dan Makanan",
+      "url": "https://www.pom.go.id/"
+     },
+     "value": "Badan Pengawas Obat dan Makanan"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Badan Pengawas Obat dan Makanan",
+      "url": "https://cekbpom.pom.go.id/"
+     },
+     "value": "Cek Produk BPOM"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Badan Pengawas Obat dan Makanan",
+      "url": "https://cekbpom.pom.go.id/"
+     },
+     "value": "https://cekbpom.pom.go.id/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Badan Pengawas Obat dan Makanan",
+      "url": "https://cekbpom.pom.go.id/"
+     },
+     "value": "A BPOM search of registered products still valid, covering medicines, traditional medicines, health supplements, cosmetics, processed foods and quasi-medicines."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Badan Pengawas Obat dan Makanan",
+      "url": "https://registrasiobat.pom.go.id/files/regulations/PERATURAN%20KEPALA%20BPOM%20NOMOR%2024%20TAHUN%202017%20TENTANG%20KRITERIA%20DAN%20TATA%20LAKSANA%20REGISTRASI%20OBAT.pdf"
+     },
+     "value": "A medicine to be distributed in Indonesia must hold a marketing permit (izin edar), obtained through registration submitted by the applicant to the Head of BPOM (BPOM Regulation 24 of 2017, Article 2)."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Badan Pengawas Obat dan Makanan",
+      "url": "https://ttac.pom.go.id/"
+     },
+     "value": "BPOM 2D barcode (QR Code)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Badan Pengawas Obat dan Makanan",
+      "url": "https://ttac.pom.go.id/"
+     },
+     "value": "BPOM Regulation 22 of 2022 on 2D barcodes in drug and food control sets two methods: identification codes come with the electronic marketing permit and need no separate application or reporting, while authentication codes are applied for before production, issued electronically by BPOM and reported on use; codes BPOM issues to the pharmaceutical industry take the form of a QR Code."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}

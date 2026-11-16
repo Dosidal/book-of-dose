@@ -1,0 +1,63 @@
+{
+ "address": "https://do.dose-10060.org",
+ "authority": {
+  "english": null,
+  "name": "Dirección General de Medicamentos, Alimentos y Productos Sanitarios",
+  "site": "https://digemaps.gob.do/"
+ },
+ "code": "DO",
+ "held": null,
+ "instance": "DO-DOSE-10060",
+ "market": "Dominican Republic",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección General de Medicamentos, Alimentos y Productos Sanitarios",
+      "url": "https://digemaps.gob.do/"
+     },
+     "value": "Dirección General de Medicamentos, Alimentos y Productos Sanitarios"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Dirección General de Medicamentos, Alimentos y Productos Sanitarios",
+      "url": "https://digemaps.gob.do/servicios/nuevo-registro-medicamentos-productos-naturales/"
+     },
+     "value": "DIGEMAPS grants the Registro Sanitario de Medicamentos that allows a product to be marketed, under Ley General de Salud 42-01 and Decreto 246-06."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
+ "standard_version": "1.1"
+}
