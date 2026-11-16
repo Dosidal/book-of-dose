@@ -1,0 +1,52 @@
+{
+ "address": "https://bg.dose-10060.org",
+ "authority": {
+  "name": "ИАЛ",
+  "register": "Регистър ИАЛ",
+  "site": null
+ },
+ "code": "BG",
+ "held": {
+  "identifiers": [
+   {
+    "records": 33358,
+    "system": "bg-registration"
+   },
+   {
+    "records": 27543,
+    "system": "bg-pack-number"
+   },
+   {
+    "records": 296,
+    "system": "bg-parallel-permit"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 5815,
+   "presentation": 27839
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 27543,
+    "system": "bg-pack-number (Bulgarian national)"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 296,
+  "registers": [
+   {
+    "address": "https://www.bda.bg/images/stories/documents/registers/Register_Lekarstva/IAL_Register_10_2026.xlsx",
+    "fields_citing_it": 116576,
+    "publisher": "ИАЛ (Изпълнителна агенция по лекарствата / Bulgarian Drug Agency)"
+   }
+  ]
+ },
+ "instance": "BG-DOSE-10060",
+ "market": "Bulgaria",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

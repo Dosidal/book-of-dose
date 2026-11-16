@@ -1,0 +1,60 @@
+{
+ "address": "https://pl.dose-10060.org",
+ "authority": {
+  "name": "URPL",
+  "register": "Rejestr Produktów Leczniczych",
+  "site": null
+ },
+ "code": "PL",
+ "held": {
+  "identifiers": [
+   {
+    "records": 75764,
+    "system": "rpl-pack-id"
+   },
+   {
+    "records": 68002,
+    "system": "gtin"
+   },
+   {
+    "records": 20354,
+    "system": "pl-authorisation"
+   },
+   {
+    "records": 20354,
+    "system": "rpl-product-id"
+   },
+   {
+    "records": 14639,
+    "system": "eu-number"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 20354,
+   "presentation": 75764
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 67996,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 7768,
+  "registers": [
+   {
+    "address": "https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/public-pl-report/6.0.0/overall.xml",
+    "fields_citing_it": 335886,
+    "publisher": "URPL / Rejestr Produktów Leczniczych (Centrum e-Zdrowia export)"
+   }
+  ]
+ },
+ "instance": "PL-DOSE-10060",
+ "market": "Poland",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

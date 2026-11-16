@@ -1,0 +1,60 @@
+{
+ "address": "https://uk.dose-10060.org",
+ "authority": {
+  "name": "MHRA/EMA (licensing); NHSBSA (dm+d)",
+  "register": "dm+d",
+  "site": null
+ },
+ "code": "UK",
+ "held": {
+  "identifiers": [
+   {
+    "records": 61813,
+    "system": "dmd-ampp"
+   },
+   {
+    "records": 51264,
+    "system": "dmd-amp"
+   },
+   {
+    "records": 51264,
+    "system": "dmd-vmp"
+   },
+   {
+    "records": 33237,
+    "system": "gtin"
+   },
+   {
+    "records": 9464,
+    "system": "gtin-ended"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 51264,
+   "presentation": 61813
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 26973,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 34840,
+  "registers": [
+   {
+    "address": "https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/6/items/24/releases",
+    "fields_citing_it": 267596,
+    "publisher": "NHSBSA (dm+d via NHS TRUD)"
+   }
+  ]
+ },
+ "instance": "UK-DOSE-10060",
+ "market": "UK",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

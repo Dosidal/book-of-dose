@@ -1,0 +1,37 @@
+{
+ "address": "https://sg.dose-10060.org",
+ "authority": {
+  "name": "HSA",
+  "register": "Registered Therapeutic Products",
+  "site": null
+ },
+ "code": "SG",
+ "held": {
+  "identifiers": [
+   {
+    "records": 5511,
+    "system": "sg-hsa-licence"
+   }
+  ],
+  "latest_read": "2026-08-07",
+  "levels": {
+   "authorisation": 5511
+  },
+  "pack_code": [],
+  "pack_level_published": false,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
+    "fields_citing_it": 16533,
+    "publisher": "Health Sciences Authority (HSA), via data.gov.sg"
+   }
+  ]
+ },
+ "instance": "SG-DOSE-10060",
+ "market": "Singapore",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

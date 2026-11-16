@@ -1,0 +1,56 @@
+{
+ "address": "https://hu.dose-10060.org",
+ "authority": {
+  "name": "NEAK",
+  "register": "PUPHA",
+  "site": null
+ },
+ "code": "HU",
+ "held": {
+  "identifiers": [
+   {
+    "records": 42944,
+    "system": "hu-ttt"
+   },
+   {
+    "records": 13821,
+    "system": "eu-number"
+   },
+   {
+    "records": 258,
+    "system": "ean-published"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "presentation": 42944
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 42701,
+    "system": "hu-ttt (Hungarian national)"
+   },
+   {
+    "basis": "published by authority",
+    "records": 241,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 2,
+  "registers": [
+   {
+    "address": "https://neak.gov.hu/pfile/file?path=/letoltheto/ATFO_dok/gyogyszer/PUPHA/PUPHA_20261101_v3.zip1&inline=true",
+    "fields_citing_it": 171669,
+    "publisher": "NEAK (Nemzeti Egészségbiztosítási Alapkezelő) - PUPHA"
+   }
+  ]
+ },
+ "instance": "HU-DOSE-10060",
+ "market": "Hungary",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

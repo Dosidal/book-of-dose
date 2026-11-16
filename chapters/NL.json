@@ -1,0 +1,37 @@
+{
+ "address": "https://nl.dose-10060.org",
+ "authority": {
+  "name": "CBG-MEB",
+  "register": "Geneesmiddeleninformatiebank",
+  "site": null
+ },
+ "code": "NL",
+ "held": {
+  "identifiers": [
+   {
+    "records": 19601,
+    "system": "nl-registration"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 19601
+  },
+  "pack_code": [],
+  "pack_level_published": false,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://www.geneesmiddeleninformatiebank.nl/metadata.csv",
+    "fields_citing_it": 39202,
+    "publisher": "CBG-MEB (Geneesmiddeleninformatiebank)"
+   }
+  ]
+ },
+ "instance": "NL-DOSE-10060",
+ "market": "Netherlands",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

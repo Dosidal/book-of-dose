@@ -1,0 +1,55 @@
+{
+ "address": "https://kr.dose-10060.org",
+ "authority": {
+  "name": "HIRA / MFDS",
+  "register": "의약품표준코드",
+  "site": null
+ },
+ "code": "KR",
+ "held": {
+  "identifiers": [
+   {
+    "records": 266922,
+    "system": "gtin"
+   },
+   {
+    "records": 266922,
+    "system": "kr-standard-code"
+   },
+   {
+    "records": 266922,
+    "system": "kr-mfds-item"
+   },
+   {
+    "records": 65574,
+    "system": "kr-insurance-product"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "presentation": 266922
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 266922,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://www.data.go.kr/data/15067462/fileData.do",
+    "fields_citing_it": 1320385,
+    "publisher": "건강보험심사평가원 (HIRA) - 의약품표준코드, via data.go.kr"
+   }
+  ]
+ },
+ "instance": "KR-DOSE-10060",
+ "market": "South Korea",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

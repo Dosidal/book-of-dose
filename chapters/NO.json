@@ -1,0 +1,56 @@
+{
+ "address": "https://no.dose-10060.org",
+ "authority": {
+  "name": "NOMA",
+  "register": "FEST",
+  "site": null
+ },
+ "code": "NO",
+ "held": {
+  "identifiers": [
+   {
+    "records": 11189,
+    "system": "no-varenr"
+   },
+   {
+    "records": 11189,
+    "system": "gtin-nordic-rule"
+   },
+   {
+    "records": 11096,
+    "system": "gtin"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "presentation": 11189
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 8629,
+    "system": "gtin"
+   },
+   {
+    "basis": "derived from register",
+    "records": 1325,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 1235,
+  "registers": [
+   {
+    "address": "https://www.dmp.no/globalassets/documents/om-oss/distribusjon-av-legemiddeldata/fest/festfiler/fest251_inst.zip",
+    "fields_citing_it": 44756,
+    "publisher": "NOMA (FEST)"
+   }
+  ]
+ },
+ "instance": "NO-DOSE-10060",
+ "market": "Norway",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

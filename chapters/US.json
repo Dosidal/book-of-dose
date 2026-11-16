@@ -1,0 +1,335 @@
+{
+ "address": "https://us.dose-10060.org",
+ "authority": {
+  "name": "U.S. Food and Drug Administration",
+  "register": "National Drug Code Directory",
+  "site": "https://www.fda.gov/"
+ },
+ "code": "US",
+ "held": {
+  "identifiers": [
+   {
+    "records": 116787,
+    "system": "ndc-package"
+   },
+   {
+    "records": 116787,
+    "system": "ndc-product"
+   },
+   {
+    "records": 116787,
+    "system": "gtin"
+   },
+   {
+    "records": 12254,
+    "system": "fda-application"
+   },
+   {
+    "records": 2104,
+    "system": "ndc-ingredient-name"
+   },
+   {
+    "records": 5,
+    "system": "unii"
+   },
+   {
+    "records": 3,
+    "system": "inn-name"
+   },
+   {
+    "records": 1,
+    "system": "atc"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 12254,
+   "presentation": 116787,
+   "substance": 2107
+  },
+  "pack_code": [
+   {
+    "basis": "derived from register",
+    "records": 116787,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://download.open.fda.gov/drug/drugsfda/drug-drugsfda-0001-of-0001.json.zip",
+    "fields_citing_it": 636747,
+    "publisher": "U.S. Food and Drug Administration"
+   },
+   {
+    "address": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+    "fields_citing_it": 116787,
+    "publisher": "DEA Diversion Control Division"
+   },
+   {
+    "address": "https://api.fda.gov/drug/ndc.json?search=active_ingredients.name%3A%22naltrexone%22%20AND%20active_ingredients.name%3A%22bupropion%22&limit=1000&skip=0",
+    "fields_citing_it": 3,
+    "publisher": "U.S. Food and Drug Administration"
+   }
+  ]
+ },
+ "instance": "US-DOSE-10060",
+ "market": "United States",
+ "registers": [
+  {
+   "address": "open.fda.gov/apis/drug/drugsfda/",
+   "holds": "Approved prescription and over-the-counter human drugs and many therapeutic biologicals; the most recent FDA-approved labelling. Excludes products regulated by the Center for Biologics Evaluation and Research.",
+   "name": "Drugs@FDA"
+  },
+  {
+   "address": "open.fda.gov/data/ndc/",
+   "holds": "Final marketed drugs as listed by labelers. Listing content is the labeler's; inclusion does not mean FDA verified it.",
+   "name": "National Drug Code Directory"
+  },
+  {
+   "address": "fda.gov/drugs/development-approval-process-drugs/orange-book-preface",
+   "holds": "Approved drug products with therapeutic equivalence codes and a discontinued list; monthly supplements.",
+   "name": "Orange Book"
+  },
+  {
+   "address": "purplebooksearch.fda.gov",
+   "holds": "FDA-licensed biological products.",
+   "name": "Purple Book"
+  },
+  {
+   "address": "dailymed.nlm.nih.gov/dailymed/spl-resources.cfm",
+   "holds": "In-use labelling as Structured Product Labeling; daily, weekly and monthly files.",
+   "name": "DailyMed"
+  },
+  {
+   "address": "open.fda.gov/apis/drug/",
+   "holds": "All recalls monitored by FDA, with class, status and history.",
+   "name": "FDA Enforcement Report"
+  },
+  {
+   "address": "deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+   "holds": "Scheduled substances with schedule and narcotic flag.",
+   "name": "DEA schedules"
+  }
+ ],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Deciding authority",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/about-drugsfda"
+     },
+     "value": "U.S. Food and Drug Administration (FDA). Its Drugs@FDA database carries approved brand-name and generic prescription and over-the-counter human drugs and therapeutic biological products."
+    },
+    {
+     "label": "Second authority",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "DEA Diversion Control Division",
+      "url": "https://www.deadiversion.usdoj.gov/schedules/schedules.html"
+     },
+     "value": "Drug Enforcement Administration (DEA). Publishes the controlled substance schedules I to V."
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Term for a prescription medicine",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "Office of the Law Revision Counsel",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title21-section353&num=0&edition=prelim"
+     },
+     "value": "Prescription drug: a drug for human use that is not safe for use except under the supervision of a licensed practitioner, or is limited to such use by its approved application. It is dispensed only on a prescription, and before dispensing its label must bear at least the symbol 'Rx only'. Federal Food, Drug, and Cosmetic Act section 503(b), codified at 21 U.S.C. 353(b)."
+    },
+    {
+     "label": "Prescription classes",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/ndc-product-file-definitions"
+     },
+     "value": "Two classes at product level: prescription and over-the-counter. The NDC Directory states each product's type, for example Human Prescription Drug or Human OTC Drug."
+    },
+    {
+     "label": "Authorisation status terms",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-glossary-terms"
+     },
+     "value": "Drugs@FDA marketing status takes four values: Prescription; Over-the-counter; Discontinued; None (tentatively approved). Discontinued covers approved products never marketed, discontinued from marketing, for military use, for export only, or whose approval was withdrawn for reasons other than safety or efficacy after discontinuation. A tentative approval does not allow marketing."
+    },
+    {
+     "label": "Application types",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/ndc-product-file-definitions"
+     },
+     "value": "An approved product carries an application number: a new drug application (NDA), an abbreviated new drug application (ANDA) or a biologics license application (BLA)."
+    }
+   ],
+   "title": "Legal terms"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation number",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/ndc-product-file-definitions"
+     },
+     "value": "The application number, as carried in Drugs@FDA and reported in the NDC Directory."
+    },
+    {
+     "label": "Product code",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/development-approval-process-drugs/national-drug-code-database-background-information"
+     },
+     "value": "The National Drug Code (NDC): a unique 10-digit, 3-segment number identifying labeler, product and trade package size, in configuration 4-4-2, 5-3-2 or 5-4-1."
+    },
+    {
+     "label": "Product code change",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/electronic-drug-registration-and-listing-system-edrls/national-drug-code-format"
+     },
+     "value": "A final rule adopts a uniform 12-digit NDC. From 2033-03-07 a single 2D data matrix barcode may satisfy both the NDC barcode and the supply-chain product identifier requirements. Loaders hold the NDC as a string and carry both forms."
+    },
+    {
+     "label": "Pack-code rule",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/media/116304/download"
+     },
+     "value": "Each package carries a product identifier: the NDC, a serial number, the lot number and the expiration date, human-readable and in a 2D data matrix barcode. FDA accepts the practice of encoding the NDC inside a GTIN in the barcode."
+    },
+    {
+     "label": "Pack-code derivation",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "GS1 US",
+      "url": "https://documents.gs1us.org/adobe/assets/deliver/urn:aaid:aem:5b606108-5439-439f-a20a-a0081aeace07/Frequently-Asked-Questions-by-the-Pharmaceutical-Industry-in-Preparing-for-the-US-DSCSA.pdf"
+     },
+     "value": "For an individual saleable unit: the digit 3, then the 10-digit NDC, then a GS1 check digit, giving a 12-digit code; stored in 14-digit form with two leading zeros. For a higher grouping such as a case: an indicator digit, then 03, then the 10-digit NDC, then a check digit. The 03 company prefix is licensed by GS1 US to the labeler; Dosidal computes the code to identify a pack and never issues one."
+    },
+    {
+     "label": "Serial and lot",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/media/116304/download"
+     },
+     "value": "Serial, lot and expiry identify the individual package. Dosidal does not hold or answer them."
+    },
+    {
+     "label": "Classification code",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/about-us/about-website/download-website-data-json-data-format"
+     },
+     "value": "The ATC code is not carried by the United States registers read here. It is taken from the EU central record for the same substance, where the source publishes one for that substance, and marked as read from that market; otherwise unknown."
+    }
+   ],
+   "title": "Identifiers"
+  },
+  {
+   "lines": [
+    {
+     "label": "Approved labelling",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/resources-information-approved-drugs"
+     },
+     "value": "The last FDA-approved labelling is on Drugs@FDA."
+    },
+    {
+     "label": "In-use labelling",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "U.S. National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm"
+     },
+     "value": "The in-use labelling is on DailyMed. It may differ from the last FDA-approved labelling and may not have been verified by FDA."
+    }
+   ],
+   "title": "Label"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "DEA Diversion Control Division",
+      "url": "https://www.deadiversion.usdoj.gov/schedules/schedules.html"
+     },
+     "value": "Controlled Substances Act schedules I to V."
+    },
+    {
+     "label": "Product level",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/ndc-product-file-definitions"
+     },
+     "value": "The NDC Directory carries the DEA schedule as reported by the labeler: CI, CII, CIII, CIV or CV."
+    }
+   ],
+   "title": "Controlled status"
+  },
+  {
+   "lines": [
+    {
+     "label": "Classes",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/safety/enforcement-reports/enforcement-report-information-and-definitions"
+     },
+     "value": "Class I: reasonable probability of serious adverse health consequences or death. Class II: temporary or medically reversible consequences, or remote probability of serious ones. Class III: not likely to cause adverse health consequences. A recall may be listed as not yet classified."
+    },
+    {
+     "label": "Rhythm",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/enforcement-reports"
+     },
+     "value": "Recalls are posted in the weekly Enforcement Report and may be listed before classification."
+    }
+   ],
+   "title": "Recalls and notices"
+  },
+  {
+   "lines": [
+    {
+     "label": "Rule",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/prescription-drug-advertising-and-promotional-labeling/bad-ad-program"
+     },
+     "value": "FDA regulates prescription drug promotion by or for the manufacturer, packer or distributor. Promotion must not be false or misleading, must balance efficacy and risk information, and must reveal material facts."
+    }
+   ],
+   "title": "Public information rule"
+  }
+ ],
+ "standard_version": "1.1"
+}

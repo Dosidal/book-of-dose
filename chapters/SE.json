@@ -1,0 +1,61 @@
+{
+ "address": "https://se.dose-10060.org",
+ "authority": {
+  "name": "Läkemedelsverket",
+  "register": "TLV database",
+  "site": null
+ },
+ "code": "SE",
+ "held": {
+  "identifiers": [
+   {
+    "records": 22785,
+    "system": "npl-id"
+   },
+   {
+    "records": 14786,
+    "system": "npl-pack-id"
+   },
+   {
+    "records": 14289,
+    "system": "se-varunummer"
+   },
+   {
+    "records": 14289,
+    "system": "gtin-nordic-rule"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 7999,
+   "presentation": 14289
+  },
+  "pack_code": [
+   {
+    "basis": "derived from register",
+    "records": 12473,
+    "system": "gtin"
+   },
+   {
+    "basis": "published by authority",
+    "records": 1095,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 721,
+  "registers": [
+   {
+    "address": "https://www.tlv.se/file/medprice",
+    "fields_citing_it": 36577,
+    "publisher": "TLV (Tandvårds- och läkemedelsförmånsverket)"
+   }
+  ]
+ },
+ "instance": "SE-DOSE-10060",
+ "market": "Sweden",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

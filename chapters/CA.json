@@ -1,0 +1,41 @@
+{
+ "address": "https://ca.dose-10060.org",
+ "authority": {
+  "name": "Health Canada",
+  "register": "Drug Product Database",
+  "site": null
+ },
+ "code": "CA",
+ "held": {
+  "identifiers": [
+   {
+    "records": 51207,
+    "system": "ca-din"
+   },
+   {
+    "records": 51207,
+    "system": "ca-dpd-drug-code"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 51207
+  },
+  "pack_code": [],
+  "pack_level_published": false,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database/what-data-extract-drug-product-database.html",
+    "fields_citing_it": 197556,
+    "publisher": "Health Canada - Drug Product Database"
+   }
+  ]
+ },
+ "instance": "CA-DOSE-10060",
+ "market": "Canada",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

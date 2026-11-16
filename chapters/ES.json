@@ -1,0 +1,65 @@
+{
+ "address": "https://es.dose-10060.org",
+ "authority": {
+  "name": "AEMPS",
+  "register": "Nomenclátor de Prescripción",
+  "site": null
+ },
+ "code": "ES",
+ "held": {
+  "identifiers": [
+   {
+    "records": 53730,
+    "system": "es-registration"
+   },
+   {
+    "records": 30939,
+    "system": "cn"
+   },
+   {
+    "records": 30939,
+    "system": "gtin-ntin-calculated"
+   },
+   {
+    "records": 17884,
+    "system": "gtin-ntin"
+   },
+   {
+    "records": 4785,
+    "system": "gtin-maker"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 22791,
+   "presentation": 30939
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 22070,
+    "system": "gtin"
+   },
+   {
+    "basis": "derived from register",
+    "records": 8702,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 167,
+  "registers": [
+   {
+    "address": "https://listadomedicamentos.aemps.gob.es/prescripcion.zip",
+    "fields_citing_it": 200277,
+    "publisher": "AEMPS (Nomenclátor de Prescripción)"
+   }
+  ]
+ },
+ "instance": "ES-DOSE-10060",
+ "market": "Spain",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

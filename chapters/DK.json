@@ -1,0 +1,52 @@
+{
+ "address": "https://dk.dose-10060.org",
+ "authority": {
+  "name": "Lægemiddelstyrelsen",
+  "register": "Medicinpriser",
+  "site": null
+ },
+ "code": "DK",
+ "held": {
+  "identifiers": [
+   {
+    "records": 16031,
+    "system": "dk-varenummer"
+   },
+   {
+    "records": 16031,
+    "system": "gtin-nordic-rule"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "presentation": 16031
+  },
+  "pack_code": [
+   {
+    "basis": "derived from register",
+    "records": 12732,
+    "system": "gtin"
+   },
+   {
+    "basis": "published by authority",
+    "records": 2106,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 1193,
+  "registers": [
+   {
+    "address": "https://cdn1.gopublic.dk/sundhedsdatastyrelsen/Media/639298148519433988/medicinpriser-udgivet-09112026.xlsx",
+    "fields_citing_it": 48093,
+    "publisher": "Sundhedsdatastyrelsen (Medicinpriser)"
+   }
+  ]
+ },
+ "instance": "DK-DOSE-10060",
+ "market": "Denmark",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

@@ -1,0 +1,69 @@
+{
+ "address": "https://fr.dose-10060.org",
+ "authority": {
+  "name": "ANSM",
+  "register": "BDPM CIS_CIP",
+  "site": null
+ },
+ "code": "FR",
+ "held": {
+  "identifiers": [
+   {
+    "records": 20903,
+    "system": "cip13"
+   },
+   {
+    "records": 20903,
+    "system": "cip7"
+   },
+   {
+    "records": 20903,
+    "system": "gtin"
+   },
+   {
+    "records": 15799,
+    "system": "cis"
+   },
+   {
+    "records": 3432,
+    "system": "bdpm-substance-code"
+   },
+   {
+    "records": 3432,
+    "system": "bdpm-substance-name"
+   },
+   {
+    "records": 2261,
+    "system": "eu-number"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 15799,
+   "presentation": 20903,
+   "substance": 3432
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 20903,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+    "fields_citing_it": 108434,
+    "publisher": "ANSM / Ministère de la Santé (BDPM)"
+   }
+  ]
+ },
+ "instance": "FR-DOSE-10060",
+ "market": "France",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

@@ -1,0 +1,47 @@
+{
+ "address": "https://gr.dose-10060.org",
+ "authority": {
+  "name": "ΕΟΦ",
+  "register": "Δελτίο Τιμών",
+  "site": null
+ },
+ "code": "GR",
+ "held": {
+  "identifiers": [
+   {
+    "records": 9765,
+    "system": "gr-eof"
+   },
+   {
+    "records": 9765,
+    "system": "gr-national-barcode"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "presentation": 9765
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 9765,
+    "system": "gr-eof (Greek national)"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://www.moh.gov.gr/articles/times-farmakwn/deltia-timwn/14818-epikairopoihsh-deltioy-timwn-farmakwn-me-enswmatwsh-dioikhtikwn-metabolwn?fdl=31884",
+    "fields_citing_it": 20300,
+    "publisher": "Υπουργείο Υγείας (Ministry of Health, Greece) - Δελτία Τιμών"
+   }
+  ]
+ },
+ "instance": "GR-DOSE-10060",
+ "market": "Greece",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

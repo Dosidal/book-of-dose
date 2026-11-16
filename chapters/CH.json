@@ -1,0 +1,65 @@
+{
+ "address": "https://ch.dose-10060.org",
+ "authority": {
+  "name": "Swissmedic",
+  "register": "OGD Packungen",
+  "site": null
+ },
+ "code": "CH",
+ "held": {
+  "identifiers": [
+   {
+    "records": 18351,
+    "system": "swissmedic-pack"
+   },
+   {
+    "records": 18351,
+    "system": "gtin"
+   },
+   {
+    "records": 7223,
+    "system": "swissmedic-authorisation"
+   },
+   {
+    "records": 6325,
+    "system": "atc"
+   },
+   {
+    "records": 3784,
+    "system": "swissmedic-stoff-id"
+   },
+   {
+    "records": 3762,
+    "system": "name"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 7223,
+   "presentation": 18351,
+   "substance": 3784
+  },
+  "pack_code": [
+   {
+    "basis": "derived from register",
+    "records": 18351,
+    "system": "gtin"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://ogd.swissmedic.cloud/ogd-arzneimittel/Daten/OGD.zip",
+    "fields_citing_it": 91634,
+    "publisher": "Swissmedic (OGD)"
+   }
+  ]
+ },
+ "instance": "CH-DOSE-10060",
+ "market": "Switzerland",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

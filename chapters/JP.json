@@ -1,0 +1,37 @@
+{
+ "address": "https://jp.dose-10060.org",
+ "authority": {
+  "name": "厚生労働省",
+  "register": "薬価基準",
+  "site": null
+ },
+ "code": "JP",
+ "held": {
+  "identifiers": [
+   {
+    "records": 12480,
+    "system": "jp-yakka-code"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 12480
+  },
+  "pack_code": [],
+  "pack_level_published": false,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://www.mhlw.go.jp/topics/2026/04/xls/tp20261113-01_03.xlsx",
+    "fields_citing_it": 24960,
+    "publisher": "厚生労働省 (MHLW) - 薬価基準収載品目リスト"
+   }
+  ]
+ },
+ "instance": "JP-DOSE-10060",
+ "market": "Japan",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

@@ -1,0 +1,52 @@
+{
+ "address": "https://sk.dose-10060.org",
+ "authority": {
+  "name": "ŠÚKL",
+  "register": "zoznam liekov",
+  "site": null
+ },
+ "code": "SK",
+ "held": {
+  "identifiers": [
+   {
+    "records": 75149,
+    "system": "sk-registration"
+   },
+   {
+    "records": 55157,
+    "system": "sk-sukl"
+   },
+   {
+    "records": 13635,
+    "system": "eu-number"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 19992,
+   "presentation": 55157
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 55157,
+    "system": "sk-sukl (Slovak national)"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 0,
+  "registers": [
+   {
+    "address": "https://www.sukl.sk/verejne/Zoznam_liekov/zoznam_liekov_aktualny.zip",
+    "fields_citing_it": 295765,
+    "publisher": "ŠÚKL (Štátny ústav pre kontrolu liečiv) - zoznam liekov"
+   }
+  ]
+ },
+ "instance": "SK-DOSE-10060",
+ "market": "Slovakia",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}

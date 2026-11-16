@@ -1,0 +1,351 @@
+{
+ "address": "https://eu.dose-10060.org",
+ "authority": {
+  "name": "European Commission",
+  "register": "Union Register",
+  "site": "https://health.ec.europa.eu/"
+ },
+ "code": "EU",
+ "held": {
+  "identifiers": [
+   {
+    "records": 17962,
+    "system": "eu-number"
+   },
+   {
+    "records": 12771,
+    "system": "hu-ttt-code"
+   },
+   {
+    "records": 12743,
+    "system": "cz-s-kl-code"
+   },
+   {
+    "records": 12648,
+    "system": "be-be-national"
+   },
+   {
+    "records": 12543,
+    "system": "sk-kl-code"
+   },
+   {
+    "records": 6512,
+    "system": "pl-gtin"
+   },
+   {
+    "records": 3262,
+    "system": "ie-hpra-licence-eu-pack-number"
+   },
+   {
+    "records": 3037,
+    "system": "es-cn"
+   },
+   {
+    "records": 2454,
+    "system": "be-gtin"
+   },
+   {
+    "records": 2163,
+    "system": "it-aic"
+   },
+   {
+    "records": 751,
+    "system": "uk-gtin-dm-d-current"
+   },
+   {
+    "records": 647,
+    "system": "uk-dm-d-ampp"
+   },
+   {
+    "records": 619,
+    "system": "fr-cip13"
+   },
+   {
+    "records": 534,
+    "system": "be-be-cnk-belgian-national"
+   },
+   {
+    "records": 148,
+    "system": "dk-varenummer-nordic-article-number"
+   },
+   {
+    "records": 58,
+    "system": "se-varunummer-nordic-article-number"
+   },
+   {
+    "records": 22,
+    "system": "hu-gtin-published-by-neak"
+   },
+   {
+    "records": 17,
+    "system": "ema-product-number"
+   },
+   {
+    "records": 8,
+    "system": "inn-name"
+   },
+   {
+    "records": 8,
+    "system": "atc"
+   },
+   {
+    "records": 6,
+    "system": "no-varenummer-nordic-article-number"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 2002,
+   "presentation": 15960,
+   "substance": 8
+  },
+  "pack_code": [],
+  "pack_level_published": true,
+  "packs_without_anchor": 15960,
+  "registers": [
+   {
+    "address": "https://ec.europa.eu/health/documents/community-register/html/reg_hum_act.htm",
+    "fields_citing_it": 19964,
+    "publisher": "European Commission"
+   },
+   {
+    "address": "https://www.vas.ehealth.fgov.be/websamcivics/samcivics/download/samv2-download?type=FULL&xsd=5&version=12691",
+    "fields_citing_it": 14553,
+    "publisher": "SAM v2 (FAMHP, NIHDI, BCFI; Smals)"
+   },
+   {
+    "address": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines_json-report_en.json",
+    "fields_citing_it": 42,
+    "publisher": "European Medicines Agency"
+   },
+   {
+    "address": "https://opendata.sukl.gov.cz/soubory/SOD20261027/DLP20261027.zip",
+    "fields_citing_it": 41,
+    "publisher": "SÚKL (Státní ústav pro kontrolu léčiv) - DLP"
+   },
+   {
+    "address": "https://assets.hpra.ie/products/xml/latestHumanlist.xml",
+    "fields_citing_it": 6,
+    "publisher": "HPRA"
+   },
+   {
+    "address": "https://listadomedicamentos.aemps.gob.es/prescripcion.zip",
+    "fields_citing_it": 5,
+    "publisher": "AEMPS (Nomenclátor de Prescripción)"
+   },
+   {
+    "address": "https://neak.gov.hu/pfile/file?path=/letoltheto/ATFO_dok/gyogyszer/PUPHA/PUPHA_20261101_v3.zip1&inline=true",
+    "fields_citing_it": 4,
+    "publisher": "NEAK (Nemzeti Egészségbiztosítási Alapkezelő) - PUPHA"
+   },
+   {
+    "address": "https://www.sukl.sk/verejne/Zoznam_liekov/zoznam_liekov_aktualny.zip",
+    "fields_citing_it": 2,
+    "publisher": "ŠÚKL (Štátny ústav pre kontrolu liečiv) - zoznam liekov"
+   },
+   {
+    "address": "https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/6/items/24/releases",
+    "fields_citing_it": 1,
+    "publisher": "NHSBSA (dm+d via NHS TRUD)"
+   },
+   {
+    "address": "https://medicinpriser.dk/default.aspx?lng=2 (search form, Medicinal product = Imcivree, Show all)",
+    "fields_citing_it": 1,
+    "publisher": "authority"
+   }
+  ]
+ },
+ "instance": "EU-DOSE-10060",
+ "market": "EU central",
+ "registers": [
+  {
+   "address": "health.ec.europa.eu/medicinal-products/union-register_en",
+   "holds": "Every medicine authorised by the Commission through the centralised procedure, with EU number, holder, substance, ATC code and indication; lists of suspended, withdrawn and refused medicines; Commission decisions.",
+   "name": "Union Register of medicinal products"
+  },
+  {
+   "address": "ema.europa.eu/en/medicines/download-medicine-data",
+   "holds": "Medicines submitted through the centralised procedure: name, EMA product number, status, substance, ATC code, holder, Commission decision date, revision and update dates, page link. Tables and JSON files, updated overnight. Read once a day.",
+   "name": "EMA medicine data"
+  },
+  {
+   "address": "ema.europa.eu/en/about-us/about-website/download-website-data-json-data-format",
+   "holds": "Post-authorisation procedures, referrals and direct healthcare professional communications, as JSON.",
+   "name": "EMA post-authorisation and safety files"
+  },
+  {
+   "address": "ema.europa.eu (public data from the Article 57 database)",
+   "holds": "All medicines with a valid authorisation in the European Economic Area, central and national: product name, active substance, route, country of authorisation, holder. The bridge from this node to the national nodes.",
+   "name": "Article 57 product data"
+  }
+ ],
+ "schema_version": "1.0",
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Deciding authority",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/medicinal-products/legal-framework-governing-medicinal-products-human-use-eu/authorisation-procedures-centralised-procedure_en"
+     },
+     "value": "The European Commission grants the marketing authorisation, valid throughout the European Union, after the scientific assessment of the application by the European Medicines Agency (EMA). The decision is published in the Union Register."
+    },
+    {
+     "label": "Scope of this node",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Commission",
+      "url": "https://ec.europa.eu/health/documents/community-register/register_faq.pdf"
+     },
+     "value": "Only medicines authorised through the centralised procedure. A marketing authorisation issued by a Member State is a national authorisation and belongs to that Member State's node."
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Term for a prescription medicine",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/dir/2001/83/2025-01-01"
+     },
+     "value": "Medicinal product subject to medical prescription, under Title VI of Directive 2001/83/EC."
+    },
+    {
+     "label": "Authorisation status terms, Union Register",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Commission",
+      "url": "https://ec.europa.eu/health/documents/community-register/register_faq.pdf"
+     },
+     "value": "Active: an authorisation issued by the Commission that is still valid; it does not mean the product is on the market. Not renewed: the authorisation ceased because renewal was not requested. The Register also lists medicines suspended, withdrawn or refused."
+    }
+   ],
+   "title": "Legal terms"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation number",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/medicinal-products/union-register_en"
+     },
+     "value": "The EU registration number, carried by the Union Register with the product name, holder, active substance, international non-proprietary name, ATC code and indication."
+    },
+    {
+     "label": "Product number",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/about-us/about-website/download-website-data-json-data-format"
+     },
+     "value": "The EMA product number, carried in EMA's data files for each medicine."
+    },
+    {
+     "label": "Classification code",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/about-us/about-website/download-website-data-json-data-format"
+     },
+     "value": "The ATC code is carried in EMA's data files (field atc_code_human) and in the Union Register."
+    },
+    {
+     "label": "Presentations",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Commission",
+      "url": "https://ec.europa.eu/health/documents/community-register/register_faq.pdf"
+     },
+     "value": "Each authorised presentation of a centrally authorised medicine is listed on its EMA product page under product information, 'All authorised presentations'."
+    },
+    {
+     "label": "Pack-code rule",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg_del/2016/161/2021-10-11/eng"
+     },
+     "value": "Each pack carries a unique identifier in a two-dimensional Data Matrix barcode: a product code, a serial number, a national reimbursement or identification number where the Member State requires one, the batch number and the expiry date. The product code identifies at least the name, common name, pharmaceutical form, strength, pack size and pack type; it follows a coding scheme, is under 50 characters and is globally unique."
+    },
+    {
+     "label": "Serial and batch",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg_del/2016/161/2021-10-11/eng"
+     },
+     "value": "Serial number, batch and expiry identify the individual pack and are verified through the repositories system by those supplying the public. Dosidal does not hold or answer them."
+    }
+   ],
+   "title": "Identifiers"
+  },
+  {
+   "lines": [
+    {
+     "label": "Approved product information",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Commission",
+      "url": "https://ec.europa.eu/health/documents/community-register/register_faq.pdf"
+     },
+     "value": "The summary of product characteristics, labelling and package leaflet are annexes to the Commission decision; the Union Register gives one entry point per medicine to the latest annexes."
+    }
+   ],
+   "title": "Label"
+  },
+  {
+   "lines": [
+    {
+     "label": "Safety communications",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/about-us/about-website/download-website-data-json-data-format"
+     },
+     "value": "EMA's data files carry direct healthcare professional communications and referrals, each with medicine name, type, outcome and dates."
+    },
+    {
+     "label": "Suspensions and withdrawals",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/medicinal-products/union-register_en"
+     },
+     "value": "The Union Register lists medicines whose authorisation was suspended or withdrawn."
+    }
+   ],
+   "title": "Recalls and notices"
+  },
+  {
+   "lines": [
+    {
+     "label": "Rule",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/dir/2001/83/2025-01-01"
+     },
+     "value": "Member States must prohibit advertising to the general public of medicinal products available on medical prescription only."
+    },
+    {
+     "label": "Case law",
+     "read_at": "2026-11-14",
+     "source": {
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62009CJ0316"
+     },
+     "value": "The Court of Justice held that a company may publish on its website, to someone who seeks it, a faithful reproduction of the packaging and the complete package leaflet or summary of product characteristics as approved; information selected or rewritten by the manufacturer, explicable only by an advertising purpose, is prohibited."
+    }
+   ],
+   "title": "Public information rule"
+  }
+ ],
+ "standard_version": "1.1"
+}

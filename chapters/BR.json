@@ -1,0 +1,62 @@
+{
+ "address": "https://br.dose-10060.org",
+ "authority": {
+  "name": "ANVISA / CMED",
+  "register": "Lista CMED",
+  "site": null
+ },
+ "code": "BR",
+ "held": {
+  "identifiers": [
+   {
+    "records": 35793,
+    "system": "br-anvisa-registration"
+   },
+   {
+    "records": 27862,
+    "system": "gtin"
+   },
+   {
+    "records": 26694,
+    "system": "br-ggrem"
+   }
+  ],
+  "latest_read": "2026-11-15",
+  "levels": {
+   "authorisation": 9099,
+   "presentation": 26694
+  },
+  "pack_code": [
+   {
+    "basis": "published by authority",
+    "records": 25124,
+    "system": "gtin"
+   },
+   {
+    "basis": "published by authority",
+    "records": 96,
+    "system": "br-ggrem (Brazilian national)"
+   }
+  ],
+  "pack_level_published": true,
+  "packs_without_anchor": 1474,
+  "registers": [
+   {
+    "address": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos/arquivos/lista_pmc_20261109_111901662.xlsx/@@download/file",
+    "fields_citing_it": 106691,
+    "publisher": "CMED / ANVISA - Lista de preços de medicamentos"
+   },
+   {
+    "address": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+    "fields_citing_it": 26694,
+    "publisher": "ANVISA - Dados abertos (medicamentos registrados)"
+   }
+  ]
+ },
+ "instance": "BR-DOSE-10060",
+ "market": "Brazil",
+ "registers": [],
+ "schema_version": "1.0",
+ "sections": [],
+ "standard_version": "1.1"
+}
