@@ -1,55 +1,100 @@
 {
  "address": "https://kr.dose-10060.org",
  "authority": {
-  "name": "HIRA / MFDS",
-  "register": "의약품표준코드",
-  "site": null
+  "english": "Ministry of Food and Drug Safety",
+  "name": "식품의약품안전처",
+  "site": "https://www.mfds.go.kr/"
  },
  "code": "KR",
- "held": {
-  "identifiers": [
-   {
-    "records": 266922,
-    "system": "gtin"
-   },
-   {
-    "records": 266922,
-    "system": "kr-standard-code"
-   },
-   {
-    "records": 266922,
-    "system": "kr-mfds-item"
-   },
-   {
-    "records": 65574,
-    "system": "kr-insurance-product"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "presentation": 266922
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 266922,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://www.data.go.kr/data/15067462/fileData.do",
-    "fields_citing_it": 1320385,
-    "publisher": "건강보험심사평가원 (HIRA) - 의약품표준코드, via data.go.kr"
-   }
-  ]
- },
+ "held": null,
  "instance": "KR-DOSE-10060",
  "market": "South Korea",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "식품의약품안전처",
+      "url": "https://www.mfds.go.kr/eng/index.do"
+     },
+     "value": "식품의약품안전처 (Ministry of Food and Drug Safety)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "식품의약품안전처",
+      "url": "https://nedrug.mfds.go.kr/searchDrug"
+     },
+     "value": "의약품안전나라 — 의약품등 검색"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "식품의약품안전처",
+      "url": "https://nedrug.mfds.go.kr/searchDrug"
+     },
+     "value": "https://nedrug.mfds.go.kr/searchDrug"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "식품의약품안전처",
+      "url": "https://nedrug.mfds.go.kr/searchDrug"
+     },
+     "value": "An MFDS search of permitted medicines and related products by name, company, ingredient, category, approval date and cancellation status."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "식품의약품안전처",
+      "url": "https://www.mfds.go.kr/eng/wpge/m_17/de011008l001.do"
+     },
+     "value": "MFDS approves pharmaceuticals whose safety, efficacy and quality are identified, after submission, pre-review, review with site inspection, approval and issue of a certificate; generic medicines are reviewed by the Drug Evaluation Department and approved by regional offices."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "식품의약품안전처",
+      "url": "https://mohw.go.kr/board.es?act=view&bid=0027&list_no=304380&mid=a10503000000&nPage=812&tag="
+     },
+     "value": "GS1 international standard code (GS1-128) with serial number"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "식품의약품안전처",
+      "url": "https://mohw.go.kr/board.es?act=view&bid=0027&list_no=304380&mid=a10503000000&nPage=812&tag="
+     },
+     "value": "A 2014 Ministry of Health and Welfare press release states that from January 2015 medicines carry a serial number in the GS1-128 international standard code system, with application identifiers 01 (product identification code), 17 (expiry date), 10 (batch/lot) and 21 (serial number), under the Ministry notice on use of barcodes and RFID tags for medicines; makers could phase in over one year."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

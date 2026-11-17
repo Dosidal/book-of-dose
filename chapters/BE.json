@@ -1,64 +1,100 @@
 {
  "address": "https://be.dose-10060.org",
  "authority": {
-  "name": "FAMHP",
-  "register": "SAM v2",
-  "site": null
+  "english": "Federal Agency for Medicines and Health Products",
+  "name": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+  "site": "https://www.famhp.be/"
  },
  "code": "BE",
- "held": {
-  "identifiers": [
-   {
-    "records": 102103,
-    "system": "be-cti-extended"
-   },
-   {
-    "records": 102103,
-    "system": "be-authorisation"
-   },
-   {
-    "records": 30397,
-    "system": "be-cnk"
-   },
-   {
-    "records": 17949,
-    "system": "eu-number"
-   },
-   {
-    "records": 13872,
-    "system": "gtin-fmd"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "presentation": 102103
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 10218,
-    "system": "gtin"
-   },
-   {
-    "basis": "published by authority",
-    "records": 7009,
-    "system": "be-cnk (Belgian national)"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 84876,
-  "registers": [
-   {
-    "address": "https://www.vas.ehealth.fgov.be/websamcivics/samcivics/download/samv2-download?type=FULL&xsd=5&version=12691",
-    "fields_citing_it": 406942,
-    "publisher": "SAM v2 (FAMHP, NIHDI, BCFI; Smals)"
-   }
-  ]
- },
+ "held": null,
  "instance": "BE-DOSE-10060",
  "market": "Belgium",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+      "url": "https://geneesmiddelendatabank.be/veelgestelde-vragen"
+     },
+     "value": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten (Federal Agency for Medicines and Health Products)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+      "url": "https://medicinesdatabase.be/about-the-medicine-database"
+     },
+     "value": "Medicinal product database (Geneesmiddelendatabank)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+      "url": "https://medicinesdatabase.be/about-the-medicine-database"
+     },
+     "value": "https://medicinesdatabase.be/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+      "url": "https://medicinesdatabase.be/about-the-medicine-database"
+     },
+     "value": "All human and veterinary medicines with a valid marketing authorisation, registration, parallel import authorisation or temporary authorisation for use in Belgium, plus suspended or revoked ones in a separate section."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+      "url": "https://medicinesdatabase.be/glossary"
+     },
+     "value": "A marketing authorisation is an official document issued by the Belgian Minister of Public Health or the European Commission after assessment of a medicine's safety, efficacy and quality."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+      "url": "https://medicinesdatabase.be/glossary"
+     },
+     "value": "CNK code (Code national / Nationale Code)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+      "url": "https://medicinesdatabase.be/glossary"
+     },
+     "value": "A unique identification number for each packaging form of products available in retail pharmacies, assigned by the national general pharmaceutical association at the request of the responsible company, only for products commercially available in Belgium."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

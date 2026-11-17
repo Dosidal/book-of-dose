@@ -1,37 +1,109 @@
 {
  "address": "https://jp.dose-10060.org",
  "authority": {
+  "english": "Ministry of Health, Labour and Welfare",
   "name": "厚生労働省",
-  "register": "薬価基準",
-  "site": null
+  "site": "https://www.mhlw.go.jp/"
  },
  "code": "JP",
- "held": {
-  "identifiers": [
-   {
-    "records": 12480,
-    "system": "jp-yakka-code"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 12480
-  },
-  "pack_code": [],
-  "pack_level_published": false,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://www.mhlw.go.jp/topics/2026/04/xls/tp20261113-01_03.xlsx",
-    "fields_citing_it": 24960,
-    "publisher": "厚生労働省 (MHLW) - 薬価基準収載品目リスト"
-   }
-  ]
- },
+ "held": null,
  "instance": "JP-DOSE-10060",
  "market": "Japan",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "厚生労働省",
+      "url": "https://www.pmda.go.jp/files/000277607.pdf"
+     },
+     "value": "厚生労働省 (Ministry of Health, Labour and Welfare)"
+    },
+    {
+     "label": "Second authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "厚生労働省",
+      "url": "https://www.pmda.go.jp/files/000277607.pdf"
+     },
+     "value": "独立行政法人 医薬品医療機器総合機構 (Pharmaceuticals and Medical Devices Agency, PMDA), https://www.pmda.go.jp/"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "厚生労働省",
+      "url": "https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"
+     },
+     "value": "医療用医薬品 添付文書等情報検索"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "厚生労働省",
+      "url": "https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"
+     },
+     "value": "https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "厚生労働省",
+      "url": "https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"
+     },
+     "value": "A PMDA search of package inserts and related documents for prescription medicines, such as patient guides, review reports and risk management plans."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "厚生労働省",
+      "url": "https://www.pmda.go.jp/files/000277607.pdf"
+     },
+     "value": "Under the PMD Act a drug may not be shipped to the Japanese market without permission and approval from the Ministry of Health, Labour and Welfare or the prefectures; PMDA carries out the approval review, and some drugs with established safety are approved by prefectural governors."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "厚生労働省",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc6999&dataType=1&pageNo=1"
+     },
+     "value": "GS1 GTIN (特定用符号 under PMD Act Article 68-2-5)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "厚生労働省",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc6999&dataType=1&pageNo=1"
+     },
+     "value": "Required for prescription medicines shipped from 1 December 2022. Dispensing packs carry a GTIN-13 used as a 14-digit code with a leading 0; sales packs use GTIN-14 with indicator digit 1 and outer cases GTIN-14 with indicator digit 2. Carriers are GS1 DataBar Limited (or its CC-A composite with lot and expiry) on dispensing and sales packs and GS1-128 on outer cases. Sales packs must also encode expiry and lot. Each marketing company assigns its own GTINs and may not reuse a discontinued one."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

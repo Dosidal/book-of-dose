@@ -1,37 +1,100 @@
 {
  "address": "https://nl.dose-10060.org",
  "authority": {
-  "name": "CBG-MEB",
-  "register": "Geneesmiddeleninformatiebank",
-  "site": null
+  "english": "Medicines Evaluation Board",
+  "name": "College ter Beoordeling van Geneesmiddelen",
+  "site": "https://www.cbg-meb.nl/"
  },
  "code": "NL",
- "held": {
-  "identifiers": [
-   {
-    "records": 19601,
-    "system": "nl-registration"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 19601
-  },
-  "pack_code": [],
-  "pack_level_published": false,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://www.geneesmiddeleninformatiebank.nl/metadata.csv",
-    "fields_citing_it": 39202,
-    "publisher": "CBG-MEB (Geneesmiddeleninformatiebank)"
-   }
-  ]
- },
+ "held": null,
  "instance": "NL-DOSE-10060",
  "market": "Netherlands",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "College ter Beoordeling van Geneesmiddelen",
+      "url": "https://www.cbg-meb.nl/"
+     },
+     "value": "College ter Beoordeling van Geneesmiddelen (Medicines Evaluation Board)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "College ter Beoordeling van Geneesmiddelen",
+      "url": "http://www.geneesmiddeleninformatiebank.nl/ords/f?p=111:1:0::NO:RP,1:P0_DOMAIN,P0_LANG:H,NL"
+     },
+     "value": "Geneesmiddeleninformatiebank"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "College ter Beoordeling van Geneesmiddelen",
+      "url": "http://www.geneesmiddeleninformatiebank.nl/ords/f?p=111:1:0::NO:RP,1:P0_DOMAIN,P0_LANG:H,NL"
+     },
+     "value": "https://www.geneesmiddeleninformatiebank.nl/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "College ter Beoordeling van Geneesmiddelen",
+      "url": "http://www.geneesmiddeleninformatiebank.nl/ords/f?p=111:1:0::NO:RP,1:P0_DOMAIN,P0_LANG:H,NL"
+     },
+     "value": "Official information on all medicines authorised in the Netherlands, updated weekly."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "College ter Beoordeling van Geneesmiddelen",
+      "url": "https://www.cbg-meb.nl/onderwerpen/themas/handelsvergunning-procedures-handelsvergunning"
+     },
+     "value": "When the CBG has assessed a medicine and registers it, a marketing authorisation (handelsvergunning) is issued; it can be obtained through the national, central or mutual recognition procedure."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "College ter Beoordeling van Geneesmiddelen",
+      "url": "https://www.igj.nl/zorgsectoren/geneesmiddelen/productie-gmp/veiligheidskenmerken-geneesmiddelen-fmd/korte-uitleg-veiligheidskenmerken"
+     },
+     "value": "EU unique identifier in a 2D Data Matrix"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "College ter Beoordeling van Geneesmiddelen",
+      "url": "https://www.igj.nl/zorgsectoren/geneesmiddelen/productie-gmp/veiligheidskenmerken-geneesmiddelen-fmd/korte-uitleg-veiligheidskenmerken"
+     },
+     "value": "Packs carry a 2D Data Matrix code with a unique, random serial number; the code is entered into the European Medicines Verification System and the data pass to the national verification system."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

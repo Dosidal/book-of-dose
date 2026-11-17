@@ -1,60 +1,100 @@
 {
  "address": "https://uk.dose-10060.org",
  "authority": {
-  "name": "MHRA/EMA (licensing); NHSBSA (dm+d)",
-  "register": "dm+d",
-  "site": null
+  "english": "Medicines and Healthcare products Regulatory Agency",
+  "name": "Medicines and Healthcare products Regulatory Agency",
+  "site": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
  },
  "code": "UK",
- "held": {
-  "identifiers": [
-   {
-    "records": 61813,
-    "system": "dmd-ampp"
-   },
-   {
-    "records": 51264,
-    "system": "dmd-amp"
-   },
-   {
-    "records": 51264,
-    "system": "dmd-vmp"
-   },
-   {
-    "records": 33237,
-    "system": "gtin"
-   },
-   {
-    "records": 9464,
-    "system": "gtin-ended"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 51264,
-   "presentation": 61813
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 26973,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 34840,
-  "registers": [
-   {
-    "address": "https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/6/items/24/releases",
-    "fields_citing_it": 267596,
-    "publisher": "NHSBSA (dm+d via NHS TRUD)"
-   }
-  ]
- },
+ "held": null,
  "instance": "UK-DOSE-10060",
  "market": "UK",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines and Healthcare products Regulatory Agency",
+      "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
+     },
+     "value": "Medicines and Healthcare products Regulatory Agency"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines and Healthcare products Regulatory Agency",
+      "url": "https://products.mhra.gov.uk/"
+     },
+     "value": "MHRA Products"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines and Healthcare products Regulatory Agency",
+      "url": "https://products.mhra.gov.uk/"
+     },
+     "value": "https://products.mhra.gov.uk/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines and Healthcare products Regulatory Agency",
+      "url": "https://products.mhra.gov.uk/"
+     },
+     "value": "Patient leaflets, product characteristics and public assessment reports for medicines, searchable by product name, active substance or PL number."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines and Healthcare products Regulatory Agency",
+      "url": "https://www.gov.uk/guidance/apply-for-a-licence-to-market-a-medicine-in-the-uk"
+     },
+     "value": "Applicants obtain a PL number and apply to the MHRA for a marketing authorisation; an authorisation the MHRA grants covers the whole of the UK."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines and Healthcare products Regulatory Agency",
+      "url": "https://assets.publishing.service.gov.uk/media/67b72b2dae5d020b0914bc62/2025-02-21_Windsor_Framework_-_Disapplication_of_EU_Falsified_Medicines_Directive_Q_A.pdf"
+     },
+     "value": "No mandatory pack code; optional 2D Data Matrix (may include GTIN)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Medicines and Healthcare products Regulatory Agency",
+      "url": "https://assets.publishing.service.gov.uk/media/67b72b2dae5d020b0914bc62/2025-02-21_Windsor_Framework_-_Disapplication_of_EU_Falsified_Medicines_Directive_Q_A.pdf"
+     },
+     "value": "Since 1 January 2025 UK packs no longer carry EU safety features. Marketing authorisation holders may choose to add a 2D Data Matrix that may encode product information, expiry date, batch number, Global Trade Item Number and a serial number; it is not compulsory and must not be recognised by the European repositories system."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

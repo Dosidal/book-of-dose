@@ -1,69 +1,100 @@
 {
  "address": "https://fr.dose-10060.org",
  "authority": {
-  "name": "ANSM",
-  "register": "BDPM CIS_CIP",
-  "site": null
+  "english": null,
+  "name": "Agence nationale de sécurité du médicament et des produits de santé",
+  "site": "https://ansm.sante.fr/"
  },
  "code": "FR",
- "held": {
-  "identifiers": [
-   {
-    "records": 20903,
-    "system": "cip13"
-   },
-   {
-    "records": 20903,
-    "system": "cip7"
-   },
-   {
-    "records": 20903,
-    "system": "gtin"
-   },
-   {
-    "records": 15799,
-    "system": "cis"
-   },
-   {
-    "records": 3432,
-    "system": "bdpm-substance-code"
-   },
-   {
-    "records": 3432,
-    "system": "bdpm-substance-name"
-   },
-   {
-    "records": 2261,
-    "system": "eu-number"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 15799,
-   "presentation": 20903,
-   "substance": 3432
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 20903,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
-    "fields_citing_it": 108434,
-    "publisher": "ANSM / Ministère de la Santé (BDPM)"
-   }
-  ]
- },
+ "held": null,
  "instance": "FR-DOSE-10060",
  "market": "France",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence nationale de sécurité du médicament et des produits de santé",
+      "url": "https://ansm.sante.fr/"
+     },
+     "value": "Agence nationale de sécurité du médicament et des produits de santé"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence nationale de sécurité du médicament et des produits de santé",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/"
+     },
+     "value": "Base de Données Publique des Médicaments"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence nationale de sécurité du médicament et des produits de santé",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/"
+     },
+     "value": "https://base-donnees-publique.medicaments.gouv.fr/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence nationale de sécurité du médicament et des produits de santé",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/"
+     },
+     "value": "Reference data and documents on medicines sold in France or sold within the past three years, run by ANSM with the Haute Autorité de santé and UNCAM."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence nationale de sécurité du médicament et des produits de santé",
+      "url": "https://ansm.sante.fr/page/autorisation-de-mise-sur-le-marche-pour-les-medicaments"
+     },
+     "value": "ANSM grants marketing authorisations (AMM) for medicines under the national procedure; under the centralised procedure the AMM is granted by the European Commission and is valid in all Member States."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence nationale de sécurité du médicament et des produits de santé",
+      "url": "https://ansm.sante.fr/documents/reference/codification-et-tracabilite-des-medicaments"
+     },
+     "value": "CIP13 (code identifiant de présentation, 13 digits)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agence nationale de sécurité du médicament et des produits de santé",
+      "url": "https://ansm.sante.fr/documents/reference/codification-et-tracabilite-des-medicaments"
+     },
+     "value": "Since 1 January 2009 the 7-digit CIP code has been replaced by a 13-digit code. The code is stated in the marketing authorisation decision, and the revision was linked to adding the expiry date and batch number to a marking on packs."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

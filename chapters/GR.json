@@ -1,47 +1,86 @@
 {
  "address": "https://gr.dose-10060.org",
  "authority": {
-  "name": "ΕΟΦ",
-  "register": "Δελτίο Τιμών",
-  "site": null
+  "english": null,
+  "name": "Εθνικός Οργανισμός Φαρμάκων",
+  "site": "https://www.eof.gr/"
  },
  "code": "GR",
- "held": {
-  "identifiers": [
-   {
-    "records": 9765,
-    "system": "gr-eof"
-   },
-   {
-    "records": 9765,
-    "system": "gr-national-barcode"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "presentation": 9765
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 9765,
-    "system": "gr-eof (Greek national)"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://www.moh.gov.gr/articles/times-farmakwn/deltia-timwn/14818-epikairopoihsh-deltioy-timwn-farmakwn-me-enswmatwsh-dioikhtikwn-metabolwn?fdl=31884",
-    "fields_citing_it": 20300,
-    "publisher": "Υπουργείο Υγείας (Ministry of Health, Greece) - Δελτία Τιμών"
-   }
-  ]
- },
+ "held": null,
  "instance": "GR-DOSE-10060",
  "market": "Greece",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Εθνικός Οργανισμός Φαρμάκων",
+      "url": "https://www.eof.gr/"
+     },
+     "value": "Εθνικός Οργανισμός Φαρμάκων"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Εθνικός Οργανισμός Φαρμάκων",
+      "url": "https://www.eof.gr/anazitisi-proionton/"
+     },
+     "value": "Αναζήτηση προϊόντων ανθρώπινης χρήσης"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Εθνικός Οργανισμός Φαρμάκων",
+      "url": "https://www.eof.gr/anazitisi-proionton/"
+     },
+     "value": "https://services.eof.gr/human-search/home.xhtml"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Εθνικός Οργανισμός Φαρμάκων",
+      "url": "https://www.eof.gr/anazitisi-proionton/"
+     },
+     "value": "EOF search portal for human-use products, with a filter for products that have at least one priced pack."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Εθνικός Οργανισμός Φαρμάκων",
+      "url": "https://www.eof.gr/%CF%80%CE%B5%CE%B4%CE%AF%CE%BF-%CE%B1%CF%81%CE%BC%CE%BF%CE%B4%CE%B9%CE%BF%CF%84%CE%AE%CF%84%CF%89%CE%BD/"
+     },
+     "value": "Four procedures apply: the national procedure grants a marketing authorisation for Greece only; mutual recognition and decentralised procedures cover several Member States; under the centralised procedure the European Commission issues the authorisation after EMA assessment."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

@@ -1,61 +1,100 @@
 {
  "address": "https://se.dose-10060.org",
  "authority": {
+  "english": "Swedish Medical products Agency",
   "name": "Läkemedelsverket",
-  "register": "TLV database",
-  "site": null
+  "site": "https://www.lakemedelsverket.se/"
  },
  "code": "SE",
- "held": {
-  "identifiers": [
-   {
-    "records": 22785,
-    "system": "npl-id"
-   },
-   {
-    "records": 14786,
-    "system": "npl-pack-id"
-   },
-   {
-    "records": 14289,
-    "system": "se-varunummer"
-   },
-   {
-    "records": 14289,
-    "system": "gtin-nordic-rule"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 7999,
-   "presentation": 14289
-  },
-  "pack_code": [
-   {
-    "basis": "derived from register",
-    "records": 12473,
-    "system": "gtin"
-   },
-   {
-    "basis": "published by authority",
-    "records": 1095,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 721,
-  "registers": [
-   {
-    "address": "https://www.tlv.se/file/medprice",
-    "fields_citing_it": 36577,
-    "publisher": "TLV (Tandvårds- och läkemedelsförmånsverket)"
-   }
-  ]
- },
+ "held": null,
  "instance": "SE-DOSE-10060",
  "market": "Sweden",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Läkemedelsverket",
+      "url": "https://www.lakemedelsverket.se/globalassets/dokument/tillstand-godkannande-och-kontroll/forsaljningstillstand/produktinformation/guideline-on-nordic-packages.pdf"
+     },
+     "value": "Läkemedelsverket (Swedish Medical products Agency)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Läkemedelsverket",
+      "url": "https://www.lakemedelsverket.se/sv/om-webbplatsen/sok-lakemedelsfakta"
+     },
+     "value": "Sök läkemedelsfakta"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Läkemedelsverket",
+      "url": "https://www.lakemedelsverket.se/sv/om-webbplatsen/sok-lakemedelsfakta"
+     },
+     "value": "https://www.lakemedelsverket.se/sv/sok-lakemedelsfakta"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Läkemedelsverket",
+      "url": "https://www.lakemedelsverket.se/sv/om-webbplatsen/sok-lakemedelsfakta"
+     },
+     "value": "All medicines approved in Sweden, some registered ones, and medicines deregistered since 2004, for human and veterinary use, with packs and product information."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Läkemedelsverket",
+      "url": "https://www.lakemedelsverket.se/sv/tillstand-godkannande-och-kontroll/forsaljningstillstand/sa-godkanns-ett-lakemedel"
+     },
+     "value": "There are four procedures to have a medicine approved for sale in Sweden: centralised, decentralised, mutual recognition and national; Läkemedelsverket works with the European Medicines Agency within a shared EU system."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Läkemedelsverket",
+      "url": "https://www.lakemedelsverket.se/globalassets/dokument/tillstand-godkannande-och-kontroll/forsaljningstillstand/produktinformation/guideline-on-nordic-packages.pdf"
+     },
+     "value": "Nordic article number (Vnr)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Läkemedelsverket",
+      "url": "https://www.lakemedelsverket.se/globalassets/dokument/tillstand-godkannande-och-kontroll/forsaljningstillstand/produktinformation/guideline-on-nordic-packages.pdf"
+     },
+     "value": "Except for radiopharmaceuticals and homeopathic products, the Nordic number is required on the label of all medicines, written 'Vnr XX XX XX'; a barcode or 2D code is optional under Nordic rules, while 2D codes are required for most human medicines under the Falsified Medicines Directive."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

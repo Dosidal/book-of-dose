@@ -1,65 +1,100 @@
 {
  "address": "https://ch.dose-10060.org",
  "authority": {
-  "name": "Swissmedic",
-  "register": "OGD Packungen",
-  "site": null
+  "english": "Swiss Agency for Therapeutic Products",
+  "name": "Schweizerisches Heilmittelinstitut",
+  "site": "https://www.swissmedic.ch/"
  },
  "code": "CH",
- "held": {
-  "identifiers": [
-   {
-    "records": 18351,
-    "system": "swissmedic-pack"
-   },
-   {
-    "records": 18351,
-    "system": "gtin"
-   },
-   {
-    "records": 7223,
-    "system": "swissmedic-authorisation"
-   },
-   {
-    "records": 6325,
-    "system": "atc"
-   },
-   {
-    "records": 3784,
-    "system": "swissmedic-stoff-id"
-   },
-   {
-    "records": 3762,
-    "system": "name"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 7223,
-   "presentation": 18351,
-   "substance": 3784
-  },
-  "pack_code": [
-   {
-    "basis": "derived from register",
-    "records": 18351,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://ogd.swissmedic.cloud/ogd-arzneimittel/Daten/OGD.zip",
-    "fields_citing_it": 91634,
-    "publisher": "Swissmedic (OGD)"
-   }
-  ]
- },
+ "held": null,
  "instance": "CH-DOSE-10060",
  "market": "Switzerland",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Schweizerisches Heilmittelinstitut",
+      "url": "https://www.swissmedic.ch/swissmedic/de/home.html"
+     },
+     "value": "Schweizerisches Heilmittelinstitut (Swiss Agency for Therapeutic Products)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Schweizerisches Heilmittelinstitut",
+      "url": "https://www.swissmedic.ch/swissmedic/en/home/services/listen_neu.html"
+     },
+     "value": "Authorised human medicinal products (Swissmedic lists)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Schweizerisches Heilmittelinstitut",
+      "url": "https://www.swissmedic.ch/swissmedic/en/home/services/listen_neu.html"
+     },
+     "value": "https://www.swissmedic.ch/swissmedic/en/home/services/listen_neu.html"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Schweizerisches Heilmittelinstitut",
+      "url": "https://www.swissmedic.ch/swissmedic/en/home/services/listen_neu.html"
+     },
+     "value": "Monthly-updated lists of all medicinal products authorised by Swissmedic, including approved packs, published as Excel tables."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Schweizerisches Heilmittelinstitut",
+      "url": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations.html"
+     },
+     "value": "Swissmedic assesses the quality, safety and effectiveness of a medicine from the documentation submitted and grants the marketing authorisation if the criteria are met."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Schweizerisches Heilmittelinstitut",
+      "url": "https://www.swissmedic.ch/dam/swissmedic/en/dokumente/zulassung/zl_hmv_iv/zl000_00_021d_wl_wegleitung_angaben_auf_packmittel.pdf.download.pdf/ZL000_00_021e_WL%20Guidance%20document%20Information%20on%20packaging.pdf"
+     },
+     "value": "Swissmedic authorisation number with packaging code (usually within the GTIN)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Schweizerisches Heilmittelinstitut",
+      "url": "https://www.swissmedic.ch/dam/swissmedic/en/dokumente/zulassung/zl_hmv_iv/zl000_00_021d_wl_wegleitung_angaben_auf_packmittel.pdf.download.pdf/ZL000_00_021e_WL%20Guidance%20document%20Information%20on%20packaging.pdf"
+     },
+     "value": "The authorisation number including the packaging code must appear on the secondary packaging. Guidance version 8.0, valid from 1 June 2026."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

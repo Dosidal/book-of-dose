@@ -6,74 +6,7 @@
   "site": "https://www.fda.gov/"
  },
  "code": "US",
- "held": {
-  "identifiers": [
-   {
-    "records": 116787,
-    "system": "ndc-package"
-   },
-   {
-    "records": 116787,
-    "system": "ndc-product"
-   },
-   {
-    "records": 116787,
-    "system": "gtin"
-   },
-   {
-    "records": 12254,
-    "system": "fda-application"
-   },
-   {
-    "records": 2104,
-    "system": "ndc-ingredient-name"
-   },
-   {
-    "records": 5,
-    "system": "unii"
-   },
-   {
-    "records": 3,
-    "system": "inn-name"
-   },
-   {
-    "records": 1,
-    "system": "atc"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 12254,
-   "presentation": 116787,
-   "substance": 2107
-  },
-  "pack_code": [
-   {
-    "basis": "derived from register",
-    "records": 116787,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://download.open.fda.gov/drug/drugsfda/drug-drugsfda-0001-of-0001.json.zip",
-    "fields_citing_it": 636747,
-    "publisher": "U.S. Food and Drug Administration"
-   },
-   {
-    "address": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
-    "fields_citing_it": 116787,
-    "publisher": "DEA Diversion Control Division"
-   },
-   {
-    "address": "https://api.fda.gov/drug/ndc.json?search=active_ingredients.name%3A%22naltrexone%22%20AND%20active_ingredients.name%3A%22bupropion%22&limit=1000&skip=0",
-    "fields_citing_it": 3,
-    "publisher": "U.S. Food and Drug Administration"
-   }
-  ]
- },
+ "held": null,
  "instance": "US-DOSE-10060",
  "market": "United States",
  "registers": [
@@ -86,11 +19,6 @@
    "address": "open.fda.gov/data/ndc/",
    "holds": "Final marketed drugs as listed by labelers. Listing content is the labeler's; inclusion does not mean FDA verified it.",
    "name": "National Drug Code Directory"
-  },
-  {
-   "address": "fda.gov/drugs/development-approval-process-drugs/orange-book-preface",
-   "holds": "monthly supplements.",
-   "name": "Orange Book"
   },
   {
    "address": "purplebooksearch.fda.gov",
@@ -206,7 +134,7 @@
       "publisher": "FDA",
       "url": "https://www.fda.gov/drugs/electronic-drug-registration-and-listing-system-edrls/national-drug-code-format"
      },
-     "value": "A final rule adopts a uniform 12-digit NDC. From 2033-03-07 a single 2D data matrix barcode may satisfy both the NDC barcode and the supply-chain product identifier requirements. Loaders hold the NDC as a string and carry both forms."
+     "value": "A final rule adopts a uniform 12-digit NDC. From 2033-03-07 a single 2D data matrix barcode may satisfy both the NDC barcode and the supply-chain product identifier requirements."
     },
     {
      "label": "Pack-code rule",

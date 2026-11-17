@@ -1,62 +1,100 @@
 {
  "address": "https://br.dose-10060.org",
  "authority": {
-  "name": "ANVISA / CMED",
-  "register": "Lista CMED",
-  "site": null
+  "english": null,
+  "name": "Agência Nacional de Vigilância Sanitária",
+  "site": "https://www.gov.br/anvisa/pt-br"
  },
  "code": "BR",
- "held": {
-  "identifiers": [
-   {
-    "records": 35793,
-    "system": "br-anvisa-registration"
-   },
-   {
-    "records": 27862,
-    "system": "gtin"
-   },
-   {
-    "records": 26694,
-    "system": "br-ggrem"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 9099,
-   "presentation": 26694
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 25124,
-    "system": "gtin"
-   },
-   {
-    "basis": "published by authority",
-    "records": 96,
-    "system": "br-ggrem (Brazilian national)"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 1474,
-  "registers": [
-   {
-    "address": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos/arquivos/lista_pmc_20261109_111901662.xlsx/@@download/file",
-    "fields_citing_it": 106691,
-    "publisher": "CMED / ANVISA - Lista de preços de medicamentos"
-   },
-   {
-    "address": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
-    "fields_citing_it": 26694,
-    "publisher": "ANVISA - Dados abertos (medicamentos registrados)"
-   }
-  ]
- },
+ "held": null,
  "instance": "BR-DOSE-10060",
  "market": "Brazil",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agência Nacional de Vigilância Sanitária",
+      "url": "https://www.gov.br/pt-br/servicos/solicitar-registro-de-medicamentos"
+     },
+     "value": "Agência Nacional de Vigilância Sanitária"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agência Nacional de Vigilância Sanitária",
+      "url": "https://www.gov.br/anvisa/pt-br/sistemas/consulta-a-registro-de-medicamentos"
+     },
+     "value": "Consulta a registro de medicamentos (Medicamentos registrados)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agência Nacional de Vigilância Sanitária",
+      "url": "https://www.gov.br/anvisa/pt-br/sistemas/consulta-a-registro-de-medicamentos"
+     },
+     "value": "https://consultas.anvisa.gov.br/#/medicamentos/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agência Nacional de Vigilância Sanitária",
+      "url": "https://www.gov.br/anvisa/pt-br/sistemas/consulta-a-registro-de-medicamentos"
+     },
+     "value": "A public lookup of medicine registration data held by Anvisa."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agência Nacional de Vigilância Sanitária",
+      "url": "https://www.gov.br/pt-br/servicos/solicitar-registro-de-medicamentos"
+     },
+     "value": "A medicine needs initial registration with Anvisa to be sold, used and imported in the country."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agência Nacional de Vigilância Sanitária",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/rastreabilidade/perguntas-e-respostas-sncm-v1-1.pdf"
+     },
+     "value": "IUM (Identificador Único de Medicamento) in a DataMatrix code, built on GTIN"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agência Nacional de Vigilância Sanitária",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/rastreabilidade/perguntas-e-respostas-sncm-v1-1.pdf"
+     },
+     "value": "Anvisa's SNCM guidance defines the IUM as a numeric/alphanumeric identifier, built on identification and coding standards, that individually identifies each commercial pack; it is carried in a DataMatrix on the pack, Anvisa refers firms to the GS1 coding guide, and GTIN is defined as a 14-digit trade item identifier."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

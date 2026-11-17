@@ -1,52 +1,100 @@
 {
  "address": "https://dk.dose-10060.org",
  "authority": {
+  "english": "Danish Medicines Agency",
   "name": "Lægemiddelstyrelsen",
-  "register": "Medicinpriser",
-  "site": null
+  "site": "https://laegemiddelstyrelsen.dk/"
  },
  "code": "DK",
- "held": {
-  "identifiers": [
-   {
-    "records": 16031,
-    "system": "dk-varenummer"
-   },
-   {
-    "records": 16031,
-    "system": "gtin-nordic-rule"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "presentation": 16031
-  },
-  "pack_code": [
-   {
-    "basis": "derived from register",
-    "records": 12732,
-    "system": "gtin"
-   },
-   {
-    "basis": "published by authority",
-    "records": 2106,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 1193,
-  "registers": [
-   {
-    "address": "https://cdn1.gopublic.dk/sundhedsdatastyrelsen/Media/639298148519433988/medicinpriser-udgivet-09112026.xlsx",
-    "fields_citing_it": 48093,
-    "publisher": "Sundhedsdatastyrelsen (Medicinpriser)"
-   }
-  ]
- },
+ "held": null,
  "instance": "DK-DOSE-10060",
  "market": "Denmark",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Lægemiddelstyrelsen",
+      "url": "https://laegemiddelstyrelsen.dk/da/"
+     },
+     "value": "Lægemiddelstyrelsen (Danish Medicines Agency)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Lægemiddelstyrelsen",
+      "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/summaries-of-product-characteristics/"
+     },
+     "value": "produktresume.dk"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Lægemiddelstyrelsen",
+      "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/summaries-of-product-characteristics/"
+     },
+     "value": "http://produktresume.dk/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Lægemiddelstyrelsen",
+      "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/summaries-of-product-characteristics/"
+     },
+     "value": "Summaries of product characteristics of medicines authorised for sale in Denmark, in Danish, updated weekly."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Lægemiddelstyrelsen",
+      "url": "https://laegemiddelstyrelsen.dk/en/licensing/licensing-of-medicines/"
+     },
+     "value": "Medicines must meet quality, safety and efficacy requirements before authorisation; specialists assess the company's data, and approval can be national, for several countries, or EU-wide through the European Medicines Agency."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Lægemiddelstyrelsen",
+      "url": "https://laegemiddelstyrelsen.dk/da/tilskud/varenumre/"
+     },
+     "value": "Varenummer (Nordic article number, Vnr)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Lægemiddelstyrelsen",
+      "url": "https://laegemiddelstyrelsen.dk/da/tilskud/varenumre/"
+     },
+     "value": "Medicine packs must carry a varenummer that identifies each individual pack; the marketing authorisation holder or its representative requests it. On human medicine outer labelling the Nordic number is required (with listed exemptions) and may be written 'Vnr XX XX XX'; a bar code is accepted but not required."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

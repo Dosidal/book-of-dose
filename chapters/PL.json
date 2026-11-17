@@ -1,60 +1,85 @@
 {
  "address": "https://pl.dose-10060.org",
  "authority": {
-  "name": "URPL",
-  "register": "Rejestr Produktów Leczniczych",
-  "site": null
+  "english": "Office for Registration of Medicinal Products, Medical Devices and Biocidal Products",
+  "name": "Urząd Rejestracji Produktów Leczniczych, Wyrobów Medycznych i Produktów Biobójczych",
+  "site": "https://www.urpl.gov.pl/"
  },
  "code": "PL",
- "held": {
-  "identifiers": [
-   {
-    "records": 75764,
-    "system": "rpl-pack-id"
-   },
-   {
-    "records": 68002,
-    "system": "gtin"
-   },
-   {
-    "records": 20354,
-    "system": "pl-authorisation"
-   },
-   {
-    "records": 20354,
-    "system": "rpl-product-id"
-   },
-   {
-    "records": 14639,
-    "system": "eu-number"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 20354,
-   "presentation": 75764
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 67996,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 7768,
-  "registers": [
-   {
-    "address": "https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/public-pl-report/6.0.0/overall.xml",
-    "fields_citing_it": 335886,
-    "publisher": "URPL / Rejestr Produktów Leczniczych (Centrum e-Zdrowia export)"
-   }
-  ]
- },
+ "held": null,
  "instance": "PL-DOSE-10060",
  "market": "Poland",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Urząd Rejestracji Produktów Leczniczych, Wyrobów Medycznych i Produktów Biobójczych",
+      "url": "https://rejestry.ezdrowie.gov.pl/registry/rpl"
+     },
+     "value": "Rejestr Produktów Leczniczych"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Urząd Rejestracji Produktów Leczniczych, Wyrobów Medycznych i Produktów Biobójczych",
+      "url": "https://rejestry.ezdrowie.gov.pl/registry/rpl"
+     },
+     "value": "https://rejestry.ezdrowie.gov.pl/rpl/search/public"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Urząd Rejestracji Produktów Leczniczych, Wyrobów Medycznych i Produktów Biobójczych",
+      "url": "https://rejestry.ezdrowie.gov.pl/registry/rpl"
+     },
+     "value": "Information and leaflets for all human and veterinary medicinal products authorised for marketing in Poland, with search fields including MA number and GTIN."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "value": "Unknown."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Urząd Rejestracji Produktów Leczniczych, Wyrobów Medycznych i Produktów Biobójczych",
+      "url": "https://rejestry.ezdrowie.gov.pl/rpl/search/public"
+     },
+     "value": "GTIN (search field 'Numer GTIN' in the register)"
+    },
+    {
+     "label": "Rule",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

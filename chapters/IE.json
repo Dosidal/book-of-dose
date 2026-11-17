@@ -1,37 +1,100 @@
 {
  "address": "https://ie.dose-10060.org",
  "authority": {
-  "name": "HPRA",
-  "register": "HPRA authorised medicines",
-  "site": null
+  "english": "Health Products Regulatory Authority",
+  "name": "Health Products Regulatory Authority",
+  "site": "https://www.hpra.ie/"
  },
  "code": "IE",
- "held": {
-  "identifiers": [
-   {
-    "records": 10291,
-    "system": "ie-licence"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 10291
-  },
-  "pack_code": [],
-  "pack_level_published": false,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://assets.hpra.ie/products/xml/latestHumanlist.xml",
-    "fields_citing_it": 30869,
-    "publisher": "HPRA"
-   }
-  ]
- },
+ "held": null,
  "instance": "IE-DOSE-10060",
  "market": "Ireland",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Products Regulatory Authority",
+      "url": "https://www.hpra.ie/find-a-medicine/for-human-use"
+     },
+     "value": "Health Products Regulatory Authority"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Products Regulatory Authority",
+      "url": "https://www.hpra.ie/find-a-medicine/for-human-use"
+     },
+     "value": "Find a medicine for human use"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Products Regulatory Authority",
+      "url": "https://www.hpra.ie/find-a-medicine/for-human-use"
+     },
+     "value": "https://www.hpra.ie/find-a-medicine/for-human-use"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Products Regulatory Authority",
+      "url": "https://www.hpra.ie/find-a-medicine/for-human-use"
+     },
+     "value": "Registers of authorised and withdrawn human medicines, with related lists such as supply disruptions and sales categories."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Products Regulatory Authority",
+      "url": "https://www.hpra.ie/regulation/human-medicine/marketing-authorisation-holders/new-applications/licensing-a-new-product-authorisation"
+     },
+     "value": "Authorisations to market new medicines are granted by the HPRA; a purely national application may be made for Ireland-only products, and the mutual recognition, decentralised and centralised procedures are also available."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Products Regulatory Authority",
+      "url": "https://assets.hpra.ie/data/docs/default-source/external-guidance-document/aut-g0034-guide-to-labels-and-leaflets-of-human-medicines-v26.pdf?sfvrsn=181b0802_26"
+     },
+     "value": "EU unique identifier in a 2D barcode"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Products Regulatory Authority",
+      "url": "https://assets.hpra.ie/data/docs/default-source/external-guidance-document/aut-g0034-guide-to-labels-and-leaflets-of-human-medicines-v26.pdf?sfvrsn=181b0802_26"
+     },
+     "value": "Prescription medicines and certain non-prescription medicines must carry a unique identifier in a 2D barcode and an anti-tampering device; human-readable product code and serial number headers follow the QRD template."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

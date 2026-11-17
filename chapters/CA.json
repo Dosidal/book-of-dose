@@ -1,41 +1,100 @@
 {
  "address": "https://ca.dose-10060.org",
  "authority": {
+  "english": "Health Canada",
   "name": "Health Canada",
-  "register": "Drug Product Database",
-  "site": null
+  "site": "https://www.canada.ca/en/health-canada.html"
  },
  "code": "CA",
- "held": {
-  "identifiers": [
-   {
-    "records": 51207,
-    "system": "ca-din"
-   },
-   {
-    "records": 51207,
-    "system": "ca-dpd-drug-code"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 51207
-  },
-  "pack_code": [],
-  "pack_level_published": false,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database/what-data-extract-drug-product-database.html",
-    "fields_citing_it": 197556,
-    "publisher": "Health Canada - Drug Product Database"
-   }
-  ]
- },
+ "held": null,
  "instance": "CA-DOSE-10060",
  "market": "Canada",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/fact-sheets/drug-identification-number.html"
+     },
+     "value": "Health Canada"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html"
+     },
+     "value": "Drug Product Database (DPD)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html"
+     },
+     "value": "https://health-products.canada.ca/dpd-bdpp/index-eng.jsp"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html"
+     },
+     "value": "A nightly-updated search tool for drugs authorized for sale in Canada, with availability status and product monographs for human drugs."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/fact-sheets/drug-identification-number.html"
+     },
+     "value": "Health Canada reviews a drug's formulation, labelling and instructions for use and, once authorized, issues a Drug Identification Number; drugs with little Canadian market history also need a Notice of Compliance."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/fact-sheets/drug-identification-number.html"
+     },
+     "value": "DIN (Drug Identification Number)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/fact-sheets/drug-identification-number.html"
+     },
+     "value": "A computer-generated eight-digit number assigned by Health Canada after authorization and shown on the label of prescription and over-the-counter drug products; it identifies manufacturer, product name, active ingredients, strengths, pharmaceutical form and route of administration."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

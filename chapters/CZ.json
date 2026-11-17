@@ -1,52 +1,100 @@
 {
  "address": "https://cz.dose-10060.org",
  "authority": {
-  "name": "SÚKL",
-  "register": "DLP",
-  "site": null
+  "english": "State Institute for Drug Control",
+  "name": "Státní ústav pro kontrolu léčiv",
+  "site": "https://sukl.gov.cz/"
  },
  "code": "CZ",
- "held": {
-  "identifiers": [
-   {
-    "records": 89296,
-    "system": "cz-registration"
-   },
-   {
-    "records": 68581,
-    "system": "cz-sukl"
-   },
-   {
-    "records": 13385,
-    "system": "eu-number"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 20715,
-   "presentation": 68581
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 68581,
-    "system": "cz-sukl (Czech national)"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://opendata.sukl.gov.cz/soubory/SOD20261027/DLP20261027.zip",
-    "fields_citing_it": 363619,
-    "publisher": "SÚKL (Státní ústav pro kontrolu léčiv) - DLP"
-   }
-  ]
- },
+ "held": null,
  "instance": "CZ-DOSE-10060",
  "market": "Czechia",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Státní ústav pro kontrolu léčiv",
+      "url": "https://sukl.gov.cz/registrace-leciv/informace-k-registraci/zakladni-informace-pro-zadatele-o-registraci-leciveho-pripravku/"
+     },
+     "value": "Státní ústav pro kontrolu léčiv (State Institute for Drug Control)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Státní ústav pro kontrolu léčiv",
+      "url": "https://sukl.gov.cz/slovnik/databaze-lecivych-pripravku/"
+     },
+     "value": "Přehled léčiv (Databáze léčivých přípravků)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Státní ústav pro kontrolu léčiv",
+      "url": "https://sukl.gov.cz/slovnik/databaze-lecivych-pripravku/"
+     },
+     "value": "https://prehledy.sukl.cz/prehled_leciv.html"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Státní ústav pro kontrolu léčiv",
+      "url": "https://sukl.gov.cz/slovnik/databaze-lecivych-pripravku/"
+     },
+     "value": "The SÚKL database of registered medicinal products, covering all medicines approved for use in Czechia."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Státní ústav pro kontrolu léčiv",
+      "url": "https://sukl.gov.cz/registrace-leciv/informace-k-registraci/zakladni-informace-pro-zadatele-o-registraci-leciveho-pripravku/"
+     },
+     "value": "National, mutual recognition and decentralised registrations are approved by SÚKL, ending in a registration decision; MRP and DCP registrations take effect when the national decision becomes final."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Státní ústav pro kontrolu léčiv",
+      "url": "https://sukl.gov.cz/en/en-informace-k-registraci/principles-of-identification-of-medicinal-products-for-human-use-in-the-czech-republic/"
+     },
+     "value": "SÚKL code (kód SÚKL, 7 digits)"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Státní ústav pro kontrolu léčiv",
+      "url": "https://sukl.gov.cz/en/en-informace-k-registraci/principles-of-identification-of-medicinal-products-for-human-use-in-the-czech-republic/"
+     },
+     "value": "A randomly selected seven-digit number assigned by the Institute to each presentation with a different pack size or packaging type, or of practical importance; it must be shown on the packaging."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

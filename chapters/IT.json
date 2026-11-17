@@ -1,42 +1,100 @@
 {
  "address": "https://it.dose-10060.org",
  "authority": {
-  "name": "AIFA",
-  "register": "AIFA open data",
-  "site": null
+  "english": "Italian Medicines Agency",
+  "name": "Agenzia Italiana del Farmaco",
+  "site": "https://www.aifa.gov.it/"
  },
  "code": "IT",
- "held": {
-  "identifiers": [
-   {
-    "records": 160025,
-    "system": "aic"
-   },
-   {
-    "records": 12654,
-    "system": "aic-medicine"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 12654,
-   "presentation": 160025
-  },
-  "pack_code": [],
-  "pack_level_published": true,
-  "packs_without_anchor": 160025,
-  "registers": [
-   {
-    "address": "https://drive.aifa.gov.it/farmaci/confezioni_fornitura.csv",
-    "fields_citing_it": 812765,
-    "publisher": "AIFA (open data)"
-   }
-  ]
- },
+ "held": null,
  "instance": "IT-DOSE-10060",
  "market": "Italy",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenzia Italiana del Farmaco",
+      "url": "https://www.aifa.gov.it/en/home"
+     },
+     "value": "Agenzia Italiana del Farmaco (Italian Medicines Agency)"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenzia Italiana del Farmaco",
+      "url": "https://www.aifa.gov.it/en/riassunto-caratteristiche-e-foglio-illustrativo"
+     },
+     "value": "Banca Dati dei Farmaci (AIFA Medicinali)"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenzia Italiana del Farmaco",
+      "url": "https://www.aifa.gov.it/en/riassunto-caratteristiche-e-foglio-illustrativo"
+     },
+     "value": "https://medicinali.aifa.gov.it/"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenzia Italiana del Farmaco",
+      "url": "https://www.aifa.gov.it/en/riassunto-caratteristiche-e-foglio-illustrativo"
+     },
+     "value": "Summaries of product characteristics and patient leaflets for all medicines authorised in Italy."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenzia Italiana del Farmaco",
+      "url": "https://www.aifa.gov.it/en/-/autorizzazione-all-immissione-in-commercio-dei-medicinali"
+     },
+     "value": "No medicine may be marketed in Italy without an AIFA authorisation; EU routes include the centralised procedure, in which the European Commission issues a binding decision, and the mutual recognition and decentralised procedures."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenzia Italiana del Farmaco",
+      "url": "https://www.aifa.gov.it/en/-/eliminazione-suffisso-e-codice-aic-procedura-centralizzata"
+     },
+     "value": "AIC number (9 digits) and 2D Data Matrix unique identifier"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agenzia Italiana del Farmaco",
+      "url": "https://www.aifa.gov.it/en/-/eliminazione-suffisso-e-codice-aic-procedura-centralizzata"
+     },
+     "value": "Each pack is identified by a 9-digit AIC number. Under Legislative Decree 10/2025 and the Ministerial Decree of 6 March 2025 on Data Matrix technical specifications, the 2D barcode must contain only the unique identifier data. The '/E' suffix for centrally authorised products must not appear on any identifying element, including the pharmaceutical sticker, from 10 February 2027."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

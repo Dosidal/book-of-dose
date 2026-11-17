@@ -79,7 +79,7 @@
      "read_at": "2026-11-16",
      "source": {
       "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
-      "url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/parallelimporte ; https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/sicherheitsmerkmale"
+      "url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/parallelimporte"
      },
      "value": "Pharmazentralnummer (PZN); EU unique identifier in a DataMatrix code"
     },
@@ -88,7 +88,7 @@
      "read_at": "2026-11-16",
      "source": {
       "publisher": "Bundesamt für Sicherheit im Gesundheitswesen",
-      "url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/parallelimporte ; https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/sicherheitsmerkmale"
+      "url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/parallelimporte"
      },
      "value": "Packs covered by the EU safety features carry a DataMatrix code whose serial number pharmacists scan against the national data store; full operation began on 9 February 2026."
     }

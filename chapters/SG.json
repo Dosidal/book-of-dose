@@ -1,37 +1,86 @@
 {
  "address": "https://sg.dose-10060.org",
  "authority": {
-  "name": "HSA",
-  "register": "Registered Therapeutic Products",
-  "site": null
+  "english": "Health Sciences Authority",
+  "name": "Health Sciences Authority",
+  "site": "https://www.hsa.gov.sg/"
  },
  "code": "SG",
- "held": {
-  "identifiers": [
-   {
-    "records": 5511,
-    "system": "sg-hsa-licence"
-   }
-  ],
-  "latest_read": "2026-08-07",
-  "levels": {
-   "authorisation": 5511
-  },
-  "pack_code": [],
-  "pack_level_published": false,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view",
-    "fields_citing_it": 16533,
-    "publisher": "Health Sciences Authority (HSA), via data.gov.sg"
-   }
-  ]
- },
+ "held": null,
  "instance": "SG-DOSE-10060",
  "market": "Singapore",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Sciences Authority",
+      "url": "https://www.hsa.gov.sg/therapeutic-products/overview/"
+     },
+     "value": "Health Sciences Authority"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Sciences Authority",
+      "url": "https://www.hsa.gov.sg/e-services/infosearch/"
+     },
+     "value": "Register of Therapeutic Products"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Sciences Authority",
+      "url": "https://www.hsa.gov.sg/e-services/infosearch/"
+     },
+     "value": "https://eservice.hsa.gov.sg/prism/common/enquirepublic/SearchDRBProduct.do?action=load"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Sciences Authority",
+      "url": "https://www.hsa.gov.sg/e-services/infosearch/"
+     },
+     "value": "Listed by HSA Infosearch among its online databases of licensed or registered health products."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Health Sciences Authority",
+      "url": "https://www.hsa.gov.sg/therapeutic-products/overview/"
+     },
+     "value": "A therapeutic product must be registered with HSA before it can be supplied in Singapore; HSA regulates therapeutic products under the Health Products Act and its regulations."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "value": "Unknown."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

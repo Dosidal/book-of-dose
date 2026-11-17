@@ -1,65 +1,100 @@
 {
  "address": "https://es.dose-10060.org",
  "authority": {
-  "name": "AEMPS",
-  "register": "Nomenclátor de Prescripción",
-  "site": null
+  "english": null,
+  "name": "Agencia Española de Medicamentos y Productos Sanitarios",
+  "site": "https://www.aemps.gob.es/"
  },
  "code": "ES",
- "held": {
-  "identifiers": [
-   {
-    "records": 53730,
-    "system": "es-registration"
-   },
-   {
-    "records": 30939,
-    "system": "cn"
-   },
-   {
-    "records": 30939,
-    "system": "gtin-ntin-calculated"
-   },
-   {
-    "records": 17884,
-    "system": "gtin-ntin"
-   },
-   {
-    "records": 4785,
-    "system": "gtin-maker"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 22791,
-   "presentation": 30939
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 22070,
-    "system": "gtin"
-   },
-   {
-    "basis": "derived from register",
-    "records": 8702,
-    "system": "gtin"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 167,
-  "registers": [
-   {
-    "address": "https://listadomedicamentos.aemps.gob.es/prescripcion.zip",
-    "fields_citing_it": 200277,
-    "publisher": "AEMPS (Nomenclátor de Prescripción)"
-   }
-  ]
- },
+ "held": null,
  "instance": "ES-DOSE-10060",
  "market": "Spain",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "url": "https://www.aemps.gob.es/"
+     },
+     "value": "Agencia Española de Medicamentos y Productos Sanitarios"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "url": "https://www.aemps.gob.es/"
+     },
+     "value": "CIMA: Centro de Información Online de Medicamentos de la AEMPS"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "url": "https://www.aemps.gob.es/"
+     },
+     "value": "https://cima.aemps.es/cima/publico/home.html"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "url": "https://www.aemps.gob.es/"
+     },
+     "value": "The AEMPS online medicines information centre, offering medicine search and a Nomenclátor section."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/registro-de-medicamentos/"
+     },
+     "value": "Under the national procedure the AEMPS assesses and authorises medicines for the Spanish market only; medicines can also be authorised through the decentralised and mutual recognition procedures."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "url": "https://www.aemps.gob.es/informa/notasinformativas/industria-2/2017/ni-muh_10-2017-implementacion/"
+     },
+     "value": "Código Nacional (CN) within the EU unique identifier"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "url": "https://www.aemps.gob.es/informa/notasinformativas/industria-2/2017/ni-muh_10-2017-implementacion/"
+     },
+     "value": "In Spain the CN must be one of the elements of the unique identifier in the 2D Data Matrix: it forms part of an NTIN product code or is added as extra data alongside a GTIN. The CN stays printed in the upper right corner of the main face of the outer pack or blue box."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }

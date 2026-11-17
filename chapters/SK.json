@@ -1,52 +1,100 @@
 {
  "address": "https://sk.dose-10060.org",
  "authority": {
-  "name": "ŠÚKL",
-  "register": "zoznam liekov",
-  "site": null
+  "english": null,
+  "name": "Štátny ústav pre kontrolu liečiv",
+  "site": "https://www.sukl.sk/"
  },
  "code": "SK",
- "held": {
-  "identifiers": [
-   {
-    "records": 75149,
-    "system": "sk-registration"
-   },
-   {
-    "records": 55157,
-    "system": "sk-sukl"
-   },
-   {
-    "records": 13635,
-    "system": "eu-number"
-   }
-  ],
-  "latest_read": "2026-11-15",
-  "levels": {
-   "authorisation": 19992,
-   "presentation": 55157
-  },
-  "pack_code": [
-   {
-    "basis": "published by authority",
-    "records": 55157,
-    "system": "sk-sukl (Slovak national)"
-   }
-  ],
-  "pack_level_published": true,
-  "packs_without_anchor": 0,
-  "registers": [
-   {
-    "address": "https://www.sukl.sk/verejne/Zoznam_liekov/zoznam_liekov_aktualny.zip",
-    "fields_citing_it": 295765,
-    "publisher": "ŠÚKL (Štátny ústav pre kontrolu liečiv) - zoznam liekov"
-   }
-  ]
- },
+ "held": null,
  "instance": "SK-DOSE-10060",
  "market": "Slovakia",
  "registers": [],
  "schema_version": "1.0",
- "sections": [],
+ "sections": [
+  {
+   "lines": [
+    {
+     "label": "Authority",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Štátny ústav pre kontrolu liečiv",
+      "url": "https://www.sukl.sk/"
+     },
+     "value": "Štátny ústav pre kontrolu liečiv"
+    }
+   ],
+   "title": "Authority"
+  },
+  {
+   "lines": [
+    {
+     "label": "Register",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Štátny ústav pre kontrolu liečiv",
+      "url": "https://www.sukl.sk/hlavna-stranka/slovenska-verzia/databazy-a-servis/vyhladavanie-liekov-zdravotnickych-pomocok-a-zmien-v-liekovej-databaze?page_id=235"
+     },
+     "value": "Vyhľadávanie liekov a zdravotníckych pomôcok"
+    },
+    {
+     "label": "Address",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Štátny ústav pre kontrolu liečiv",
+      "url": "https://www.sukl.sk/hlavna-stranka/slovenska-verzia/databazy-a-servis/vyhladavanie-liekov-zdravotnickych-pomocok-a-zmien-v-liekovej-databaze?page_id=235"
+     },
+     "value": "https://www.sukl.sk/hlavna-stranka/slovenska-verzia/databazy-a-servis/vyhladavanie-liekov-zdravotnickych-pomocok-a-zmien-v-liekovej-databaze?page_id=235"
+    },
+    {
+     "label": "What it holds",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Štátny ústav pre kontrolu liečiv",
+      "url": "https://www.sukl.sk/hlavna-stranka/slovenska-verzia/databazy-a-servis/vyhladavanie-liekov-zdravotnickych-pomocok-a-zmien-v-liekovej-databaze?page_id=235"
+     },
+     "value": "The institute's database of all registered medicines and medical devices with related documentation."
+    }
+   ],
+   "title": "Register"
+  },
+  {
+   "lines": [
+    {
+     "label": "Authorisation",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Štátny ústav pre kontrolu liečiv",
+      "url": "https://www.sukl.sk/hlavna-stranka/slovenska-verzia/registracia-humannych-liekov/registracia-lieku/zakladne-informacie-o-registracii-lieku?page_id=943"
+     },
+     "value": "All mass-produced medicines must be registered; ŠÚKL decides on registration of human medicines, and the European Commission decides for medicines registered under EU rules."
+    }
+   ],
+   "title": "How a medicine is authorised"
+  },
+  {
+   "lines": [
+    {
+     "label": "Scheme",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Štátny ústav pre kontrolu liečiv",
+      "url": "https://www.sukl.sk/buxus/docs/Inspekcia/PostregistracnaKontrola/2018/bezpecnostne_prvky_-_stranka_-_clean01_.pdf"
+     },
+     "value": "GTIN-14 product code in the EU unique identifier"
+    },
+    {
+     "label": "Rule",
+     "read_at": "2026-11-16",
+     "source": {
+      "publisher": "Štátny ústav pre kontrolu liečiv",
+      "url": "https://www.sukl.sk/buxus/docs/Inspekcia/PostregistracnaKontrola/2018/bezpecnostne_prvky_-_stranka_-_clean01_.pdf"
+     },
+     "value": "The unique identifier on the outer pack consists of a product code in GTIN-14 format under the GS1 standard, a serial number of up to 20 alphanumeric characters, a 6-digit expiry date and a batch number of up to 20 characters, in a 2D code; Slovakia does not require a national number. A 13-digit GTIN is padded with a leading zero."
+    }
+   ],
+   "title": "Pack code"
+  }
+ ],
  "standard_version": "1.1"
 }
