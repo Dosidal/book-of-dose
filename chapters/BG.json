@@ -10,7 +10,7 @@
  "instance": "BG-DOSE-10060",
  "market": "Bulgaria",
  "registers": [],
- "schema_version": "1.0",
+ "schema_version": "1.2",
  "sections": [
   {
    "lines": [
@@ -96,5 +96,5 @@
    "title": "Pack code"
   }
  ],
- "standard_version": "1.1"
+ "standard_version": "1.2"
 }

@@ -31,7 +31,7 @@
    "name": "Article 57 product data"
   }
  ],
- "schema_version": "1.0",
+ "schema_version": "1.2",
  "sections": [
   {
    "lines": [
@@ -199,5 +199,5 @@
    "title": "Public information rule"
   }
  ],
- "standard_version": "1.1"
+ "standard_version": "1.2"
 }
