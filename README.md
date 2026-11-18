@@ -74,6 +74,20 @@ Dosidal powers the agentic era of pharma. AI agents and AI labs connect to Dosid
 - [chapters/VN.json](chapters/VN.json)
 - [chapters/ZA.json](chapters/ZA.json)
 
+Dosidal follows VSA-3CS (Visible, Self-serve, A receipt, three Codes, Stamp): [vsa-3cs.org](https://vsa-3cs.org).
+
+## The three codes
+
+Every chapter carries one block headed "The three codes", with the same three lines in the same order:
+
+- **Pack barcode**: whether the regulator publishes a Global Trade Item Number (GTIN) for packs, and the page that shows it.
+- **National pack code**: the code's own local name, its format as the regulator publishes it, and the page that shows it.
+- **Authorisation number**: its format as the regulator publishes it, and the page that shows it.
+
+Where a regulator does not publish one of the three, the line says so in plain words; what was not found on a regulator's page is shown as unknown. In a chapter whose country Dosidal holds records for, each line that applies carries one real example code that fetches a card on [dosidal.ai](https://dosidal.ai). Every line keeps the page it was read from and the date. Each chapter links to its node on [dose-10060.org](https://dose-10060.org) and to the fetch.
+
+The lines of every chapter: [three-codes.json](three-codes.json).
+
 Artificial intelligence makes mistakes. Dosidal is an information source, not a recommendation. Read the regulator.
 
 © 2027 Dosidal AI Corp.

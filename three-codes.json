@@ -1,0 +1,1103 @@
+{
+ "description": "The three-codes block of every chapter of the Book of DOSE: per country, the pack barcode, the national pack code and the authorisation number as the regulator publishes them, each with the page it was read from and the date. A line that was not found on a regulator's page is unknown.",
+ "chapters": {
+  "AE": {
+   "auth": {
+    "publisher": "tatmeen.ae",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://tatmeen.ae/mediafiles/en/Tatmeen_WKI-0065_Technical-Guide-for-Onboarding_v0.5.pdf",
+    "text": "Each registered drug has a registration number held in the Ministry of Health's drug registration system, which the national tracking platform requires in product data."
+   },
+   "gtin": {
+    "publisher": "tatmeen.ae",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://tatmeen.ae/pdfs/MOHAP%20SERIALIZATION%20GUIDE%20V1.0%20EN%20FINAL1.pdf",
+    "text": "The Ministry of Health's serialisation guide requires every secondary pack to carry a 2D barcode that encodes the Global Trade Item Number (GTIN), listed first among required data."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "AR": {
+   "auth": {
+    "publisher": "argentina.gob.ar",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.argentina.gob.ar/anmat/regulados/testimonio-de-inscripcion-en-el-registro-de-especialidades-medicinales-rem",
+    "text": "Argentina's regulator certifies each medicine's entry in the Registro de Especialidades Medicinales with a certificate of registration carrying a number."
+   },
+   "gtin": {
+    "publisher": "argentina.gob.ar",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.argentina.gob.ar/anmat/sistema-nacional-de-trazabilidad/preguntas-frecuentes",
+    "text": "Argentina's traceability system requires each medicine pack to carry a Global Trade Item Number (GTIN) together with a serial number."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "AT": {
+   "auth": {
+    "publisher": "basg.gv.at",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/parallelimporte",
+    "text": "Austrian authorisations carry a Zulassungsnummer such as 1-123456, and parallel-import authorisations add a suffix like -P01 to the number of the original authorisation."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "basg.gv.at",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.basg.gv.at/fuer-unternehmen/zulassung-life-cycle/zulassungsverfahren/parallelimporte",
+    "text": "Austria identifies each medicine pack with a national number called the Pharmazentralnummer (PZN), for which the federal office's page refers applicants to the body that assigns it."
+   }
+  },
+  "AU": {
+   "auth": {
+    "publisher": "legislation.gov.au",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.legislation.gov.au/F1996B00406/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html",
+    "text": "Australia requires a medicine's registration or listing number on its label, preceded by the prefix AUST R for registered goods or AUST L for listed goods."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "BD": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "BE": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "BG": {
+   "auth": {
+    "publisher": "bda.bg",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.bda.bg/en/information-for-companies/112-announcements-for-companies-category/1309-to-all-applicants,-marketing-authorization-holders-and-their-local-representatives",
+    "text": "The Bulgarian Drug Agency gives each authorised medicine a registration number, which applicants must quote on fee payments; its digit format is not stated."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "BR": {
+   "auth": {
+    "publisher": "gov.br",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/rastreabilidade/Manual_SNCM_ver2_0.pdf/@@download/file",
+    "text": "Anvisa assigns a registration number to each medicine presentation, which its tracing system handles as a 13-character field."
+   },
+   "gtin": {
+    "publisher": "gov.br",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/rastreabilidade/Manual_SNCM_ver2_0.pdf/@@download/file",
+    "text": "Anvisa's medicine tracing rules require each medicine pack presentation to carry a 14-digit Global Trade Item Number (GTIN) inside its unique medicine identifier."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "CA": {
+   "auth": {
+    "publisher": "canada.ca",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/fact-sheets/drug-identification-number.html",
+    "text": "Health Canada assigns each authorised drug product an eight-digit Drug Identification Number (DIN), shown on the label of prescription and over-the-counter products."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "CH": {
+   "auth": {
+    "publisher": "swissmedic.ch",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.swissmedic.ch/dam/swissmedic/en/dokumente/zulassung/zl_hmv_iv/zl000_00_021d_wl_wegleitung_angaben_auf_packmittel.pdf.download.pdf/ZL000_00_021e_WL%20Guidance%20document%20Information%20on%20packaging.pdf",
+    "text": "Swissmedic gives each authorised medicine an authorisation number, shown in its guidance as a five-digit number such as 41557."
+   },
+   "gtin": {
+    "publisher": "swissmedic.ch",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.swissmedic.ch/dam/swissmedic/en/dokumente/zulassung/zl_hmv_iv/zl000_00_021d_wl_wegleitung_angaben_auf_packmittel.pdf.download.pdf/ZL000_00_021e_WL%20Guidance%20document%20Information%20on%20packaging.pdf",
+    "text": "Swiss packaging rules require a Global Trade Item Number (GTIN) barcode on the outer pack of authorised medicines, and the authorisation number is usually built into it."
+   },
+   "pack": {
+    "publisher": "swissmedic.ch",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.swissmedic.ch/dam/swissmedic/en/dokumente/zulassung/zl_hmv_iv/zl000_00_021d_wl_wegleitung_angaben_auf_packmittel.pdf.download.pdf/ZL000_00_021e_WL%20Guidance%20document%20Information%20on%20packaging.pdf",
+    "text": "Swissmedic identifies each pack by the authorisation number plus a packaging code, which must appear on the outer pack, shown for example as 41557 001."
+   }
+  },
+  "CL": {
+   "auth": {
+    "publisher": "nuevo.leychile.cl",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://nuevo.leychile.cl/servicios/Navegar/get_norma_json?idNorma=1026879",
+    "text": "Chile records each registered medicine under a numbered sanitary registration kept in a special sequential roll by the Instituto de Salud Pública."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "CO": {
+   "auth": {
+    "publisher": "invima.gov.co",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.invima.gov.co/consulta-registros-sanitarios",
+    "text": "The regulator issues a registro sanitario for each authorised product and lets the public check its validity and status online."
+   },
+   "gtin": {
+    "publisher": "invima.gov.co",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros",
+    "text": "Colombia's regulator requires the Global Trade Item Number (GTIN) from the product's barcode to be entered in its data standard for medicine applications."
+   },
+   "pack": {
+    "publisher": "normograma.invima.gov.co",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://normograma.invima.gov.co/compilacion/docs/resolucion_minsaludps_3311_2018.htm",
+    "text": "The regulator assigns one Identificador Único de Medicamento to each medicine presentation; printing it on packs is not required."
+   }
+  },
+  "CR": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "CZ": {
+   "auth": {
+    "publisher": "sukl.gov.cz",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://sukl.gov.cz/en/en-informace-k-registraci/principles-of-identification-of-medicinal-products-for-human-use-in-the-czech-republic/",
+    "text": "The regulator numbers each national marketing authorisation in the form AA/BBBB/XX-C or S/C; centrally authorised products carry the EU number instead."
+   },
+   "gtin": {
+    "publisher": "sukl.cz",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.sukl.cz/leciva/1-jake-jsou-narodni-pozadavky-na-kod-pripravku-product-code",
+    "text": "Czech medicine packs carry a product code that may be a Global Trade Item Number (GTIN); the regulator does not issue it, and rules allow an EAN or 2D code."
+   },
+   "pack": {
+    "publisher": "sukl.gov.cz",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://sukl.gov.cz/en/en-informace-k-registraci/principles-of-identification-of-medicinal-products-for-human-use-in-the-czech-republic/",
+    "text": "The regulator gives each pack presentation a seven-digit SÚKL code, which must be shown on the packaging."
+   }
+  },
+  "DE": {
+   "auth": {
+    "publisher": "gesetze-im-internet.de",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.gesetze-im-internet.de/amg_1976/__10.html",
+    "text": "Each authorised finished medicine has a Zulassungsnummer, which the law requires on its labelling under the abbreviation Zul.-Nr."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "bfarm.de",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.bfarm.de/DE/Arzneimittel/_FAQ/Zulassung/Allgemeine-Fragen/faq-liste.html",
+    "text": "Germany uses the Pharmazentralnummer, a nationwide pack identification key issued by the information service for medicines, not by the authorisation authority."
+   }
+  },
+  "DK": {
+   "auth": {
+    "publisher": "laegemiddelstyrelsen.dk",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://laegemiddelstyrelsen.dk/da/godkendelse/godkendelse-af-medicin/parallelimport-og-parallelhandel/spoergsmaal-og-svar-om-parallelimport-og-parallelhandel/",
+    "text": "Denmark gives each marketing authorisation a number called the MT-nr. (markedsføringstilladelsesnummer), on which the Danish Medicines Agency charges its annual fee."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "laegemiddelstyrelsen.dk",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://laegemiddelstyrelsen.dk/da/tilskud/varenumre/",
+    "text": "Danish medicine packs must carry a varenummer (product number), which identifies the individual pack and which the authorisation holder can request from the Danish Medicines Agency."
+   }
+  },
+  "DO": {
+   "auth": {
+    "publisher": "digemaps.gob.do",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://digemaps.gob.do/servicios/nuevo-registro-medicamentos-productos-naturales/",
+    "text": "The medicines regulator grants a Registro Sanitario, a sanitary registration, that allows a medicine to be sold in the Dominican Republic."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "EC": {
+   "auth": {
+    "publisher": "controlsanitario.gob.ec",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.controlsanitario.gob.ec/wp-content/uploads/downloads/2025/07/IE-B-3.2.1-MG-01-Requisitos_inscripcion_reinscripcion_modificacion_medicamentos.pdf",
+    "text": "The national health regulator gives each authorised medicine a sanitary registration number, which must be printed on the final label; its format is not stated."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "EE": {
+   "auth": {
+    "publisher": "ravimiamet.ee",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.ravimiamet.ee/uudised/registreeritud-ja-uuendatud-humaanravimite-muugiload-juunis-2026",
+    "text": "The State Agency of Medicines lists each newly authorised medicine with a marketing authorisation number, a numeric code such as a seven-digit number."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "ravimiregister.ee",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.ravimiregister.ee/en/default.aspx",
+    "text": "The State Agency of Medicines register holds a unique code for each pack size, used in e-prescriptions and pharmacy databases, but it is virtual and not printed on the pack."
+   }
+  },
+  "EG": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "edaegypt.gov.eg",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.edaegypt.gov.eg/media/o0hnfrts/475-2025_en.pdf",
+    "text": "Each pack of a human medicine must be given a unique identification number issued by the Egyptian Drug Authority's national electronic track-and-trace system."
+   }
+  },
+  "ES": {
+   "auth": {
+    "publisher": "aemps.gob.es",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.aemps.gob.es/guia-sobre-la-presentacion-de-la-solicitud-del-codigo-nacional-y-de-la-blue-box-para-medicamentos-autorizados-por-el-procedimiento-centralizado-y-posteriores-modificaciones-del-registro/",
+    "text": "The Spanish medicines agency assigns a número de registro to authorised medicines and presentations, which it generates for each centrally authorised medicine on request."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "aemps.gob.es",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.aemps.gob.es/guia-sobre-la-presentacion-de-la-solicitud-del-codigo-nacional-y-de-la-blue-box-para-medicamentos-autorizados-por-el-procedimiento-centralizado-y-posteriores-modificaciones-del-registro/",
+    "text": "Spain's national pack code is the Código Nacional (CN), written as six digits plus a check digit, which the medicines agency assigns to each pack."
+   }
+  },
+  "EU": {
+   "auth": {
+    "publisher": "ec.europa.eu",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://ec.europa.eu/health/documents/community-register/register_faq.pdf",
+    "text": "A centrally authorised medicine gets an EU number made of the type, the last two digits of the year, a chronological product number and a package presentation number."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "ec.europa.eu",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://ec.europa.eu/health/documents/community-register/register_faq.pdf",
+    "text": "In the Union Register's EU number, the last segment is a number given to each individual package presentation of the centrally authorised product."
+   }
+  },
+  "FR": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "ansm.sante.fr",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://ansm.sante.fr/documents/reference/codification-et-tracabilite-des-medicaments",
+    "text": "France identifies each medicine pack by a 13-digit presentation identifier code (CIP13), which is stated in the marketing authorisation decision."
+   }
+  },
+  "GH": {
+   "auth": {
+    "publisher": "fdaghana.gov.gh",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://fdaghana.gov.gh/wp-content/uploads/2025/01/GUIDELINES-FOR-LABELLING-OF-DRUGS.pdf",
+    "text": "Ghana's Food and Drugs Authority gives each registered product a registration number, which locally manufactured products must show on their labels."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "GR": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "eof.gr",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.eof.gr/wp-content/uploads/2026/01/%CE%9B%CE%99%CE%A3%CE%A4%CE%91-%CE%A6%CE%91%CE%A1%CE%9C%CE%91%CE%9A%CE%95%CE%A5%CE%A4%CE%99%CE%9A%CE%A9%CE%9D-%CE%A3%CE%9A%CE%95%CE%A5%CE%91%CE%A3%CE%9C%CE%91%CE%A4%CE%A9%CE%9D-%CE%9F%CE%A1%CE%99%CE%A3%CE%A4%CE%99%CE%9A%CE%97%CE%A3-%CE%94%CE%99%CE%91%CE%9A%CE%9F%CE%A0%CE%97%CE%A3-%CE%9A%CE%A5%CE%9A%CE%9B%CE%9F%CE%A6%CE%9F%CE%A1%CE%99%CE%91%CE%A3-31-12-2025-1.pdf",
+    "text": "The Greek medicines agency lists each pack under a 13-digit barcode number in its published product lists, shown next to the product description and authorisation holder."
+   }
+  },
+  "HR": {
+   "auth": {
+    "publisher": "halmed.hr",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.halmed.hr/Lijekovi/Baza-lijekova/Brufen-400-mg-filmom-oblozene-tablete/12722/",
+    "text": "Croatia's medicines database shows each authorised medicine with an approval number, written HR-H- followed by nine digits."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "halmed.hr",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.halmed.hr/Lijekovi/Baza-lijekova/Brufen-400-mg-filmom-oblozene-tablete/12722/",
+    "text": "Croatia's medicines database gives each pack its own approval number, made of the medicine's approval number plus a two-digit pack suffix."
+   }
+  },
+  "HU": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "ID": {
+   "auth": {
+    "publisher": "kalibrasi.pom.go.id",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://kalibrasi.pom.go.id/berita/kenali-nomor-izin-edar-nie-obat",
+    "text": "BPOM issues each medicine a marketing authorisation number, the Nomor Izin Edar, made of 15 letters and digits."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "IE": {
+   "auth": {
+    "publisher": "assets.hpra.ie",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://assets.hpra.ie/data/docs/default-source/external-guidance-document/aut-g0034-guide-to-labels-and-leaflets-of-human-medicines-v26.pdf?sfvrsn=181b0802_26",
+    "text": "The Health Products Regulatory Authority gives each authorised medicine a PA number written as the letters PA followed by three numbers separated by slashes."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "IL": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "IN": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "IT": {
+   "auth": {
+    "publisher": "aifa.gov.it",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.aifa.gov.it/sites/default/files/banca_dati_farmaci__domande&risposte.pdf",
+    "text": "Italy's marketing authorisation (AIC) number is a numeric code of six digits that uniquely identifies a medicine."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "aifa.gov.it",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.aifa.gov.it/sites/default/files/banca_dati_farmaci__domande&risposte.pdf",
+    "text": "In Italy each pack carries a 9-digit AIC code, the 6-digit AIC number followed by three further digits identifying the pack."
+   }
+  },
+  "JO": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "JP": {
+   "auth": {
+    "publisher": "mhlw.go.jp",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc0417&dataType=1&pageNo=1",
+    "text": "The Ministry of Health, Labour and Welfare gives each approved product an approval number of digits and letters, whose last three digits are a sub-number."
+   },
+   "gtin": {
+    "publisher": "mhlw.go.jp",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc6999&dataType=1&pageNo=1",
+    "text": "The Ministry of Health, Labour and Welfare requires prescription-medicine packs to carry a Global Trade Item Number (GTIN): GTIN-13 for dispensing packs, GTIN-14 for sales packs and outer cases."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "KE": {
+   "auth": {
+    "publisher": "products.pharmacyboardkenya.org",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://products.pharmacyboardkenya.org/ppb_admin/pages/public_view_retention_products.php",
+    "text": "The Pharmacy and Poisons Board's public register gives each registered product a Product Registration No in three slash-separated parts, such as H2026/CTD13490/29699."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "KR": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "nedrug.mfds.go.kr",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetailCache?cacheSeq=201904145aupdateTs2022-01-24+17:25:44.0b",
+    "text": "Korea's drug database lists one or more standard codes for each product, one per pack, alongside the product item code."
+   }
+  },
+  "KW": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "LI": {
+   "auth": {
+    "publisher": "gesetze.li",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.gesetze.li/konso/html/1998045000",
+    "text": "Authorised medicines are entered in the EEA medicines register in the applicant's name and identified by a number."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "LK": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "LU": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "MA": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "MT": {
+   "auth": {
+    "publisher": "medicinesauthority.gov.mt",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://medicinesauthority.gov.mt/medicinesdatabase",
+    "text": "The Medicines Authority gives every medicine authorised for sale in Malta an authorisation number, which must appear on the outer carton."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "MX": {
+   "auth": {
+    "publisher": "sidof.segob.gob.mx",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://sidof.segob.gob.mx/notas/docFuente/5278341",
+    "text": "Mexico's labelling standard requires the medicine's sanitary registration key to be shown on the label exactly as it appears in the registration."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "MY": {
+   "auth": {
+    "publisher": "npra.gov.my",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.npra.gov.my/index.php/en/component/content/article/37-english/faq/623-product-registration.html?Itemid=1391",
+    "text": "Malaysia gives every registered drug a registration number starting with MAL, which must be printed on its label or package."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "NG": {
+   "auth": {
+    "publisher": "nafdac.gov.ng",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://nafdac.gov.ng/our-services/product-registrationevaluation/",
+    "text": "Nigeria's regulator issues a registration number, recorded on the registration certificate, once a drug application completes its approval stages."
+   },
+   "gtin": {
+    "publisher": "nafdac.gov.ng",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://nafdac.gov.ng/wp-content/uploads/Files/Resources/Regulations/REGULATIONS_2021/NAFDAC-Pharmaceutical-Products-Traceability-Regulations-2024.pdf",
+    "text": "Nigeria's traceability regulations require the Global Trade Item Number (GTIN) in the unique identifier on primary and secondary medicine packs."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "NL": {
+   "auth": {
+    "publisher": "geneesmiddeleninformatiebank.nl",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "http://www.geneesmiddeleninformatiebank.nl/ords/f?p=111:1:0::NO:RP,1:P0_DOMAIN,P0_LANG:H,NL",
+    "text": "The Medicines Evaluation Board registers each medicine under a unique registration number called an RVG or RVH number, entered in the information bank as digits only."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "NO": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "dmp.no",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.dmp.no/globalassets/documents/godkjenning-av-legemidler/markedsforingstillatelse/maler-og-veiledninger-for-produktinformasjon/merkingsveiledningen-2.4-12_2022-av-april-24.pdf",
+    "text": "Norway requires the Nordic article number, printed as Vnr followed by six digits in three pairs, at least once on the outer packaging."
+   }
+  },
+  "NZ": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "PA": {
+   "auth": {
+    "publisher": "minsa.gob.pa",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.minsa.gob.pa/sites/default/files/publicacion-general/ley-1-de-2001-sobre-medicamentos.pdf",
+    "text": "Each registered medicine has a sanitary registration number, which the law makes mandatory on container labels."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "PE": {
+   "auth": {
+    "publisher": "digemid.minsa.gob.pe",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.digemid.minsa.gob.pe/Archivos/Alertas/2025/ALERTA_09-25.pdf",
+    "text": "Peru authorises each medicine through a sanitary registration number, shown in the regulator's notices as two letters, a hyphen and five digits."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "PH": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "PK": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "PL": {
+   "auth": {
+    "publisher": "archiwum.gif.gov.pl",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://archiwum.gif.gov.pl/pl/aktualnosci/1478,Informacja-dotyczaca-dat-waznosci-i-kodow-GTIN.html",
+    "text": "Each medicine has a marketing authorisation, called a pozwolenie na dopuszczenie do obrotu, which also sets the identification number printed on each pack."
+   },
+   "gtin": {
+    "publisher": "archiwum.gif.gov.pl",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://archiwum.gif.gov.pl/pl/aktualnosci/1478,Informacja-dotyczaca-dat-waznosci-i-kodow-GTIN.html",
+    "text": "Polish authorisations assign each pack an identification number (EAN/GTIN), and government guidance says it is printed on packs and may not differ from the one in the authorisation."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "PT": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "infarmed.pt",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.infarmed.pt/web/infarmed/infarmed/-/journal_content/56/15786/2256682",
+    "text": "In Portugal each pack presentation has a Número de Registo assigned by INFARMED, which must be added as extra data in the unique identifier on the pack."
+   }
+  },
+  "QA": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "RO": {
+   "auth": {
+    "publisher": "nomenclator.anm.ro",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://nomenclator.anm.ro/medicamente",
+    "text": "Each pack in Romania's register shows the marketing authorisation number, year and a pack suffix, for example 7321/2015/01."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "nomenclator.anm.ro",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://nomenclator.anm.ro/medicamente",
+    "text": "Romania's medicines register lists a Cod CIM for each pack presentation, shown as a letter W followed by eight digits."
+   }
+  },
+  "RS": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "SA": {
+   "auth": {
+    "publisher": "sfda.gov.sa",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.sfda.gov.sa/en/news/47113",
+    "text": "The Saudi Food and Drug Authority's list of registered drugs gives a registration number for each registered drug; its format is not stated."
+   },
+   "gtin": {
+    "publisher": "rsd.sfda.gov.sa",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://rsd.sfda.gov.sa/user-manual/SMP-manual/index_en-US.html",
+    "text": "The Saudi Food and Drug Authority's track-and-trace system tracks each drug pack by a Global Trade Item Number (GTIN) and a serial number in a two-dimensional barcode."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "SE": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "lakemedelsverket.se",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.lakemedelsverket.se/globalassets/dokument/tillstand-godkannande-och-kontroll/forsaljningstillstand/produktinformation/guideline-on-nordic-packages.pdf",
+    "text": "Swedish packs carry a Nordic article number, written as Vnr followed by three pairs of characters, on the label of nearly all medicines."
+   }
+  },
+  "SG": {
+   "auth": {
+    "publisher": "hsa.gov.sg",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/special-access-routes/psar-emergency-therapeutic-product/",
+    "text": "The Health Sciences Authority gives each registered therapeutic product a product registration number made of SIN, digits and the letter P."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "SI": {
+   "auth": {
+    "publisher": "cbz.si",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "http://www.cbz.si/cbz2/navodila/cbznavodila.html",
+    "text": "The central database shows the number of the latest marketing authorisation and the date it was issued."
+   },
+   "gtin": {
+    "publisher": "cbz.si",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "http://www.cbz.si/cbz2/navodila/cbznavodila.html",
+    "text": "Slovenia's central medicines database records for each pack its EAN barcode, which the page describes as carrying the Global Trade Item Number (GTIN)."
+   },
+   "pack": {
+    "publisher": "cbz.si",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "http://www.cbz.si/cbz2/navodila/cbznavodila.html",
+    "text": "Slovenia's agency assigns a national medicine code that uniquely identifies a medicine by form, strength, pack and supplier."
+   }
+  },
+  "SK": {
+   "auth": {
+    "publisher": "sukl.sk",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://sukl.sk/hlavna-stranka/slovenska-verzia/pomocne-stranky/detail-lieku?lie_id=24946&page_id=386",
+    "text": "Slovakia's register shows each registered medicine with a registration number, for example 36/0053/13-S."
+   },
+   "gtin": {
+    "publisher": "sukl.sk",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.sukl.sk/buxus/docs/Inspekcia/PostregistracnaKontrola/2018/bezpecnostne_prvky_-_stranka_-_clean01_.pdf",
+    "text": "Slovakia requires the pack's Global Trade Item Number (GTIN-14 format) as the product code inside the 2D code on the outer pack."
+   },
+   "pack": {
+    "publisher": "sukl.sk",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://sukl.sk/hlavna-stranka/slovenska-verzia/pomocne-stranky/detail-lieku?lie_id=24946&page_id=386",
+    "text": "Slovakia's medicines register gives each pack presentation a ŠÚKL code, which can be searched directly in the regulator's database."
+   }
+  },
+  "TH": {
+   "auth": {
+    "publisher": "cemc.fda.moph.go.th",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://cemc.fda.moph.go.th/faqs/%E0%B8%9C%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99-%E0%B8%AD%E0%B8%A2-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7-%E0%B8%88%E0%B8%B0%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-%E0%B8%AD%E0%B8%A2-%E0%B8%9A%E0%B8%99%E0%B8%89%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88",
+    "text": "Thai medicine labels show the registration number of the medicine formula, written as an English-letter prefix, a sequence number and the Buddhist Era year of registration."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "TR": {
+   "auth": {
+    "publisher": "resmigazete.gov.tr",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.resmigazete.gov.tr/eskiler/2021/12/20211211-5.htm",
+    "text": "Türkiye's licensing regulation lists a licence number (ruhsat numarası) among the details recorded for each licensed human medicinal product."
+   },
+   "gtin": {
+    "publisher": "resmigazete.gov.tr",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.resmigazete.gov.tr/eskiler/2017/04/20170425-4.htm",
+    "text": "Türkiye's medicine tracking rules require each pack's 2D code to include its Global Trade Item Number (GTIN), which identifies every pack size worldwide."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "UA": {
+   "auth": {
+    "publisher": "drlz.moz.gov.ua",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://drlz.moz.gov.ua/register/products/",
+    "text": "Each registered medicine in the state register has a registration certificate number, shown in the form UA/ plus three numeric groups."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "UK": {
+   "auth": {
+    "publisher": "gov.uk",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.gov.uk/guidance/apply-for-a-licence-to-market-a-medicine-in-the-uk",
+    "text": "The UK regulator issues each marketing authorisation a PL number, which must be obtained before applying for the licence."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "US": {
+   "auth": {
+    "publisher": "fda.gov",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.fda.gov/drugs/development-approval-process-drugs/national-drug-code-database-background-information",
+    "text": "The FDA identifies an approved drug by its NDA or ANDA application number, which shows the product has been approved for marketing."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "publisher": "fda.gov",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.fda.gov/drugs/development-approval-process-drugs/national-drug-code-database-background-information",
+    "text": "The FDA's National Drug Code is a 10-digit number in three segments that identifies the labeler, the product and the package size."
+   }
+  },
+  "UY": {
+   "auth": {
+    "says": "unknown"
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "VN": {
+   "auth": {
+    "publisher": "datafiles.chinhphu.vn",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/76-vbhn-vpqh.pdf",
+    "text": "Vietnam's Pharmacy Law requires medicine labels to show the circulation registration number, or the import licence number for imported medicines."
+   },
+   "gtin": {
+    "says": "unknown"
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  },
+  "ZA": {
+   "auth": {
+    "publisher": "sahpra.org.za",
+    "read_at": "2026-11-18",
+    "says": "has",
+    "source_url": "https://www.sahpra.org.za/wp-content/uploads/2020/01/f6cae0ccRegulations_to_Act_101_published_2003.pdf",
+    "text": "Each registered medicine is allocated a registration number under section 15(6) of the Medicines Act, which must appear on its label."
+   },
+   "gtin": {
+    "publisher": "sahpra.org.za",
+    "read_at": "2026-11-18",
+    "says": "published",
+    "source_url": "https://www.sahpra.org.za/wp-content/uploads/2025/10/HPA16-202526-Industry-Comms-for-Traceability-Guideline-publication.pdf",
+    "text": "The regulator's traceability guideline requires a Global Trade Item Number (GTIN) to be assigned to each packaging level and carried in a 2D barcode on packs."
+   },
+   "pack": {
+    "says": "unknown"
+   }
+  }
+ }
+}
